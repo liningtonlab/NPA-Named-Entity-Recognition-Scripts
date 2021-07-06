@@ -1,0 +1,2592 @@
+[
+  {
+    "npaids": [
+      "NPA023859",
+      "NPA023860",
+      "NPA023861",
+      "NPA023862",
+      "NPA023863",
+      "NPA023864",
+      "NPA023865",
+      "NPA023866",
+      "NPA023867",
+      "NPA023868",
+      "NPA023869",
+      "NPA023870",
+      "NPA023871",
+      "NPA023872"
+    ],
+    "names": [
+      "Scequinadoline C",
+      "Scequinadoline D",
+      "Scequinadoline E",
+      "Scequinadoline F",
+      "Scequinadoline G",
+      "Scedapin F",
+      "Scedapin A",
+      "Scedapin G",
+      "Scedapin B",
+      "Scedapin C",
+      "Scedapin D",
+      "Scedapin E",
+      "Scequinadoline A",
+      "Scequinadoline B"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.orglett.7b02238",
+      "PMID": 28837349,
+      "PII": null,
+      "title": "Amino Acid-Directed Strategy for Inducing the Marine-Derived Fungus Scedosporium apiospermum F41-1 to Maximize Alkaloid Diversity.",
+      "abstract": "By feeding various amino acids to the marine fungus Scedosporium apiospermum F41-1, 22 diverse alkaloids, including 14 new compounds, were obtained. Scedapins A-E (1-5) possess a rare skeleton of a pyrazinoquinazolinedione and an imidazoindolone/indolone linked by a tetrahydrofuran ring. Scedapin C (3) is the first example of fumiquinazoline that contains an aminosulfonyl group. Their structures were determined by HRMS, NMR, ECD calculations and X-ray single-crystal diffraction analysis. The biosynthetic pathways of fumiquinazolines 1-18 were proposed. Scedapin C (3) and scequinadoline D (8) displayed significant antiviral activity against hepatitis C.",
+      "journal": "Org Lett",
+      "author_list": "Huang, Li-Hong; Xu, Meng-Yang; Li, Hou-Jin; Li, Jin-Qian; Chen, Yan-Xiu; Ma, Wen-Zhe; Li, Yi-Ping; Xu, Jun; Yang, De-Po; Lan, Wen-Jian",
+      "year": 2017,
+      "volume": "19",
+      "issue": "18",
+      "pages": "4888-4891",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024832"
+    ],
+    "names": [
+      "Alpha-galactosylceramide"
+    ],
+    "reference": {
+      "DOI": "10.1371/journal.pbio.1001610",
+      "PMID": 23874157,
+      "PII": null,
+      "title": "Production of \u03b1-galactosylceramide by a prominent member of the human gut microbiota.",
+      "abstract": "While the human gut microbiota are suspected to produce diffusible small molecules that modulate host signaling pathways, few of these molecules have been identified. Species of Bacteroides and their relatives, which often comprise >50% of the gut community, are unusual among bacteria in that their membrane is rich in sphingolipids, a class of signaling molecules that play a key role in inducing apoptosis and modulating the host immune response. Although known for more than three decades, the full repertoire of Bacteroides sphingolipids has not been defined. Here, we use a combination of genetics and chemistry to identify the sphingolipids produced by Bacteroides fragilis NCTC 9343. We constructed a deletion mutant of BF2461, a putative serine palmitoyltransferase whose yeast homolog catalyzes the committed step in sphingolipid biosynthesis. We show that the \u03942461 mutant is sphingolipid deficient, enabling us to purify and solve the structures of three alkaline-stable lipids present in the wild-type strain but absent from the mutant. The first compound was the known sphingolipid ceramide phosphorylethanolamine, and the second was its corresponding dihydroceramide base. Unexpectedly, the third compound was the glycosphingolipid \u03b1-galactosylceramide (\u03b1-GalCer(Bf)), which is structurally related to a sponge-derived sphingolipid (\u03b1-GalCer, KRN7000) that is the prototypical agonist of CD1d-restricted natural killer T (iNKT) cells. We demonstrate that \u03b1-GalCer(Bf) has similar immunological properties to KRN7000: it binds to CD1d and activates both mouse and human iNKT cells both in vitro and in vivo. Thus, our study reveals BF2461 as the first known member of the Bacteroides sphingolipid pathway, and it indicates that the committed steps of the Bacteroides and eukaryotic sphingolipid pathways are identical. Moreover, our data suggest that some Bacteroides sphingolipids might influence host immune homeostasis.",
+      "journal": "PLoS Biol",
+      "author_list": "Wieland Brown, Laura C; Penaranda, Cristina; Kashyap, Purna C; Williams, Brianna B; Clardy, Jon; Kronenberg, Mitchell; Sonnenburg, Justin L; Comstock, Laurie E; Bluestone, Jeffrey A; Fischbach, Michael A",
+      "year": 2013,
+      "volume": "11",
+      "issue": "7",
+      "pages": "e1001610",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA023801",
+      "NPA023802"
+    ],
+    "names": [
+      "Aspterpenacid A",
+      "Aspterpenacid B"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.orglett.6b00336",
+      "PMID": 26938636,
+      "PII": null,
+      "title": "Aspterpenacids A and B, Two Sesterterpenoids from a Mangrove Endophytic Fungus Aspergillus terreus H010.",
+      "abstract": "Two new sesterterpenoids, aspterpenacids A (1) and B (2), with an unusual carbon skeleton of a 5/3/7/6/5 ring system were isolated from the mangrove endophytic fungus Aspergillus terreus H010. Their structures were elucidated on the basis of spectroscopic methods, single-crystal X-ray diffraction analysis, and electronic circular dichroism calculations. A biogenetic pathway for 1 and 2 is proposed. Both 1 and 2 showed no significant antibacterial activity or cytotoxicity at 50 \u00ce\u00bcM.",
+      "journal": "Org Lett",
+      "author_list": "Liu, Zhaoming; Chen, Yan; Chen, Senhua; Liu, Yayue; Lu, Yongjun; Chen, Dongni; Lin, Yongcheng; Huang, Xishan; She, Zhigang",
+      "year": 2016,
+      "volume": "18",
+      "issue": "6",
+      "pages": "1406-9",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA023267"
+    ],
+    "names": [
+      "Paecilin E"
+    ],
+    "reference": {
+      "DOI": "10.3390/md15120375",
+      "PMID": 29194412,
+      "PII": null,
+      "title": "A New Dihydrochromone Dimer and Other Secondary Metabolites from Cultures of the Marine Sponge-Associated Fungi Neosartorya fennelliae KUFA 0811 and Neosartorya tsunodae KUFC 9213.",
+      "abstract": "A previously unreported dihydrochromone dimer, paecilin E (1), was isolated, together with eleven known compounds: \u03b2-sitostenone, ergosta-4,6,8 (14), 22-tetraen-3-one, cyathisterone, byssochlamic acid, dehydromevalonic acid lactone, chevalone B, aszonalenin, dankasterone A (2), helvolic acid, secalonic acid A and fellutanine A, from the culture filtrate extract of the marine sponge-associated fungus Neosartorya fennelliae KUFA 0811. Nine previously reported metabolites, including a chromanol derivative (3), (3\u03b2, 5\u03b1, 22E), 3,5-dihydroxyergosta-7,22-dien-6-one (4), byssochlamic acid, hopan-3\u03b2,22-diol, chevalone C, sartorypyrone B, helvolic acid, lumichrome and the alkaloid harmane were isolated from the culture of the marine-sponge associated fungus Neosartorya tsunodae KUFC 9213. Paecilin E (1), dankasterone A (2), a chromanol derivative (3), (3\u03b2, 5\u03b1, 22E)-3,5-dihydroxyergosta-7,22-dien-6-one (4), hopan-3\u03b2,22-diol (5), lumichrome (6), and harmane (7) were tested for their antibacterial activity against Gram-positive and Gram-negative reference and multidrug-resistant strains isolated from the environment. While paecilin E (1) was active against S. aureus ATCC 29213 and E. faecalis ATCC 29212, dankastetrone A (2) was only effective against E. faecalis ATCC 29212 and the multidrug-resistant VRE E. faecalis A5/102. Both compounds neither inhibit biofilm mass production in any of the strains at the concentrations tested nor exhibit synergistic association with antibiotics.",
+      "journal": "Mar Drugs",
+      "author_list": "Kumla, Decha; Shine Aung, Tin; Buttachon, Suradet; Dethoup, Tida; Gales, Lu\u00eds; Pereira, Jos\u00e9 A; In\u00e1cio, \u00c2ngela; Costa, Paulo M; Lee, Michael; Sekeroglu, Nazim; Silva, Artur M S; Pinto, Madalena M M; Kijjoa, Anake",
+      "year": 2017,
+      "volume": "15",
+      "issue": "12",
+      "pages": null,
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA007543",
+      "NPA007552",
+      "NPA011530",
+      "NPA015198"
+    ],
+    "names": [
+      "Yanuthone K",
+      "Yanuthone M",
+      "Yanuthone X2",
+      "Yanuthone L"
+    ],
+    "reference": {
+      "DOI": "10.1038/ja.2014.130",
+      "PMID": 25293978,
+      "PII": null,
+      "title": "Characterization of four new antifungal yanuthones from Aspergillus niger.",
+      "abstract": "Four new yanuthone analogs (1-4) were isolated from the filamentous fungus Aspergillus niger. The structures of the new compounds were elucidated on the basis of UHPLC-DAD-HRMS data and one-dimensional and two-dimensional NMR spectroscopy. Labeling studies with (13)C8-6-methylsalicylic acid identified three class I yanuthones originating from the polyketide 6-methylsalicylic acid (yanuthone K, L and M (1-3)) and a class II yanuthone, which was named yanuthone X2 (4). The four new compounds were tested toward the pathogenic yeast Candida albicans and all displayed antifungal activity. Yanuthone X2 represents the first example of a bioactive class II yanuthone, demonstrating the pharmaceutical potential of this class.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Petersen, Lene M; Holm, Dorte K; Knudsen, Peter B; Nielsen, Kristian F; Gotfredsen, Charlotte H; Mortensen, Uffe H; Larsen, Thomas O",
+      "year": 2015,
+      "volume": "68",
+      "issue": "3",
+      "pages": "201-5",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA021742"
+    ],
+    "names": [
+      "Fluvirucin B6"
+    ],
+    "reference": {
+      "DOI": "10.1038/s41429-018-0033-3",
+      "PMID": 29467379,
+      "PII": null,
+      "title": "Fluvirucin B6, a new macrolactam isolated from a marine-derived actinomycete of the genus Nocardiopsis.",
+      "abstract": "A new 14-membered macrolactam natural product, fluvirucin B6 (1), was isolated from a marine-derived actinomycete, Nocardiopsis sp. CNQ-115, via HPLC-UV guided isolation. The chemical structure of 1 was elucidated by 1D and 2D NMR spectroscopic data analysis. Compound 1 showed a weak activity against Gram-positive bacteria, whereas it was inactive against Gram-negative bacteria.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Leutou, Alain S; Yang, Inho; Le, Tu Cam; Hahn, Dongyup; Lim, Kyung-Min; Nam, Sang-Jip; Fenical, William",
+      "year": 2018,
+      "volume": "71",
+      "issue": "6",
+      "pages": "609-612",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA004372",
+      "NPA006352"
+    ],
+    "names": [
+      "6-methoxy-4-methyl-2,3-(methylenedioxy)phenol",
+      "4,4'-(ethane-1,2-diyl)bis(2,3,6-trimethoxyphenol)"
+    ],
+    "reference": {
+      "DOI": "10.3390/molecules191221378",
+      "PMID": 25532837,
+      "PII": null,
+      "title": "New and Cytotoxic Components from Antrodia camphorata.",
+      "abstract": "The solid-state cultured products of Antrodia camphorata as health foods has been blooming for the past few decades in Taiwan. In continuing our studies on the chemical constituents of the solid-state cultured products of this fungus, 6-methoxy-4-methyl-2,3-(methylenedioxy)phenol (1) and 4,4'-(ethane-1,2-diyl)bis(2,3,6-trimethoxyphenol)(2) together with 2,3,6-trimethoxy-4-methylphenol (3), 1(10\u21926)abeo-ergosta-5,7,9,22-tetraen-3\u03b1-ol (4), citreoanthrasteroid B (5) and dankasterones A (6) and B (7) were purified by a series of column chromatography. Their structures were elucidated by spectral data analysis. For bioactivity assay, compounds 4-7 showed significant cytotoxicity toward murine colorectal CT26 and human leukemia K562 cancer cell lines with IC50 values ranging from 6.7 to 15.3 \u00b5M and from 12.5 to 23.1 \u00b5M, respectively.",
+      "journal": "Molecules",
+      "author_list": "Lee, Tzong-Huei; Chen, Chien-Chih; Chen, Jih-Jung; Liao, Hui-Fen; Chang, Hsun-Shuo; Sung, Ping-Jyun; Tseng, Mei-Hwei; Wang, Sheng-Yang; Ko, Horng-Huey; Kuo, Yueh-Hsiung",
+      "year": 2014,
+      "volume": "19",
+      "issue": "12",
+      "pages": "21378-85",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA018405"
+    ],
+    "names": [
+      "Tatenoic acid"
+    ],
+    "reference": {
+      "DOI": "10.1080/14786419.2014.951353",
+      "PMID": 25142786,
+      "PII": null,
+      "title": "A new meroterpenoid tatenoic acid from the fungus Neosartorya tatenoi KKU-2NK23.",
+      "abstract": "A new meroterpenoid, named tatenoic acid (1), was isolated from the fungus Neosartorya tatenoi KKU-2NK23, together with five known compounds, aszonapyrones A and B (2 and 3), aszonalenin (4), ergosterol (5) and D-mannitol (6). Their structures were established on the basis of spectroscopic methods. Aszonapyrones A (2) exhibited antimalarial activity against Plasmodium falciparum, and it also exhibited cytotoxicity against two cancer cell lines, NCI-H187 and KB.",
+      "journal": "Nat Prod Res",
+      "author_list": "Yim, Tongkheang; Kanokmedhakul, Kwanjai; Kanokmedhakul, Somdej; Sanmanoch, Wareerat; Boonlue, Sophon",
+      "year": 2014,
+      "volume": "28",
+      "issue": "21",
+      "pages": "1847-52",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA027099",
+      "NPA027100",
+      "NPA027101",
+      "NPA027102",
+      "NPA027103"
+    ],
+    "names": [
+      "2-hydroxy-6-((R,8Z,11Z)-14-hydroxyheptadeca-8,11-dien-1-yl)benzoic acid",
+      "(R)-2-hydroxy-6-(14-hydroxypentadecyl)benzoic acid",
+      "(R)-2-hydroxy-6-(12-hydroxyheptadecyl)benzoic acid",
+      "2-hydroxy-6-(12-oxoheptadecyl)benzoic acid",
+      "2-hydroxy-6-(12-oxopentadecyl)benzoic acid"
+    ],
+    "reference": {
+      "DOI": "10.1080/09168451.2019.1576501",
+      "PMID": 30730255,
+      "PII": null,
+      "title": "New xanthine oxidase inhibitors from the fruiting bodies of Tyromyces fissilis.",
+      "abstract": "Excessive uric acid production, which causes gout and hyperuricemia, can be blocked by inhibiting xanthine oxidase (XO). However, some agents to block on XO often cause side effects, thereby necessitating the identification of new inhibitors. During the screening of XO inhibitors from various mushroom extracts, we found that a methanolic extract of the fruiting bodies of Tyromyces fissilis, an inedible and non-toxic fungus, showed inhibitory activity. Both n-hexane and ethyl acetate layers, obtained by partitioning this extract exhibited XO inhibitory activity. Subsequently, using an activity-guided separation method, eight active compounds (1-8) were isolated. The structures of five of the new compounds, 2-4,\u00a06, and 7, were elucidated by spectral analysis and chemical derivatization. All compounds had a salicylic acid moiety with an aliphatic group at the C-6 position. Notably, 2-hydroxy-6-pentadecylbenzoic acid (1) showed the highest level of XO noncompetitive inhibition (58.9\u00a0\u00b1\u00a02.2% at 25\u00a0\u00b5M).",
+      "journal": "Biosci Biotechnol Biochem",
+      "author_list": "Mitomo, Shunsuke; Hirota, Mitsuru; Fujita, Tomoyuki",
+      "year": 2019,
+      "volume": "83",
+      "issue": "5",
+      "pages": "813-823",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA008464",
+      "NPA009448"
+    ],
+    "names": [
+      "(4S)-4,5-dihydro-4-hydroxygeldanamycin",
+      "(4R)-4,5-dihydro-4-hydroxygeldanamycin"
+    ],
+    "reference": {
+      "DOI": "10.1021/np3001738",
+      "PMID": 22849774,
+      "PII": null,
+      "title": "Identification of 4,5-dihydro-4-hydroxygeldanamycins as shunt products of geldanamycin biosynthesis.",
+      "abstract": "Two new geldanamycin (GDM) analogues, (4S)-4,5-dihydro-4-hydroxygeldanamycin (1) and (4R)-4,5-dihydro-4-hydroxygeldanamycin (2), were identified from Streptomyces hygroscopicus 17997. Compounds 1 and 2 were not normal intermediates of GDM biosynthesis but shunt products of C-4,5 oxidation catalyzed by GdmP, a cytochrome P450 oxidase acting as a desaturase in GDM biosynthesis. Preliminary assays implied that, compared with GDM, 1 and 2 exhibited decreased cytotoxicity.",
+      "journal": "J Nat Prod",
+      "author_list": "Li, Ting; Ni, Siyang; Jia, Changhong; Wang, Hongyuan; Sun, Guizhi; Wu, Linzhuan; Gan, Maoluo; Shan, Guangzhi; He, Weiqing; Lin, Ling; Zhou, Hongxia; Wang, Yiguang",
+      "year": 2012,
+      "volume": "75",
+      "issue": "8",
+      "pages": "1480-4",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA015247"
+    ],
+    "names": [
+      "Lasionectrin"
+    ],
+    "reference": {
+      "DOI": "10.1021/np3002942",
+      "PMID": 22694295,
+      "PII": null,
+      "title": "Lasionectrin, a naphthopyrone from a Lasionectria sp.",
+      "abstract": "A new naphthopyrone derivative, lasionectrin (1), was isolated from fermentations of an Acremonium-like fungus provisionally identified as a Lasionectria sp. (Ascomycota, Hypocreales) and isolated from forest leaf litter from Equatorial Guinea. Its structure was determined by a combination of spectroscopic techniques, including UV, (+)-HRESIMS, and 1D and 2D NMR spectroscopy, and comparison with published data for related fungal metabolites. Compound 1 inhibited the growth of Plasmodium falciparum with an IC(50) value of 11 \u03bcM.",
+      "journal": "J Nat Prod",
+      "author_list": "El Aouad, Noureddine; P\u00e9rez-Moreno, Guiomar; S\u00e1nchez, Paula; Cantizani, Juan; Ortiz-L\u00f3pez, Francisco Javier; Mart\u00edn, Jes\u00fas; Gonz\u00e1lez-Men\u00e9ndez, V\u00edctor; Ruiz-P\u00e9rez, Luis M; Gonz\u00e1lez-Pacanowska, Dolores; Vicente, Francisca; Bills, Gerald; Reyes, Fernando",
+      "year": 2012,
+      "volume": "75",
+      "issue": "6",
+      "pages": "1228-30",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA009819"
+    ],
+    "names": [
+      "Lupinacidin C"
+    ],
+    "reference": {
+      "DOI": "10.1021/np100779t",
+      "PMID": 21226490,
+      "PII": null,
+      "title": "Lupinacidin C, an inhibitor of tumor cell invasion from Micromonospora lupini.",
+      "abstract": "A new anthraquinone derivative, lupinacidin C (1), was isolated from the endophytic actinomycete Micromonospora lupini. The structure was elucidated on the basis of spectroscopic analyses, and the absolute configuration was determined by total synthesis. Lupinacidin C (1) exhibited the most potent inhibitory effects among the congeners on the invasion of murine colon carcinoma cells into the reconstituted basement membrane.",
+      "journal": "J Nat Prod",
+      "author_list": "Igarashi, Yasuhiro; Yanase, Saeko; Sugimoto, Kohei; Enomoto, Masaru; Miyanaga, Satoshi; Trujillo, Martha E; Saiki, Ikuo; Kuwahara, Shigefumi",
+      "year": 2011,
+      "volume": "74",
+      "issue": "4",
+      "pages": "862-5",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA026371",
+      "NPA026372"
+    ],
+    "names": [
+      "Kitacinnamycin H",
+      "Kitacinnamycin G"
+    ],
+    "reference": {
+      "DOI": "10.1039/c9sc00815b",
+      "PMID": 31160959,
+      "PII": null,
+      "title": "Genome mining and biosynthesis of kitacinnamycins as a STING activator.",
+      "abstract": "Cinnamoyl-containing nonribosomal peptides (CCNPs) are a small group of secondary metabolites with potent biological activities produced by actinobacteria. Two remarkable features in the biosynthesis of CCNPs include the nonribosomal peptide synthases (NRPSs) for assembly of the depsipeptide backbone and the type II polyketide synthases (PKSs) for N-terminal cinnamoyl moiety construction. Here, we present a genome mining approach targeting both NRPS and type II PKS for discovery of new CCNPs, which led to the identification of 51 putative CCNP gene clusters from public bacterial genome databases. After strain prioritization, a novel class of CCNP-type glycopeptides named kitacinnamycins, one of which showing potent activation ability towards the stimulator of interferon genes (STING) protein, was identified. Bioinformatic, genetic and biochemical analysis revealed the use of the NRPS assembly line to form the macrocyclic peptide backbone, followed by a P450 monooxygenase to generate terminal oxidized groups. A glycosyltransferase with relatively broad substrate specificity transfers sugars to the newly generated OH/COOH group. The protein crystallographic study further provided structural insights into this glycosylation. Our results not only demonstrated the feasibility of genome mining and strain prioritization for the discovery of new bioactive natural products but also disclosed the biosynthetic pathway for kitacinnamycins.",
+      "journal": "Chem Sci",
+      "author_list": "Shi, Jing; Liu, Cheng Li; Zhang, Bo; Guo, Wen Jie; Zhu, Jiapeng; Chang, Chin-Yuan; Zhao, Er Juan; Jiao, Rui Hua; Tan, Ren Xiang; Ge, Hui Ming",
+      "year": 2019,
+      "volume": "10",
+      "issue": "18",
+      "pages": "4839-4846",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA026541",
+      "NPA026542",
+      "NPA026543"
+    ],
+    "names": [
+      "Peninaphone A",
+      "Peninaphone B",
+      "Peninaphone C"
+    ],
+    "reference": {
+      "DOI": "10.3390/md17060322",
+      "PMID": 31159234,
+      "PII": null,
+      "title": "New Naphtho-\u03b3-Pyrones Isolated from Marine-Derived Fungus Penicillium sp. HK1-22 and Their Antimicrobial Activities.",
+      "abstract": "Three novel monomeric naphtho-\u03b3-pyrones, peninaphones A-C (compounds 1-3), along with two known bis-naphtho-\u03b3-pyrones (compounds 4 and 5) were isolated from mangrove rhizosphere soil-derived fungus Penicillium sp. HK1-22. The absolute configurations of compounds 1 and 2 were determined by electronic circular dichroism (ECD) spectra, and the structure of compound 3 was confirmed by single-crystal X-ray diffraction analysis. Compounds 4 and 5 are a pair of hindered rotation isomers. A hypothetical biosynthetic pathway for the isolated monomeric and dimeric naphtho-\u03b3-pyrones is also discussed in this study. Compounds 1-3 showed antibacterial activity against Staphylococcus aureus (ATCC 43300, 33591, 29213, and 25923) with minimum inhibitory concentration (MIC) values in the range of 12.5-50 \u03bcg/mL. Compound 3 exhibited significant activity against the rice sheath blight pathogen Rhizoctonia solani.",
+      "journal": "Mar Drugs",
+      "author_list": "Zheng, Yao-Yao; Liang, Zhao-Yang; Shen, Nan-Xing; Liu, Wen-Long; Zhou, Xiao-Jian; Fu, Xiu-Mei; Chen, Min; Wang, Chang-Yun",
+      "year": 2019,
+      "volume": "17",
+      "issue": "6",
+      "pages": null,
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA005589",
+      "NPA017324",
+      "NPA017913"
+    ],
+    "names": [
+      "Pseudonocardone C",
+      "Pseudonocardone A",
+      "Pseudonocardone B"
+    ],
+    "reference": {
+      "DOI": "10.1021/np300380t",
+      "PMID": 23025282,
+      "PII": null,
+      "title": "Antibiotic and antimalarial quinones from fungus-growing ant-associated Pseudonocardia sp.",
+      "abstract": "Three new members of the angucycline class of antibiotics, pseudonocardones A-C (1-3), along with the known antibiotics 6-deoxy-8-O-methylrabelomycin (4) and X-14881 E (5) have been isolated from the culture of a Pseudonocardia strain associated with the fungus-growing ant Apterostigma dentigerum. Compounds 4 and 5 showed antibiotic activity against Bacillus subtilis 3610 and liver-stage Plasmodium berghei, while 1-3 were inactive or only weakly active in a variety of biological assays. Compound 5 also showed moderate cytotoxicity against HepG2 cells.",
+      "journal": "J Nat Prod",
+      "author_list": "Carr, Gavin; Derbyshire, Emily R; Caldera, Eric; Currie, Cameron R; Clardy, Jon",
+      "year": 2012,
+      "volume": "75",
+      "issue": "10",
+      "pages": "1806-9",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA021525"
+    ],
+    "names": [
+      "Cladosporinone"
+    ],
+    "reference": {
+      "DOI": "10.1038/ja.2016.11",
+      "PMID": 26905758,
+      "PII": null,
+      "title": "Cladosporinone, a new viriditoxin derivative from the hypersaline lake derived fungus Cladosporium cladosporioides.",
+      "abstract": "A new cytotoxic viriditoxin derivative, cladosporinone (1), along with the known viriditoxin (2) and two viriditoxin derivatives (3 and 4) were obtained from the fungus Cladosporium cladosporioides isolated from the sediment of a hypersaline lake in Egypt. The structure of the new compound (1) was determined by 1D and 2D NMR measurements as well as by high-resolution ESIMS and electronic circular dichroism spectroscopy. All isolated compounds were studied for their cytotoxicity against the murine lymphoma cell line L5187Y and for their antibiotic activity against several pathogenic bacteria. Viriditoxin (2) was the most active compound in both bioassays. Compound 1 also exhibited strong cytotoxicity against the murine lymphoma cell line L5187Y with an IC50 value of 0.88\u2009\u03bcm, whereas its antibiotic activity was weak.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Liu, Yang; Kurt\u00e1n, Tibor; Yun Wang, Chang; Han Lin, Wen; Orfali, Raha; M\u00fcller, Werner Eg; Daletos, Georgios; Proksch, Peter",
+      "year": 2016,
+      "volume": "69",
+      "issue": "9",
+      "pages": "702-6",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA002576",
+      "NPA006781",
+      "NPA011400",
+      "NPA015305",
+      "NPA015830",
+      "NPA016862",
+      "NPA018981",
+      "NPA019035"
+    ],
+    "names": [
+      "Austalide P acid butyl ester",
+      "Austalide H acid",
+      "Austalide P acid",
+      "Austalide Q acid",
+      "13-O-deacetylaustalide I",
+      "Austalide H acid butyl ester",
+      "17S-dihydroaustalide K",
+      "13-deacetoxyaustalide I"
+    ],
+    "reference": {
+      "DOI": "10.1021/np500151b",
+      "PMID": 24852445,
+      "PII": null,
+      "title": "Meroterpenoids from the alga-derived fungi Penicillium thomii Maire and Penicillium lividum Westling.",
+      "abstract": "Ten new austalide meroterpenoids (1-10) were isolated from the alga-derived fungi Penicillium thomii KMM 4645 and Penicillium lividum KMM 4663. Their structures were elucidated by extensive spectroscopic analysis and by comparison with related known compounds. The absolute configurations of some of the metabolites were assigned by the modified Mosher's method and CD data. Compounds 1, 2, 8, and 9 were able to inhibit AP-1-dependent transcriptional activity in JB6 Cl41 cell lines at noncytotoxic concentrations. Austalides 1-5, 8, and 9 exhibited significant inhibitory activity against endo-1,3-\u00ce\u00b2-D-glucanase from a crystalline stalk of the marine mollusk Pseudocardium sachalinensis.",
+      "journal": "J Nat Prod",
+      "author_list": "Zhuravleva, Olesya I; Sobolevskaya, Maria P; Leshchenko, Elena V; Kirichuk, Natalya N; Denisenko, Vladimir A; Dmitrenok, Pavel S; Dyshlovoy, Sergey A; Zakharenko, Alexander M; Kim, Natalya Yu; Afiyatullov, Shamil Sh",
+      "year": 2014,
+      "volume": "77",
+      "issue": "6",
+      "pages": "1390-5",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA016301"
+    ],
+    "names": [
+      "Fusarisetin A"
+    ],
+    "reference": {
+      "DOI": "10.1021/ja1110688",
+      "PMID": 21500849,
+      "PII": null,
+      "title": "Fusarisetin A, an acinar morphogenesis inhibitor from a soil fungus, Fusarium sp. FN080326.",
+      "abstract": "An acinar morphogenesis inhibitor named fusarisetin A (1) that possesses both an unprecedented carbon skeleton and a new pentacyclic ring system has been identified from an in-house fractionated fungal library using a three-dimensional matrigel-induced acinar morphogenesis assay system. The structure of 1 was determined in detail by NMR and circular dichroism spectroscopy, X-ray analysis, and chemical reaction experiments.",
+      "journal": "J Am Chem Soc",
+      "author_list": "Jang, Jae-Hyuk; Asami, Yukihiro; Jang, Jun-Pil; Kim, Sun-Ok; Moon, Dong Oh; Shin, Kee-Sun; Hashizume, Daisuke; Muroi, Makoto; Saito, Tamio; Oh, Hyuncheol; Kim, Bo Yeon; Osada, Hiroyuki; Ahn, Jong Seog",
+      "year": 2011,
+      "volume": "133",
+      "issue": "18",
+      "pages": "6865-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA020037"
+    ],
+    "names": [
+      "Homodimericin A"
+    ],
+    "reference": {
+      "DOI": "10.1021/jacs.6b07588",
+      "PMID": 27608853,
+      "PII": null,
+      "title": "Homodimericin A: A Complex Hexacyclic Fungal Metabolite.",
+      "abstract": "Microbes sense and respond to their environment with small molecules, and discovering these molecules and identifying their functions informs chemistry, biology, and medicine. As part of a study of molecular exchanges between termite-associated actinobacteria and pathogenic fungi, we uncovered a remarkable fungal metabolite, homodimericin A, which is strongly upregulated by the bacterial metabolite bafilomycin C1. Homodimericin A is a hexacyclic polyketide with a carbon backbone containing eight contiguous stereogenic carbons in a C20 hexacyclic core. Only half of its carbon atoms have an attached hydrogen, which presented a significant challenge for NMR-based structural analysis. In spite of its microbial production and rich stereochemistry, homodimericin A occurs naturally as a racemic mixture. A plausible nonenzymatic reaction cascade leading from two identical achiral monomers to homodimericin A is presented, and homodimericin A's formation by this path, a six-electron oxidation, could be a response to oxidative stress triggered by bafilomycin C1.",
+      "journal": "J Am Chem Soc",
+      "author_list": "Mevers, Emily; Saur\u00c3\u00ad, Josep; Liu, Yizhou; Moser, Arvin; Ramadhar, Timothy R; Varlan, Maria; Williamson, R Thomas; Martin, Gary E; Clardy, Jon",
+      "year": 2016,
+      "volume": "138",
+      "issue": "38",
+      "pages": "12324-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA004349"
+    ],
+    "names": [
+      "Fujikurin D"
+    ],
+    "reference": {
+      "DOI": "10.1021/np5008137",
+      "PMID": 26192387,
+      "PII": null,
+      "title": "Isolation and Structure Elucidation of Fujikurins A-D: Products of the PKS19 Gene Cluster in Fusarium fujikuroi.",
+      "abstract": "Fusarium fujikuroi is a member of the Gibberella fujikuroi species complex and well known for the production of gibberellins and mycotoxins including fusarins and fusaric acid. A recent genome sequencing study revealed that the fungus has the genetic potential to produce many more secondary metabolites than have been reported. This paper describes the structure elucidation of the products of the cryptic and silent PKS19 gene cluster that were recently identified (fujikurins A-D). We present the complete NMR data for the structure elucidation of the main compound fujikurin D, which shows tautomeric 1,3-diketo elements. The different tautomeric structures could be confirmed using quantum chemical calculations. Additionally, the structures of the minor compounds fujikurins A-C were elucidated by high-resolution mass spectrometric fragmentation experiments. It emerged that fujikurin A was identical to the bioactive compound CR377 of the taxonomically unclassified Fusarium strain CR377, while fujikurins B-D have not been reported from other fungi.",
+      "journal": "J Nat Prod",
+      "author_list": "von Bargen, Katharina Walburga; Niehaus, Eva-Maria; Krug, Isabel; Bergander, Klaus; W\u00fcrthwein, Ernst-Ulrich; Tudzynski, Bettina; Humpf, Hans-Ulrich",
+      "year": 2015,
+      "volume": "78",
+      "issue": "8",
+      "pages": "1809-15",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA028082"
+    ],
+    "names": [
+      "Stachartarin A"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.fitote.2017.12.022",
+      "PMID": 29288026,
+      "PII": null,
+      "title": "A new phenylspirodrimane dimer from the fungus Stachybotrys chartarum.",
+      "abstract": "A new phenylspirodrimane dimer, named stachartarin A (1), was isolated from cultures of the tin mine tailings-associated fungus Stachybotrys chartarum. Its structures were elucidated by means of spectroscopic methods. At the same time, the compound was tested for its cytotoxicity against HL-60, SMMC-7721, A-549, MCF-7, and SW480 cells.",
+      "journal": "Fitoterapia",
+      "author_list": "Ding, Zhang-Gui; Ding, Jian-Hai; Zhao, Jiang-Yuan; Chunyu, Wei-Xun; Li, Ming-Gang; Gu, Shao-Jie; Wang, Fei; Wen, Meng-Liang",
+      "year": 2018,
+      "volume": "125",
+      "issue": null,
+      "pages": "94-97",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA028552"
+    ],
+    "names": [
+      "Stalobacin I"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jmedchem.0c00295",
+      "PMID": 32378891,
+      "PII": null,
+      "title": "Stalobacin: Discovery of Novel Lipopeptide Antibiotics with Potent Antibacterial Activity against Multidrug-Resistant Bacteria.",
+      "abstract": "A novel lipopeptide antibiotic, stalobacin I (1), was discovered from a culture broth of an unidentified Gram-negative bacterium. Stalobacin I (1) had a unique chemical architecture composed of an upper and a lower half peptide sequence, which were linked via a hemiaminal methylene moiety. The sequence of 1 contained an unusual amino acid, carnosadine, 3,4-dihydroxyariginine, 3-hydroxyisoleucine, and 3-hydroxyaspartic acid, and a novel cyclopropyl fatty acid. The antibacterial activity of 1 against a broad range of drug-resistant Gram-positive bacteria was much stronger than those of \"last resort\" antibiotics such as vancomycin, linezolid, and telavancin (MIC 0.004-0.016 \u00ce\u00bcg/mL). Furthermore, compound 1 induced a characteristic morphological change in Gram-positive and Gram-negative strains by inflating the bacterial cell body. The absolute configuration of a cyclopropyl amino acid, carnosadine, was determined by the synthetic study of its stereoisomers, which was an essential component for the strong activity of 1.",
+      "journal": "J Med Chem",
+      "author_list": "Matsui, Kouhei; Kan, Yukiko; Kikuchi, Junko; Matsushima, Keisuke; Takemura, Miki; Maki, Hideki; Kozono, Iori; Ueda, Taichi; Minagawa, Kazuyuki",
+      "year": 2020,
+      "volume": "63",
+      "issue": "11",
+      "pages": "6090-6095",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA025965",
+      "NPA025966",
+      "NPA025967",
+      "NPA025968",
+      "NPA025969",
+      "NPA025970"
+    ],
+    "names": [
+      "Spiroterreusnoid A",
+      "Spiroterreusnoid B",
+      "Spiroterreusnoid C",
+      "Spiroterreusnoid D",
+      "Spiroterreusnoid E",
+      "Spiroterreusnoid F"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.phytochem.2019.05.014",
+      "PMID": 31203103,
+      "PII": null,
+      "title": "Anti-BACE1 and anti-AchE activities of undescribed spiro-dioxolane-containing meroterpenoids from the endophytic fungus Aspergillus terreus Thom.",
+      "abstract": "Spiroterreusnoids A-F, six undescribed spiro-dioxolane-containing adducts bearing 3,5-dimethylorsellinic acid-based meroterpenoid and 2,3-butanediol moieties were isolated from the endophytic fungus Aspergillus terreus Thom from Tripterygium wilfordii Hook. f. (Celastraceae). The structures of these adducts were established by spectroscopy, single-crystal X-ray diffraction, and experimental electronic circular dichroism (ECD) measurements. Spiroterreusnoids A-F represent the first examples of adducts composed of 3,5-dimethylorsellinic acid-based meroterpenoids. It is noteworthy that spiroterreusnoids A-F possessing a spiro-dioxolane moiety exhibited potential abilities in inhibiting BACE1 (IC50 values ranging from 5.86 to 27.16\u202f\u03bcM) and AchE (IC50 values ranging from 22.18 to 32.51\u202f\u03bcM), while the other analogues without this fragment displayed no such activities. Taken together, spiroterreusnoids A-F represent the first multitargeted natural adducts that could inhibit BACE1 and AchE, and might provide a new template for the development of new anti-Alzheimer's disease drugs.",
+      "journal": "Phytochemistry",
+      "author_list": "Qi, Changxing; Zhou, Qun; Gao, Weixi; Liu, Mengting; Chen, Chunmei; Li, Xiao-Nian; Lai, Yongji; Zhou, Yuan; Li, Dongyan; Hu, Zhengxi; Zhu, Hucheng; Zhang, Yonghui",
+      "year": 2019,
+      "volume": "165",
+      "issue": null,
+      "pages": "112041",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA021760",
+      "NPA021761",
+      "NPA021762",
+      "NPA021763"
+    ],
+    "names": [
+      "Chaetosemin G",
+      "Chaetosemin H",
+      "Chaetosemin I",
+      "Chaetosemin J"
+    ],
+    "reference": {
+      "DOI": "10.1038/s41429-018-0047-x",
+      "PMID": 29662118,
+      "PII": null,
+      "title": "Polyketides from two Chaetomium species and their biological functions.",
+      "abstract": "Four new secondary metabolites, chaetosemins G-J (1-4), along with 11 known ones (5-15) were isolated from the culture of C. seminudum C208 and Chaetomium sp. C521. Their structures were determined by extensive NMR spectroscopic analyses. These metabolites were evaluated in vitro for antifungal, antioxidant, toxicity, and \u03b1-glucosidase inhibitory activities. Chaetosemin J (4) and monaschromone (5) significantly inhibited the growth of four plant pathogenic fungi Botrytis cinerea, Alternaria solani, Magnaporthe oryzae, and Gibberella saubinettii with the minimum inhibitory concentrations (MIC) values ranging from 6.25 to 25.0\u2009\u03bcM. Moreover, both epicoccone B (11) and flavipin (14) exhibited the DPPH free radical scavenging ability with IC50 values of 10.8 and 7.2\u2009\u03bcM, respectively, and had more potent \u03b1-glucosidase inhibition than the drug acarbose with IC50 values of 27.3 and 33.8\u2009\u03bcM, respectively. Monaschromone (5) might act as the lead compound of pesticide.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Li, He; Liao, Zhong-Bin; Tang, Dan; Han, Wen-Bo; Zhang, Qiang; Gao, Jin-Ming",
+      "year": 2018,
+      "volume": "71",
+      "issue": "7",
+      "pages": "677-681",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA003784",
+      "NPA008969",
+      "NPA009928"
+    ],
+    "names": [
+      "Cochliomycin A",
+      "Cochliomycin C",
+      "Cochliomycin B"
+    ],
+    "reference": {
+      "DOI": "10.1021/np100641b",
+      "PMID": 21348465,
+      "PII": null,
+      "title": "Potent antifouling resorcylic acid lactones from the gorgonian-derived fungus Cochliobolus lunatus.",
+      "abstract": "Three new 14-membered resorcylic acid lactones, two with a rare natural acetonide group and one with a 5-chloro-substituted lactone, named cochliomycins A-C (1-3), together with four known analogues, zeaenol (4), LL-Z1640-1 (5), LL-Z1640-2 (6), and paecilomycin F (7), were isolated from the culture broth of Cochliobolus lunatus, a fungus obtained from the gorgonian Dichotella gemmacea collected in the South China Sea. Their structures and the relative configurations of 1-3 were elucidated using comprehensive spectroscopic methods including NOESY spectra and chemical conversions. A transetherification reaction was also observed in which cochliomycin B (2) in a solution of CDCl(3) slowly rearranged to give cochliomycin A (1) at room temperature. These resorcylic acid lactones were evaluated against the larval settlement of barnacle Balanus amphitrite, and antifouling activity was detected for the first time for this class of metabolites. The antibacterial and cytotoxic activities of these compounds were also examined.",
+      "journal": "J Nat Prod",
+      "author_list": "Shao, Chang-Lun; Wu, Hui-Xian; Wang, Chang-Yun; Liu, Qing-Ai; Xu, Ying; Wei, Mei-Yan; Qian, Pei-Yuan; Gu, Yu-Cheng; Zheng, Cai-Juan; She, Zhi-Gang; Lin, Yong-Cheng",
+      "year": 2011,
+      "volume": "74",
+      "issue": "4",
+      "pages": "629-33",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024738"
+    ],
+    "names": [
+      "Anikasin"
+    ],
+    "reference": {
+      "DOI": "10.1021/acschembio.7b00589",
+      "PMID": 28846366,
+      "PII": null,
+      "title": "Structure, Biosynthesis, and Biological Activity of the Cyclic Lipopeptide Anikasin.",
+      "abstract": "The class of cyclic lipopeptide natural products consists of compounds with a diverse range of bioactivities. In this study, we elucidated the structure of the cyclic lipopeptide anikasin using X-ray crystallography, analyzed its biosynthetic gene cluster, and investigated its natural role in the interaction between the producer strain Pseudomonas fluorescens HKI0770 and protozoal predators. These results led to the conclusion that anikasin has dual functionality enabling swarming motility and acting as a niche amoebicide, which effectively inhibits the social amoeba Polysphondylium violaceum and protects the producer strain from protozoal grazing.",
+      "journal": "ACS Chem Biol",
+      "author_list": "G\u00f6tze, Sebastian; Herbst-Irmer, Regine; Klapper, Martin; G\u00f6rls, Helmar; Schneider, Kilian R A; Barnett, Robert; Burks, Thomas; Neu, Ursula; Stallforth, Pierre",
+      "year": 2017,
+      "volume": "12",
+      "issue": "10",
+      "pages": "2498-2502",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA008032",
+      "NPA009991"
+    ],
+    "names": [
+      "Linearolide B",
+      "Linearolide A"
+    ],
+    "reference": {
+      "DOI": "10.1038/ja.2013.19",
+      "PMID": 23531987,
+      "PII": null,
+      "title": "Isolation of new polyketide metabolites, linearolides A and B, from Streptomyces sp. RK95-74.",
+      "abstract": "Although all Streptomyces strains are now thought to have 20-30 gene clusters for secondary metabolite biosynthesis, we cannot actually identify so many kinds of metabolites from one strain by conventional methods. Using Streptomyces sp. RK95-74, previously found as a cytotrienin producer, we searched new metabolites other than cytotrienin derivatives. Following the cultivation with new media and the peak-guided fractionation, we have found new compounds with new polyketide scaffold, named linearolides A and B.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Ueki, Masashi; Koshiro, Naofumi; Aono, Harumi; Kawatani, Makoto; Uramoto, Masakazu; Kawasaki, Hisashi; Osada, Hiroyuki",
+      "year": 2013,
+      "volume": "66",
+      "issue": "6",
+      "pages": "333-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA001654",
+      "NPA005472",
+      "NPA007579",
+      "NPA010057",
+      "NPA016154",
+      "NPA016868"
+    ],
+    "names": [
+      "2-heptylfuran",
+      "Investienol",
+      "Hypoxyloamide",
+      "Hypoxypropanamide",
+      "8-methoxynaphthalene-1,7-diol",
+      "Hypoxylonol"
+    ],
+    "reference": {
+      "DOI": "10.1002/cbdv.201300364",
+      "PMID": 24934680,
+      "PII": null,
+      "title": "Inhibitory effects of constituents of an endophytic fungus Hypoxylon investiens on nitric oxide and interleukin-6 production in RAW264.7 macrophages.",
+      "abstract": "Three new compounds, hypoxyloamide (1), 8-methoxynaphthalene-1,7-diol (2), and hypoxylonol (3), together with seven compounds isolated from nature for the first time, investiamide (4), hypoxypropanamide (5), hypoxylonol A (6), investienol (7), 2-heptylfuran (8), (3S)-5-methyl-8-O-methylmellein (9), (4R)-O-methylsclerone (10), along with 19 known compounds, 11-29, were isolated from the culture broth of Hypoxylon investiens BCRC 10F0115, a fungal endophyte residing in the stems of an endemic Formosan plant Litsea akoensis var. chitouchiaoensis. The structures of the new compounds were established by spectroscopic methods, including UV, IR, HR-ESI-MS, and extensive 1D- and 2D-NMR techniques. Of these isolates, 2, 8-methoxynaphthalen-1-ol (15), and 1,8-dimethoxynaphthalene (16) showed nitric oxide (NO) inhibitory activity with IC50 values of 11.8\u00b10.9, 17.8\u00b11.1, and 13.3\u00b10.5\u2005\u03bcM, respectively, stronger than the positive control quercetin (IC50 36.8\u00b11.3\u2005\u03bcM). Compounds 2, 15, and 16 also showed interleukin-6 (IL-6) inhibitory activity with IC50 values of 9.2\u00b11.7, 18.0\u00b10.6, and 2.0\u00b10.1\u2005\u03bcM, stronger than the positive control quercetin (IC50 31.3\u00b11.6\u2005\u03bcM). To the best of our knowledge, this is the first report on guaiane sesquiterpene metabolites, 3, 6, and 7, from the genus Hypoxylon.",
+      "journal": "Chem Biodivers",
+      "author_list": "Chang, Chun-Wei; Chang, Hsun-Shuo; Cheng, Ming-Jen; Liu, Ta-Wei; Hsieh, Sung-Yuan; Yuan, Gwo-Fang; Chen, Ih-Sheng",
+      "year": 2014,
+      "volume": "11",
+      "issue": "6",
+      "pages": "949-61",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA009897",
+      "NPA013910",
+      "NPA015256"
+    ],
+    "names": [
+      "Saccharothriolide A",
+      "Saccharothriolide B",
+      "Saccharothriolide C"
+    ],
+    "reference": {
+      "DOI": "10.1039/c5cc01953b",
+      "PMID": 25869768,
+      "PII": null,
+      "title": "Saccharothriolides A-C, novel phenyl-substituted 10-membered macrolides isolated from a rare actinomycete Saccharothrix sp.",
+      "abstract": "Three new 10-membered macrolides, saccharothriolides A-C (1-3), were discovered from a rare actinomycete Saccharothrix sp. A1506. All of the sp(3) carbons in the 10-membered ring had chirality, which was determined by extensive spectroscopic analysis and TDDFT-calculation of ECD spectra. Saccharothriolide B (2) exhibited cytotoxicity against human tumor cell lines HeLa and HT1080.",
+      "journal": "Chem Commun (Camb)",
+      "author_list": "Lu, Shan; Nishimura, Shinichi; Hirai, Go; Ito, Masashi; Kawahara, Teppei; Izumikawa, Miho; Sodeoka, Mikiko; Shin-ya, Kazuo; Tsuchida, Toshio; Kakeya, Hideaki",
+      "year": 2015,
+      "volume": "51",
+      "issue": "38",
+      "pages": "8074-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA016087"
+    ],
+    "names": [
+      "Helvolic acid methyl ester"
+    ],
+    "reference": {
+      "DOI": "10.1080/14786419.2016.1190722",
+      "PMID": 27265219,
+      "PII": null,
+      "title": "A new helvolic acid derivative from an endophytic Fusarium sp. of Ficus carica.",
+      "abstract": "A new helvolic acid derivative named helvolic acid methyl ester (1), together with two known helvolic acid compounds, helvolic acid (2) and hydrohelvolic acid (3), were isolated from the fermentation of endophytic fungus Fusarium sp. in Ficus carica leaves. Their structures were elucidated and identified by spectroscopic methods. Compounds 1-3 showed potent antifungal and antibacterial activities.",
+      "journal": "Nat Prod Res",
+      "author_list": "Liang, Xi-Ai; Ma, Yang-Min; Zhang, Hong-Chi; Liu, Rui",
+      "year": 2016,
+      "volume": "30",
+      "issue": "21",
+      "pages": "2407-12",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA001824",
+      "NPA006972",
+      "NPA011331",
+      "NPA012634",
+      "NPA016166"
+    ],
+    "names": [
+      "Sorbicillamine C",
+      "Sorbicillamine A",
+      "Sorbicillamine B",
+      "Sorbicillamine D",
+      "Sorbicillamine E"
+    ],
+    "reference": {
+      "DOI": "10.1021/np4006647",
+      "PMID": 24215398,
+      "PII": null,
+      "title": "Sorbicillamines A-E, nitrogen-containing sorbicillinoids from the deep-sea-derived fungus Penicillium sp. F23-2.",
+      "abstract": "Five new nitrogen-containing sorbicillinoids named sorbicillamines A-E (1-5) were isolated from an agitated culture of the deep-sea-derived fungus Penicillium sp. F23-2, which has previously produced indole alkaloids and terpenoids when cultured under static conditions. The structures of 1 to 5, including absolute configurations, were determined based on MS, NMR, and circular dichroism (CD) data. The cytotoxicities of the five new sorbicillin alkaloids against the HeLa, BEL-7402, HEK-293, HCT-116, and P388 cell lines were evaluated.",
+      "journal": "J Nat Prod",
+      "author_list": "Guo, Wenqiang; Peng, Jixing; Zhu, Tianjiao; Gu, Qianqun; Keyzers, Robert A; Li, Dehai",
+      "year": 2013,
+      "volume": "76",
+      "issue": "11",
+      "pages": "2106-12",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA004586"
+    ],
+    "names": [
+      "Capnodiumone"
+    ],
+    "reference": {
+      "DOI": "10.1080/14786419.2015.1116000",
+      "PMID": 26615670,
+      "PII": null,
+      "title": "Chemical constituents of the mangrove-associated fungus Capnodium sp. SZ-F22. A new eremophilane sesquiterpene.",
+      "abstract": "A new eremophilane sesquiterpene, capnodiumone (1), along with five known eremophilane sesquiterpenes (2-6) and eight other compounds (7-14), have been isolated from a mangrove-associated fungus Capnodium sp. SZ-F22. The chemical structures were elucidated on the basis of extensive spectroscopic analysis. The broth extract of the fungus exhibited a good inhibitory effect on the mycelium growth against Fusarium graminearum at 100\u00a0\u03bcg/mL, however, all the 14 compounds showed no expected antifungal activity. The probable reasons were discussed.",
+      "journal": "Nat Prod Res",
+      "author_list": "He, Haibing; Ma, Zhongjun; Wang, Qianqian; Liu, Yu; Xu, Hualin",
+      "year": 2016,
+      "volume": "30",
+      "issue": "13",
+      "pages": "1526-31",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA027606",
+      "NPA027607",
+      "NPA027608"
+    ],
+    "names": [
+      "Loggerpeptin B",
+      "Loggerpeptin A",
+      "Loggerpeptin C"
+    ],
+    "reference": {
+      "DOI": "10.1002/cbic.201700627",
+      "PMID": 29405541,
+      "PII": null,
+      "title": "Structural Diversity and Anticancer Activity of Marine-Derived Elastase Inhibitors: Key Features and Mechanisms Mediating the Antimetastatic Effects in Invasive Breast Cancer.",
+      "abstract": "Three new 3-amino-6-hydroxy-2-piperidone (Ahp)-containing cyclic depsipeptides, named loggerpeptins A-C (1-3), along with molassamide (4), were discovered from a marine cyanobacterium, extending the structural diversity of this prevalent scaffold of cyanobacterial serine protease inhibitors. Molassamide, which contains a 2-amino-butenoic (Abu) unit in the cyclic core, was the most potent and selective analogue against human neutrophil elastase (HNE). Given the growing evidence supporting the role of HNE in breast cancer progression and metastasis, we assessed the cellular effects of compounds 3 and 4 in the context of targeting invasive breast cancer. Both compounds inhibited cleavage of the elastase substrate CD40 in biochemical assays; however, only 4 exhibited significant cellular activity. As CD40 and other receptor proteolytic processing culminates in NF\u03baB activation, we assessed the effects of 4 on the expression of target genes, including ICAM-1. ICAM-1 is also a direct target of elastase and, in our studies, compound 4 attenuated both elastase-induced ICAM-1 gene expression and ICAM-1 proteolytic processing by elastase, revealing a potential dual effect on migration through modulation of gene expression and proteolytic processing. Molassamide also specifically inhibited the elastase-mediated migration of highly invasive triple-negative breast cancer cells.",
+      "journal": "Chembiochem",
+      "author_list": "Al-Awadhi, Fatma H; Paul, Valerie J; Luesch, Hendrik",
+      "year": 2018,
+      "volume": "19",
+      "issue": "8",
+      "pages": "815-825",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA022423",
+      "NPA022424",
+      "NPA022425",
+      "NPA022426",
+      "NPA022427",
+      "NPA022428",
+      "NPA022429",
+      "NPA022430",
+      "NPA022431",
+      "NPA022432",
+      "NPA022433"
+    ],
+    "names": [
+      "Antroquinonol V",
+      "Antroquinonol N",
+      "Antroquinonol O",
+      "Antroquinonol P",
+      "Antroquinonol Q",
+      "Antroquinonol R",
+      "Antroquinonol S",
+      "Antroquinonol T",
+      "Antroquinonol W",
+      "Antroquinonol X",
+      "Antroquinonol U"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.7b00223",
+      "PMID": 28898082,
+      "PII": null,
+      "title": "Meroterpenoids from a Medicinal Fungus Antrodia cinnamomea.",
+      "abstract": "Antrodia cinnamomea, a medicinal fungus indigenous to Taiwan, has been shown to exhibit a broad spectrum of bioactivities for the treatments of alcoholic intoxication, diarrhea, abdominal pain, and fatigue, and a number of active principles have been identified. Among the bioactive entities, clinical trials of antroquinonol and 4-acetyl antroquinonol B are being carried out for curing cancer, hypercholesterolemia, and hyperlipidemia. The total synthesis of antroquinonol has been achieved; however, investigating the structure-activity relationship of this class of compounds remained difficult due to the lack of available analogues. Twenty antroquinonols isolated from A.\u00a0cinnamomea IFS006 are reported herein. Their structures were elucidated using spectral analysis and by comparison with literature values. Of these, 11 antroquinonol analogues, namely, antroquinonols N-X (1-11), were previously unreported. The growth inhibitory activity of all the antroquinonol analogues was evaluated against human A549 and PC-3 cancer cell lines, and antroquinonol A exhibited the most potent activity, with GI50 values of 5.7 \u00b1 0.2 and 13.5 \u00b1 0.2 \u03bcM, respectively. Antroquinonols V (9) and W (10) also showed growth inhibitory activity against A549 cells with GI50 values of 8.2 \u00b1 0.8 and 7.1 \u00b1 2.1 \u03bcM, respectively, compared to 5-fluorouracil (GI50 = 4.2 \u00b1 0.2 \u03bcM).",
+      "journal": "J Nat Prod",
+      "author_list": "Chen, Mei-Chuan; Cho, Ting-Yu; Kuo, Yueh-Hsiung; Lee, Tzong-Huei",
+      "year": 2017,
+      "volume": "80",
+      "issue": "9",
+      "pages": "2439-2446",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA011414"
+    ],
+    "names": [
+      "Lobarin"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.fitote.2012.09.025",
+      "PMID": 23041521,
+      "PII": null,
+      "title": "Lobarin from the Sumatran lichen, Stereocaulon halei.",
+      "abstract": "The diphenyl ether, lobarin (1) (syn. lobariol carboxylic acid) related to lobaric acid was isolated for the first time as a natural product along with five known compounds from Stereocaulon halei, a fruticose lichen collected in Indonesia. The structure of lobarin was elucidated by spectroscopic data analysis and its most stable conformers were determined by molecular mechanic dynamic calculations. A marked superoxide anion scavenging was found for compound 1 while no cytotoxicity on the B16 murine melanoma and HaCaT human keratinocyte cell lines was observed.",
+      "journal": "Fitoterapia",
+      "author_list": "Ismed, Friardi; Loh\u00e9zic-Le D\u00e9v\u00e9hat, Fran\u00e7oise; Delalande, Olivier; Sinbandhit, Sourisak; Bakhtiar, Amri; Boustie, Jo\u00ebl",
+      "year": 2012,
+      "volume": "83",
+      "issue": "8",
+      "pages": "1693-8",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA017649"
+    ],
+    "names": [
+      "Apoptolidin G"
+    ],
+    "reference": {
+      "DOI": "10.1021/ol1009398",
+      "PMID": 20515014,
+      "PII": null,
+      "title": "Light-induced isomerization of apoptolidin a leads to inversion of C2-C3 double bond geometry.",
+      "abstract": "The isolation, characterization, and cytotoxicity against H292 cells of apoptolidin G are reported. Apoptolidin G is shown to be derived by a light-induced isomerization of the C2-C3 carbon-carbon double bond of apoptolidin A.",
+      "journal": "Org Lett",
+      "author_list": "Bachmann, Brian O; McNees, Ruth; Melancon, Bruce J; Ghidu, Victor P; Clark, Rachel; Crews, Brenda C; Deguire, Sean M; Marnett, Lawrence J; Sulikowski, Gary A",
+      "year": 2010,
+      "volume": "12",
+      "issue": "13",
+      "pages": "2944-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024554",
+      "NPA024555",
+      "NPA024556",
+      "NPA024557"
+    ],
+    "names": [
+      "1,4,6-trihydroxy-8-hexyl-9,10-anthraquinone",
+      "1,4,6-trihydroxy-8-pentacarboxyl-9,10-anthraquinone",
+      "1,4,6-trihydroxy-8-(2\u2032-oxopentyl)-9,10-anthraquinone",
+      "1,4,6-trihydroxy-8-(2\u2032-oxohexyl)-9,10-anthraquinone"
+    ],
+    "reference": {
+      "DOI": "10.1080/14786419.2017.1314285",
+      "PMID": 28441878,
+      "PII": null,
+      "title": "Four new anthraquinones from a soil actinomycete Streptomyces sp. WS-13394 and their bioactivities.",
+      "abstract": "Further chemical study of secondary metabolites from the soil actinomycete Streptomyces sp. WS-13394 resulted in the isolation of four new alkylated anthraquinone analogues (5-8). Their structures were elucidated on the basis of extensive spectroscopic analysis, including HR-ESI-MS, 1D and 2D NMR. The new compounds, together with analogues obtained before (1-4), were tested for their in vitro cytotoxicity against Huh-7 and SGC-7901.",
+      "journal": "Nat Prod Res",
+      "author_list": "Wu, Zhaoyuan; Zhang, Yani; Fang, Wei; Shi, Liqiao; Wan, Zhongyi",
+      "year": 2018,
+      "volume": "32",
+      "issue": "4",
+      "pages": "412-417",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA012980",
+      "NPA015798"
+    ],
+    "names": [
+      "Myrolactone A",
+      "Myrolactone B"
+    ],
+    "reference": {
+      "DOI": "10.1080/10286020.2011.605356",
+      "PMID": 21985747,
+      "PII": null,
+      "title": "Fully substituted unsaturated lactones from endophytic Myrothecium sp.",
+      "abstract": "Two new \u03b1,\u03b2-unsaturated \u03b3-lactones, myrolactones A (1) and B (2), were characterized from the culture broth of the Myrothecium sp. IFB-E106 isolated from the roots of Vatica mangachapoi Blauco. The absolute configuration was determined by the computational electronic circular dichroism approach. Myolactone B showed neuraminidase inhibitory activity with the IC(50) value of 13.95\u00a0\u03bcM.",
+      "journal": "J Asian Nat Prod Res",
+      "author_list": "Xu, Hao; Jiang, Nan; Guo, Ye; Jiao, Rui-Hua; Cui, Jiang-Tao; Song, Yong-Chun; Tan, Ren-Xiang",
+      "year": 2011,
+      "volume": "13",
+      "issue": "11",
+      "pages": "1003-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA005525"
+    ],
+    "names": [
+      "6\u03b2,11,12-trihydroxytremul-1(10)-ene"
+    ],
+    "reference": {
+      "DOI": "10.1248/bpb.22.1207",
+      "PMID": 10598029,
+      "PII": null,
+      "title": "Studies of the time-dependent inactivation of aromatase by 4beta,5beta-epoxy-6-one and 5beta,6beta-epoxy-4-one steroids under various conditions.",
+      "abstract": "The time-dependent inactivation of aromatase by epoxy analogs of the good aromatase inhibitors, androst-4-ene-6,17-dione (3) and androst-5-ene-4,17-dione (7), 4beta,5beta-epoxy and 5beta,6beta-epoxy compounds 10 and 13 and their 19-oxo derivatives 11 and 14, was examined in either the presence or absence of NADPH. The 4beta,5beta-epoxy-19-oxo steroid 11 along with the 19-methyl-5beta,6beta-epoxide 13 inactivated human placental aromatase in a mechanism-based manner, in the presence of NADPH, with rate constants for inactivation (k(inact)) of 0.133 min(-1) for steroid 11 and 0.100 min(-1) for steroid 13, whereas the two other steroids, 10 and 14, did not. On the other hand, none of four epoxides studied caused time-dependent inactivation of aromatase in an affinity-labeling manner in the absence of NADPH. These results are the first report showing that inhibitors 11 and 13 are suicide substrates having an epoxyketone structural feature.",
+      "journal": "Biol Pharm Bull",
+      "author_list": "Numazawa, M; Yamada, K",
+      "year": 1999,
+      "volume": "22",
+      "issue": "11",
+      "pages": "1207-11",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA010707",
+      "NPA015794",
+      "NPA019068"
+    ],
+    "names": [
+      "Periconiasin C",
+      "Periconiasin B",
+      "Periconiasin A"
+    ],
+    "reference": {
+      "DOI": "10.1021/ol400458n",
+      "PMID": 23506233,
+      "PII": null,
+      "title": "Periconiasins A-C, new cytotoxic cytochalasans with an unprecedented 9/6/5 tricyclic ring system from endophytic fungus Periconia sp.",
+      "abstract": "Periconiasins A-C (1-3), new cytochalasans with an unprecedented 9/6/5 tricyclic ring system, were isolated from the endophytic fungus Periconia sp. F-31. Their structures and absolute configurations were elucidated by extensive spectroscopic and X-ray crystallographic analyses. Their biosynthesis is proposed to occur from an unusual seven acetate/malonate polyketide backbone attached to one leucine moiety by a PKS-NRPS followed by Diels-Alder and other reactions. 1 and 2 showed significant cytotoxicity against human HCT-8 cancer cells.",
+      "journal": "Org Lett",
+      "author_list": "Zhang, Dewu; Ge, Hanlin; Xie, Dan; Chen, Ridao; Zou, Jian-hua; Tao, Xiaoyu; Dai, Jungui",
+      "year": 2013,
+      "volume": "15",
+      "issue": "7",
+      "pages": "1674-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024996",
+      "NPA024997",
+      "NPA024998",
+      "NPA024999",
+      "NPA025000"
+    ],
+    "names": [
+      "Dictyosporilactone A",
+      "Fusidienol B",
+      "Dictyosporixanthone A",
+      "Dictyosporixanthone B",
+      "Dictyosporione A"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.8b00871",
+      "PMID": 30600998,
+      "PII": null,
+      "title": "Secondary Metabolites from the Fungus Dictyosporium sp. and Their MALT1 Inhibitory Activities.",
+      "abstract": "Bioassay-guided separation of an extract from a Dictyosporium sp. isolate led to the identification of six new compounds, 1-6, together with five known compounds, 7-11. The structures of the new compounds were primarily established by extensive 1D and 2D NMR experiments. The absolute configurations of compounds 3-6 were determined by comparison of their experimental electronic circular dichroism (ECD) spectra with DFT quantum mechanical calculated ECD spectra. Compounds 3-5 possess novel structural scaffolds, and biochemical studies revealed that oxepinochromenones 1 and 7 inhibited the activity of MALT1 protease.",
+      "journal": "J Nat Prod",
+      "author_list": "Tran, Trong D; Wilson, Brice A P; Henrich, Curtis J; Staudt, Louis M; Krumpe, Lauren R H; Smith, Emily A; King, Jarrod; Wendt, Karen L; Stchigel, Alberto M; Miller, Andrew N; Cichewicz, Robert H; O'Keefe, Barry R; Gustafson, Kirk R",
+      "year": 2019,
+      "volume": "82",
+      "issue": "1",
+      "pages": "154-162",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA015150",
+      "NPA016070"
+    ],
+    "names": [
+      "Fellutamide D",
+      "Fellutamide C"
+    ],
+    "reference": {
+      "DOI": "10.1021/np2001573",
+      "PMID": 21761939,
+      "PII": null,
+      "title": "Isolation, structure, and biological activities of Fellutamides C and D from an undescribed Metulocladosporiella (Chaetothyriales) using the genome-wide Candida albicans fitness test.",
+      "abstract": "In a whole-cell mechanism of action (MOA)-based screening strategy for discovery of antifungal agents, Candida albicans was used, followed by testing of active extracts in the C. albicans fitness test (CaFT), which provides insight into the mechanism of action. A fermentation extract of an undescribed species of Metulocladosporiella that inhibited proteasome activity in a C. albicans fitness test was identified. The chemical genomic profile of the extract contained hypersensitivity of heterozygous deletion strains (strains that had one of the genes of the diploid genes knocked down) of genes represented by multiple subunits of the 25S proteasome. Two structurally related peptide aldehydes, named fellutamides C and D, were isolated from the extract. Fellutamides were active against C. albicans and Aspergillus fumigatus with MICs ranging from 4 to 16 \u03bcg/mL and against fungal proteasome (IC\u2085\u2080 0.2 \u03bcg/mL). Both compounds showed proteasome activity against human tumor cell lines, potently inhibiting the growth of PC-3 prostate carcinoma cells, but not A549 lung carcinoma cells. In PC-3 cells compound treatment produced a G2M cell cycle block and induced apoptosis. Preliminary SAR studies indicated that the aldehyde group is critical for the antifungal activity and that the two hydroxy groups are quantitatively important for potency.",
+      "journal": "J Nat Prod",
+      "author_list": "Xu, Deming; Ondeyka, John; Harris, Guy H; Zink, Deborah; Kahn, Jennifer Nielsen; Wang, Hao; Bills, Gerald; Platas, Gonzalo; Wang, Wenxian; Szewczak, Alexander A; Liberator, Paul; Roemer, Terry; Singh, Sheo B",
+      "year": 2011,
+      "volume": "74",
+      "issue": "8",
+      "pages": "1721-30",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA023965",
+      "NPA023966",
+      "NPA023967"
+    ],
+    "names": [
+      "Peniroquesine A",
+      "Peniroquesine B",
+      "Peniroquesine C"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.orglett.8b02534",
+      "PMID": 30156854,
+      "PII": null,
+      "title": "Peniroquesines A-C: Sesterterpenoids Possessing a 5-6-5-6-5-Fused Pentacyclic Ring System from Penicillium roqueforti YJ-14.",
+      "abstract": "Three novel sesterterpenes, peniroquesines A-C, possessing an 5-6-5-6-5-fused pentacyclic ring system, were isolated from the fungus Penicillium roqueforti YJ-14 by solid fermentation. Their structures were initially investigated in detail by NMR spectra and HR-ESI-MS and were further confirmed by chemical reaction experiments as well as by X-ray analysis. Furthermore, a plausible biosynthetic pathway was investigated by isotope-labeling experiments.",
+      "journal": "Org Lett",
+      "author_list": "Wang, Jia-Peng; Yu, Jing; Shu, Yan; Shi, Ya-Xian; Luo, Ping; Cai, Le; Ding, Zhong-Tao",
+      "year": 2018,
+      "volume": "20",
+      "issue": "18",
+      "pages": "5853-5856",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA011899"
+    ],
+    "names": [
+      "Largamide D oxazolidine"
+    ],
+    "reference": {
+      "DOI": "10.3390/md8061803",
+      "PMID": 20631871,
+      "PII": null,
+      "title": "Intramolecular modulation of serine protease inhibitor activity in a marine cyanobacterium with antifeedant properties.",
+      "abstract": "Extracts of the Floridian marine cyanobacterium Lyngbya cf. confervoides were found to deter feeding by reef fish and sea urchins (Diadema antillarum). This antifeedant activity may be a reflection of the secondary metabolite content, known to be comprised of many serine protease inhibitors. Further chemical and NMR spectroscopic investigation led us to isolate and structurally characterize a new serine protease inhibitor 1 that is formally derived from an intramolecular condensation of largamide D (2). The cyclization resulted in diminished activity, but to different extents against two serine proteases tested. This finding suggests that cyanobacteria can endogenously modulate the activity of their protease inhibitors.",
+      "journal": "Mar Drugs",
+      "author_list": "Matthew, Susan; Ratnayake, Ranjala; Becerro, Mikel A; Ritson-Williams, Raphael; Paul, Valerie J; Luesch, Hendrik",
+      "year": 2010,
+      "volume": "8",
+      "issue": "6",
+      "pages": "1803-16",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA023287",
+      "NPA023288",
+      "NPA023289"
+    ],
+    "names": [
+      "Dichlorodiaportintone",
+      "Desmethyldichlorodiaportintone",
+      "Desmethyldichlorodiaportinol"
+    ],
+    "reference": {
+      "DOI": "10.3390/md16020054",
+      "PMID": 29425114,
+      "PII": null,
+      "title": "Dichloroisocoumarins with Potential Anti-Inflammatory Activity from the Mangrove Endophytic Fungus Ascomycota sp. CYSK-4.",
+      "abstract": "Three new isocoumarins-dichlorodiaportintone (1), desmethyldichlorodiaportintone (2) and desmethyldichlorodiaportinol (3)-as well as six known analogues (4-9) were isolated from the culture of the mangrove endophytic fungus Ascomycota sp. CYSK-4 from Pluchea indica. Their structures were elucidated by analysis of spectroscopic data. The absolute configuration of compounds 1 and 2 were determined by the modified Mosher's method. Compound 2 showed significant anti-inflammatory activity by inhibiting the production of NO in LPS-induced RAW 264.7 cells with IC50 value of 15.8 \u03bcM, while compounds 1, 5, and 6 exhibited weak activities with IC50 values of 41.5, 33.6, and 67.2 \u03bcM, respectively. In addition, compounds 1, 5, and 6 showed antibacterial effects against Staphylococcus aureus, Bacillus subtilis, Escherichia coli, Klebsiella pneumoniae, and Acinetobacter calcoaceticus with the MIC values in the range of 25-50 \u03bcg\u00b7mL-1.",
+      "journal": "Mar Drugs",
+      "author_list": "Chen, Yan; Liu, Zhaoming; Liu, Hongju; Pan, Yahong; Li, Jing; Liu, Lan; She, Zhigang",
+      "year": 2018,
+      "volume": "16",
+      "issue": "2",
+      "pages": null,
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA022811",
+      "NPA022812"
+    ],
+    "names": [
+      "Calothrixamides A",
+      "Calothrixamides B"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.8b00432",
+      "PMID": 30192537,
+      "PII": null,
+      "title": "Calothrixamides A and B from the Cultured Cyanobacterium Calothrix sp. UIC 10520.",
+      "abstract": "Cyanobacteria are a source of chemically diverse metabolites with potential medicinal and biotechnological applications. Rapid identification of compounds is central to expedite the natural product discovery process. Mass spectrometry has been shown to be an important tool for dereplication of complex natural product samples. In addition, chromatographic separation and complementary spectroscopic analysis (e.g., UV) can enhance the confidence of the dereplication process. Here, we applied a droplet-liquid microjunction-surface sampling probe (droplet probe) coupled with UPLC-PDA-HRMS-MS/MS to identify two new natural products in situ from the freshwater strain Calothrix sp. UIC 10520. This allowed us to prioritize this strain for chemical investigation based on the presence of new metabolites very early in our discovery process, saving both time and resources. Subsequently, calothrixamides A (1) and B (2) were isolated from large-scale cultures, and the structures were elucidated by 1D and 2D NMR spectroscopy and mass spectrometry. The absolute configurations were determined by a combination of chemical degradation reactions, derivatization methods (Mosher's, Marfey's, and phenylglycine methyl ester), and J-based configurational analysis. Calothrixamides showed no cytotoxic activity against the MDA-MB-435, MDA-MB-231, and OVCAR3 cancer cell lines. They represent the first functionalized long-chain fatty acid amides reported from the Calothrix genus and from a freshwater cyanobacterium.",
+      "journal": "J Nat Prod",
+      "author_list": "Crnkovic, Camila M; Krunic, Aleksej; May, Daniel S; Wilson, Tyler A; Kao, Diana; Burdette, Joanna E; Fuchs, James R; Oberlies, Nicholas H; Orjala, Jimmy",
+      "year": 2018,
+      "volume": "81",
+      "issue": "9",
+      "pages": "2083-2090",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024531"
+    ],
+    "names": [
+      "Alternariol 1\u2032-hydroxy-9-methyl ether"
+    ],
+    "reference": {
+      "DOI": "10.1080/14786419.2017.1295235",
+      "PMID": 28278628,
+      "PII": null,
+      "title": "Phytotoxic, antibacterial, and antioxidant activities of mycotoxins and other metabolites from Trichoderma sp.",
+      "abstract": "A new natural mycotoxin was isolated from the fermentation broth of Trichoderma sp. Jing-8 and the structure was determined as alternariol 1'-hydroxy-9-methyl ether (1), together with twelve known compounds. The structures were elucidated on the basis of their 1D, 2D NMR spectra and mass spectrometric data. Compounds 1, 8 and 9 indicated inhibitions against germination of the seeds of cabbage with MICs\u00a0<\u00a03\u00a0\u03bcg/mL. The compound 1 showed the antibacterial activity against Bacillus subtilis and Staphylococcus aureus with MICs at 64\u00a0\u03bcg/mL. Compound 1 and 3 showed significant DPPH radical-scavenging activities with IC50 at 12\u00a0\u03bcg/mL, respectively. The OH at C-1' in compound 1 decreased the cytotoxicity of these mycotoxins. A primary structure-activity relationship about the alternariol derivatives was discussed. Compounds 2-7 and 8 were the first time to be isolated from the Trichoderma.",
+      "journal": "Nat Prod Res",
+      "author_list": "Zhang, Ju-Cheng; Chen, Guang-Yi; Li, Xiao-Zhan; Hu, Ming; Wang, Bang-Yan; Ruan, Bao-Hui; Zhou, Hao; Zhao, Li-Xing; Zhou, Jun; Ding, Zhong-Tao; Yang, Ya-Bin",
+      "year": 2017,
+      "volume": "31",
+      "issue": "23",
+      "pages": "2745-2752",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA018325"
+    ],
+    "names": [
+      "Curindolizine"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.orglett.6b00549",
+      "PMID": 27046459,
+      "PII": null,
+      "title": "Curindolizine, an Anti-Inflammatory Agent Assembled via Michael Addition of Pyrrole Alkaloids Inside Fungal Cells.",
+      "abstract": "Curvularia sp. IFB-Z10, a white croaker-associated fungus, generates a skeletally unprecedented indolizine alkaloid named curindolizine (1), which displays an anti-inflammatory action in lipopolyssacharide (LPS)-induced RAW 264.7 macrophages with an IC50 value of 5.31 \u00b1 0.21 \u03bcM. The enzymatic transformation test demonstrated that the unique curindolizine architecture was most likely produced by the regiospecific in-cell Michael addition reaction between pyrrole alkaloids, curvulamine, and 3,5-dimethylindolizin-8(5H)-one.",
+      "journal": "Org Lett",
+      "author_list": "Han, Wen Bo; Zhang, Ai Hua; Deng, Xin Zhao; Lei, Xinxiang; Tan, Ren Xiang",
+      "year": 2016,
+      "volume": "18",
+      "issue": "8",
+      "pages": "1816-9",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA025244",
+      "NPA025245",
+      "NPA025246",
+      "NPA025247",
+      "NPA025248",
+      "NPA025249",
+      "NPA025250"
+    ],
+    "names": [
+      "Baraphenazine A",
+      "Baraphenazine B",
+      "Baraphenazine C",
+      "Baraphenazine D",
+      "Baraphenazine E",
+      "Baraphenazine F",
+      "Baraphenazine G"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.9b00289",
+      "PMID": 31117525,
+      "PII": null,
+      "title": "Baraphenazines A-G, Divergent Fused Phenazine-Based Metabolites from a Himalayan Streptomyces.",
+      "abstract": "The structures and bioactivities of three unprecedented fused 5-hydroxyquinoxaline/alpha-keto acid amino acid metabolites (baraphenazines A-C, 1-3), two unique diastaphenazine-type metabolites (baraphenazines D and E, 4 and 5) and two new phenazinolin-type (baraphenazines F and G, 6 and 7) metabolites from the Himalayan isolate Streptomyces sp. PU-10A are reported. This study highlights the first reported bacterial strain capable of producing diastaphenazine-type, phenazinolin-type, and izumiphenazine A-type metabolites and presents a unique opportunity for the future biosynthetic interrogation of late-stage phenazine-based metabolite maturation.",
+      "journal": "J Nat Prod",
+      "author_list": "Wang, Xiachang; Abbas, Muhammad; Zhang, Yinan; Elshahawi, Sherif I; Ponomareva, Larissa V; Cui, Zheng; Van Lanen, Steven G; Sajid, Imran; Voss, S Randal; Shaaban, Khaled A; Thorson, Jon S",
+      "year": 2019,
+      "volume": "82",
+      "issue": "6",
+      "pages": "1686-1693",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA006005",
+      "NPA028499"
+    ],
+    "names": [
+      "Pyxidicycline A",
+      "Pyxidicycline B"
+    ],
+    "reference": {
+      "DOI": "10.1039/c8sc01325j",
+      "PMID": 29910943,
+      "PII": null,
+      "title": "Self-resistance guided genome mining uncovers new topoisomerase inhibitors from myxobacteria.",
+      "abstract": "There is astounding discrepancy between the genome-inscribed production capacity and the set of known secondary metabolite classes from many microorganisms as detected under laboratory cultivation conditions. Genome-mining techniques are meant to fill this gap, but in order to favor discovery of structurally novel as well as bioactive compounds it is crucial to amend genomics-based strategies with selective filtering principles. In this study, we followed a self-resistance guided approach aiming at the discovery of inhibitors of topoisomerase, known as valid target in both cancer and antibiotic therapy. A common host self-defense mechanism against such inhibitors in bacteria is mediated by so-called pentapeptide repeat proteins (PRP). Genes encoding the biosynthetic machinery for production of an alleged topoisomerase inhibitor were found on the basis of their collocation adjacent to a predicted PRP in the genome of the myxobacterium Pyxidicoccus fallax An d48, but to date no matching compound has been reported from this bacterium. Activation of this peculiar polyketide synthase type-II gene cluster in the native host as well as its heterologous expression led to the structure elucidation of new natural products that were named pyxidicyclines and provided an insight into their biosynthesis. Subsequent topoisomerase inhibition assays showed strong affinity to - and inhibition of - unwinding topoisomerases such as E. coli topoisomerase IV and human topoisomerase I by pyxidicyclines as well as precise selectivity, since E. coli topoisomerase II (gyrase) was not inhibited at concentrations up to 50 \u03bcg ml-1.",
+      "journal": "Chem Sci",
+      "author_list": "Panter, Fabian; Krug, Daniel; Baumann, Sascha; M\u00fcller, Rolf",
+      "year": 2018,
+      "volume": "9",
+      "issue": "21",
+      "pages": "4898-4908",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA026256",
+      "NPA026257"
+    ],
+    "names": [
+      "Epideoxysporothric acid",
+      "Sporochartine F"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jafc.8b04996",
+      "PMID": 30789727,
+      "PII": null,
+      "title": "New Alkylitaconic Acid Derivatives from Nodulisporium sp. A21 and Their Auxin Herbicidal Activities on Weed Seeds.",
+      "abstract": "Five alkylitaconic acid (AA) derivatives, including two novel compounds, epideoxysporothric acid (2) and sporochartine F (5), and three known compounds, deoxysporothric acid (1), deoxyisosporothric acid (3), and 1-undecen-2,3-dicarboxylic acid (4), were obtained from the fermentation culture of the endophytic fungus Nodulisporium sp. A21. The auxin herbicidal activities of compounds 1-4 against weed seeds were investigated under laboratory conditions. In general, the tested compounds displayed radicle growth promoting activity at low doses and inhibitory activity at higher doses. Compounds 1 and 2 could significantly inhibit the radicle growth of dicotyledon weeds, Eclipta prostrata and Veronica persica, at a concentration range from 50 to 200 \u00ce\u00bcg mL-1, while 3 notably stimulated radicle growth at the same concentration range. The results suggested that these AA derivatives have the potential to be used as the lead scaffold for novel auxin herbicide development. In addition, the biosynthetic pathways of 1-4 were deduced based on 13C labeling experiment.",
+      "journal": "J Agric Food Chem",
+      "author_list": "Cao, Lingling; Yan, Wei; Gu, Chenguang; Wang, Zhiyang; Zhao, Shuangshuang; Kang, Shuang; Khan, Babar; Zhu, Hailiang; Li, Jun; Ye, Yonghao",
+      "year": 2019,
+      "volume": "67",
+      "issue": "10",
+      "pages": "2811-2817",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA009368",
+      "NPA014083"
+    ],
+    "names": [
+      "Not named",
+      "Not named"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.bmcl.2013.05.042",
+      "PMID": 23756369,
+      "PII": null,
+      "title": "Structures and biosynthesis of 12-membered macrocyclic depsipeptides from Streptomyces sp. ML55.",
+      "abstract": "Two novel depsipeptides (1-2) were isolated from Streptomyces sp. ML55 together with two known analogues (3-4). Their structures were elucidated using a combination of NMR experiments, as well as detailed MS/MS experiments. The biosynthetic pathway of isolated compounds was dissected by genome sequencing data analysis for a hybrid nonribosomal peptide synthetase (NRPS) and polyketide synthetase (PKS) assembly line.",
+      "journal": "Bioorg Med Chem Lett",
+      "author_list": "Li, Xiang; Zvanych, Rostyslav; Torchia, Jonathon; Magarvey, Nathan A",
+      "year": 2013,
+      "volume": "23",
+      "issue": "14",
+      "pages": "4150-3",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA025251",
+      "NPA025252",
+      "NPA025253",
+      "NPA025254",
+      "NPA025255",
+      "NPA025256",
+      "NPA025257",
+      "NPA025258",
+      "NPA025259"
+    ],
+    "names": [
+      "Paspalinine-13-ene",
+      "Shearinine Q",
+      "Shearilicine",
+      "7-hydroxypaxilline-13-ene",
+      "7-methoxypaxilline",
+      "Shearinine N",
+      "Shearinine O",
+      "Shearinine P",
+      "7-methoxyshearinine P"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.8b00723",
+      "PMID": 31117519,
+      "PII": null,
+      "title": "Indole Diterpenoids from an Endophytic Penicillium sp.",
+      "abstract": "A chemical investigation of the endophyte Penicillium sp. (strain ZO-R1-1), isolated from roots of the medicinal plant Zingiber officinale, yielded nine new indole diterpenoids (1-9), together with 13 known congeners (10-22). The structures of the new compounds were elucidated by 1D and 2D NMR analysis in combination with HRESIMS data. The absolute configuration of the new natural products 1, 3, and 7 was determined using the TDDFT-ECD approach and confirmed for 1 by single-crystal X-ray determination through anomalous dispersion. The isolated compounds were tested for cytotoxicity against L5178Y, A2780, J82, and HEK-293 cell lines. Compound 1 was the most active metabolite toward L5178Y cells, with an IC50 value of 3.6 \u03bcM, and an IC50 against A2780 cells of 8.7 \u03bcM. Interestingly, 1 features a new type of indole diterpenoid scaffold with a rare 6/5/6/6/6/6/5 heterocyclic system bearing an aromatic ring C, which is suggested to be important for the cytotoxic activity of this natural product against L5278Y and A2780 cells.",
+      "journal": "J Nat Prod",
+      "author_list": "Ariantari, Ni P; Ancheeva, Elena; Wang, Chenyin; M\u00e1ndi, Attila; Knedel, Tim-O; Kurt\u00e1n, Tibor; Chaidir, Chaidir; M\u00fcller, Werner E G; Kassack, Matthias U; Janiak, Christoph; Daletos, Georgios; Proksch, Peter",
+      "year": 2019,
+      "volume": "82",
+      "issue": "6",
+      "pages": "1412-1423",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA001268",
+      "NPA008121",
+      "NPA014750",
+      "NPA015069"
+    ],
+    "names": [
+      "(+)-cochlearol A",
+      "(\u2212)-cochlearol A",
+      "(\u2212)-cochlearol B",
+      "(+)-cochlearol B"
+    ],
+    "reference": {
+      "DOI": "10.1021/ol502806j",
+      "PMID": 25402560,
+      "PII": null,
+      "title": "Cochlearols A and B, polycyclic meroterpenoids from the fungus Ganoderma cochlear that have renoprotective activities.",
+      "abstract": "(+)- and (-)-cochlearols A (1) and B (2), two meroterpenoids with novel polycyclic skeletons, were isolated from the fruiting bodies of the fungus Ganoderma cochlear. Their structures and stereochemistry were determined by using spectroscopic, computational and single-crystal X-ray diffraction methods. Cochlearol A is a new normeroterpenoid containing a naturally unusual dioxaspiro[4.5]decane motif. Biological studies showed that (-)-2 is a strong inhibitor of p-Smads, exhibiting renoprotective activities in TGF-\u03b21 induced rat renal proximal tubular cells.",
+      "journal": "Org Lett",
+      "author_list": "Dou, Man; Di, Lei; Zhou, Li-Li; Yan, Yong-Ming; Wang, Xin-Long; Zhou, Feng-Jiao; Yang, Zhu-Liang; Li, Rong-Tao; Hou, Fan-Fan; Cheng, Yong-Xian",
+      "year": 2014,
+      "volume": "16",
+      "issue": "23",
+      "pages": "6064-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA021719"
+    ],
+    "names": [
+      "JBIR-150"
+    ],
+    "reference": {
+      "DOI": "10.1038/s41429-017-0010-2",
+      "PMID": 29348521,
+      "PII": null,
+      "title": "JBIR-150, a novel 20-membered polyene macrolactam from marine-derived Streptomyces sp. OPMA00071.",
+      "abstract": "During the course of constructing a natural product library for drug screening consisting of microbial culture extracts originated from marine samples, we evaluated natural product components profiles via UPLC TOF-MS and routine biological tests for cytotoxic and antibiotic activities for all of the culture extract samples. By combination of chemical screening and biological activities, we succeeded in discovering a 20-membered macrolactam antibiotic subsequently designated JBIR-150 (1) from a marine-derived actinomycete identified as Streptomyces sp. that was isolated from an Okinawan marine sediment. The chemical structure of 1 was determined by interpreting NMR spectroscopic and mass spectrometric data. Compound 1 exhibited moderate cytotoxicity against MESO-1 and Jurkat cells.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Kawahara, Teppei; Fujiwara, Takeshi; Kagaya, Noritaka; Shin-Ya, Kazuo",
+      "year": 2018,
+      "volume": "71",
+      "issue": "3",
+      "pages": "390-392",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA023104",
+      "NPA023105",
+      "NPA023106"
+    ],
+    "names": [
+      "Penicimarin G",
+      "Penicimarin H",
+      "Penicimarin I"
+    ],
+    "reference": {
+      "DOI": "10.3390/md14100177",
+      "PMID": 27735855,
+      "PII": null,
+      "title": "Dihydroisocoumarins from the Mangrove-Derived Fungus Penicillium citrinum.",
+      "abstract": "Three new dihydroisocoumarin penicimarins G-I (1-3), together with one known dihydroisocoumarin (4) and three known meroterpenoids (5-7), were obtained from a fungus Penicillium citrinum isolated from the mangrove Bruguiera sexangula var. rhynchopetala collected in the South China Sea. Their structures were elucidated by the detailed analysis of spectroscopic data. The absolute configuration of 1 was determined by the X-ray diffraction analysis using Cu K\u00ce\u00b1 radiation. The absolute configurations of 2 and 3 were determined by comparison of their circular dichroism (CD) spectra with the literature. All compounds were evaluated for their antibacterial activities and cytotoxic activities.",
+      "journal": "Mar Drugs",
+      "author_list": "Huang, Guo-Lei; Zhou, Xue-Ming; Bai, Meng; Liu, Yu-Xin; Zhao, Yan-Lei; Luo, You-Ping; Niu, Yan-Yan; Zheng, Cai-Juan; Chen, Guang-Ying",
+      "year": 2016,
+      "volume": "14",
+      "issue": "10",
+      "pages": null,
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA004054",
+      "NPA004673",
+      "NPA006256",
+      "NPA007590",
+      "NPA013029",
+      "NPA015643",
+      "NPA017671"
+    ],
+    "names": [
+      "Not named",
+      "Not named",
+      "Not named",
+      "Not named",
+      "Not named",
+      "Not named",
+      "Not named"
+    ],
+    "reference": {
+      "DOI": "10.1021/ja1087369",
+      "PMID": 21247113,
+      "PII": null,
+      "title": "Metabolites from the induced expression of cryptic single operons found in the genome of Burkholderia pseudomallei.",
+      "abstract": "Bacterial genome sequencing projects routinely uncover gene clusters that are predicted to encode the biosynthesis of uncharacterized small molecules. A subset of these cryptic genetic elements appears as individual operons. Here we investigate potential single-operon biosynthetic systems found in the genome of the pathogenic bacterium  Burkholderia pseudomallei . Placing these operons under the control of an inducible promoter led to the production of seven new metabolites. Among the molecules we identified are inhibitors of type-4 phosphodiesterases, suggesting that previously cryptic biosynthetic operons may encode metabolites that could contribute to microbial virulence by disrupting host signaling pathways.",
+      "journal": "J Am Chem Soc",
+      "author_list": "Biggins, John B; Liu, Xiaofei; Feng, Zhiyang; Brady, Sean F",
+      "year": 2011,
+      "volume": "133",
+      "issue": "6",
+      "pages": "1638-41",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024325"
+    ],
+    "names": [
+      "Aspercryptin"
+    ],
+    "reference": {
+      "DOI": "10.1002/anie.201507097",
+      "PMID": 26563584,
+      "PII": null,
+      "title": "Development of Genetic Dereplication Strains in Aspergillus nidulans Results in the Discovery of Aspercryptin.",
+      "abstract": "To reduce the secondary metabolite background in Aspergillus nidulans and minimize the rediscovery of compounds and pathway intermediates, we created a \"genetic dereplication\" strain in which we deleted eight of the most highly expressed secondary metabolite gene clusters (more than 244,000 base pairs deleted in total). This strain allowed us to discover a novel compound that we designate aspercryptin and to propose a biosynthetic pathway for the compound. Interestingly, aspercryptin is formed from compounds produced by two separate gene clusters, one of which makes the well-known product cichorine. This raises the exciting possibility that fungi use differential regulation of expression of secondary metabolite gene clusters to increase the diversity of metabolites they produce.",
+      "journal": "Angew Chem Int Ed Engl",
+      "author_list": "Chiang, Yi-Ming; Ahuja, Manmeet; Oakley, C Elizabeth; Entwistle, Ruth; Asokan, Anabanadam; Zutz, Christoph; Wang, Clay C C; Oakley, Berl R",
+      "year": 2016,
+      "volume": "55",
+      "issue": "5",
+      "pages": "1662-5",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA000718",
+      "NPA009331",
+      "NPA014903"
+    ],
+    "names": [
+      "Salternamide B",
+      "Salternamide C",
+      "Salternamide D"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.5b00002",
+      "PMID": 25700232,
+      "PII": null,
+      "title": "Salternamides A-D from a Halophilic Streptomyces sp. Actinobacterium.",
+      "abstract": "Salternamides A-D (1-4), the first secondary metabolites discovered from saltern-derived actinomycetes, were isolated from a halophilic Streptomyces strain isolated from a saltern on Shinui Island in the Republic of Korea. The planar structures of the salternamides, which are new members of the manumycin family, were elucidated by a combination of spectroscopic analyses. The absolute configurations of the salternamides were determined by chemical and spectroscopic methods, including the modified Mosher's method, J-based configuration analysis, and circular dichroism spectroscopy. Salternamide A (1), which is the first chlorinated compound in the manumycin family, exhibited potent cytotoxicity against a human colon cancer cell line (HCT116) and a gastric cancer cell line (SNU638) with submicromolar IC50 values. Salternamides A and D were also determined to be weak Na(+)/K(+) ATPase inhibitors.",
+      "journal": "J Nat Prod",
+      "author_list": "Kim, Seong-Hwan; Shin, Yoonho; Lee, So-Hyoung; Oh, Ki-Bong; Lee, Sang Kook; Shin, Jongheon; Oh, Dong-Chan",
+      "year": 2015,
+      "volume": "78",
+      "issue": "4",
+      "pages": "836-43",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA027273",
+      "NPA027274",
+      "NPA027275"
+    ],
+    "names": [
+      "Columbamide B",
+      "Columbamide C",
+      "Columbamide A"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.5b00301",
+      "PMID": 26149623,
+      "PII": null,
+      "title": "Combining Mass Spectrometric Metabolic Profiling with Genomic Analysis: A Powerful Approach for Discovering Natural Products from Cyanobacteria.",
+      "abstract": "An innovative approach was developed for the discovery of new natural products by combining mass spectrometric metabolic profiling with genomic analysis and resulted in the discovery of the columbamides, a new class of di- and trichlorinated acyl amides with cannabinomimetic activity. Three species of cultured marine cyanobacteria, Moorea producens 3L, Moorea producens JHB, and Moorea bouillonii PNG, were subjected to genome sequencing and analysis for their recognizable biosynthetic pathways, and this information was then compared with their respective metabolomes as detected by MS profiling. By genome analysis, a presumed regulatory domain was identified upstream of several previously described biosynthetic gene clusters in two of these cyanobacteria, M. producens 3L and M. producens JHB. A similar regulatory domain was identified in the M. bouillonii PNG genome, and a corresponding downstream biosynthetic gene cluster was located and carefully analyzed. Subsequently, MS-based molecular networking identified a series of candidate products, and these were isolated and their structures rigorously established. On the basis of their distinctive acyl amide structure, the most prevalent metabolite was evaluated for cannabinomimetic properties and found to be moderate affinity ligands for CB1.",
+      "journal": "J Nat Prod",
+      "author_list": "Kleigrewe, Karin; Almaliti, Jehad; Tian, Isaac Yuheng; Kinnel, Robin B; Korobeynikov, Anton; Monroe, Emily A; Duggan, Brendan M; Di Marzo, Vincenzo; Sherman, David H; Dorrestein, Pieter C; Gerwick, Lena; Gerwick, William H",
+      "year": 2015,
+      "volume": "78",
+      "issue": "7",
+      "pages": "1671-82",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA022628",
+      "NPA022629",
+      "NPA022630",
+      "NPA022631",
+      "NPA022632",
+      "NPA022633"
+    ],
+    "names": [
+      "Peyronellone A",
+      "Peyronellone B",
+      "Peyronellone C",
+      "Peyronellone D",
+      "Peyronellone E",
+      "Peyronellone F"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.7b00663",
+      "PMID": 29738260,
+      "PII": null,
+      "title": "Hypoxia-Protective Azaphilone Adducts from Peyronellaea glomerata.",
+      "abstract": "Peyronellones A and B (1 and 2), a pair of rare tetracyclic caged adducts of azaphilone with pyruvic acid, along with four new analogues (3-6), were isolated from solid cultures of the endophytic fungus Peyronellaea glomerata. Their structures were elucidated through spectroscopic analysis, and their absolute configurations were unambiguously determined by a combination of single-crystal X-ray crystallography, Rh2(OCOCF3)4-induced ECD experiments, ECD calculations, and modified Mosher methods. Compound 2 (5 \u00ce\u00bcM) was found to have a significant hypoxia-protective effect that improved the survival rate of hypoxia/reoxygenation-treated human umbilical vein endothelial cells from 35% to 70%, which was equal to the potency of the positive control, verapamil. Flow cytometry analysis suggested 2 could inhibit H/R-induced late-stage apoptosis of this cell line.",
+      "journal": "J Nat Prod",
+      "author_list": "Li, Tian-Xiao; Liu, Rui-Huan; Wang, Xiao-Bing; Luo, Jun; Luo, Jian-Guang; Kong, Ling-Yi; Yang, Ming-Hua",
+      "year": 2018,
+      "volume": "81",
+      "issue": "5",
+      "pages": "1148-1153",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA004504",
+      "NPA007815"
+    ],
+    "names": [
+      "Palmyrrolinone",
+      "Thiopalmyrone"
+    ],
+    "reference": {
+      "DOI": "10.1021/np200106b",
+      "PMID": 21473610,
+      "PII": null,
+      "title": "Molluscicidal metabolites from an assemblage of Palmyra Atoll cyanobacteria.",
+      "abstract": "Molluscicides can play an important role in the control of schistosomiasis because snails of the genus Biomphalaria act as intermediate hosts for the parasite. Schistosomiasis is one of 13 neglected tropical diseases with high morbidity and mortality that collectively affect one billion of the world's poorest population, mainly in developing countries. Thiopalmyrone (1) and palmyrrolinone (2), metabolites isolated from extracts of a Palmyra Atoll environmental assemblage of two cyanobacteria, cf. Oscillatoria and Hormoscilla spp., represent new and potent molluscicidal chemotypes against Biomphalaria glabrata (LC50=8.3 and 6.0 \u03bcM, respectively). A slight enhancement in molluscicidal effect (LC50=5.0 \u03bcM) was observed when these two natural products were utilized as an equimolar binary mixture.",
+      "journal": "J Nat Prod",
+      "author_list": "Pereira, Alban R; Etzbach, Lena; Engene, Niclas; M\u00fcller, Rolf; Gerwick, William H",
+      "year": 2011,
+      "volume": "74",
+      "issue": "5",
+      "pages": "1175-81",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA006567"
+    ],
+    "names": [
+      "8-deoxyheronamide C"
+    ],
+    "reference": {
+      "DOI": "10.1021/ja500128u",
+      "PMID": 24670227,
+      "PII": null,
+      "title": "Structure and biological activity of 8-deoxyheronamide C from a marine-derived Streptomyces sp.: heronamides target saturated hydrocarbon chains in lipid membranes.",
+      "abstract": "Polyene macrolactams are a class of microbial metabolites, many of which show potent biological activities with unidentified modes of action. Here we report that 8-deoxyheronamide C, a new 20-membered polyene macrolactam from a marine-derived actinomycete Streptomyces sp., is a unique membrane binder. 8-Deoxyheronamide C showed a characteristic sensitivity profile against fission yeast sterol mutant cells, indicating that the metabolite targets cell membranes. We detected tight physical interaction between heronamides including 8-deoxyheronamide C and heronamide C and saturated hydrocarbon chains in lipid membranes using surface plasmon resonance experiments. We further show that heronamides induced abnormal cell wall morphology in fission yeast probably by perturbing the structure of membrane microdomains. This work will accelerate the biological and medical investigation of polyene macrolactams.",
+      "journal": "J Am Chem Soc",
+      "author_list": "Sugiyama, Ryosuke; Nishimura, Shinichi; Matsumori, Nobuaki; Tsunematsu, Yuta; Hattori, Akira; Kakeya, Hideaki",
+      "year": 2014,
+      "volume": "136",
+      "issue": "14",
+      "pages": "5209-12",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA025800"
+    ],
+    "names": [
+      "Sarocladione"
+    ],
+    "reference": {
+      "DOI": "10.1039/c9ob01159e",
+      "PMID": 31165123,
+      "PII": null,
+      "title": "Sarocladione, a unique 5,10:8,9-diseco-steroid from the deep-sea-derived fungus Sarocladium kiliense.",
+      "abstract": "A novel ergostane, sarocladione (1), was isolated from the deep-sea-derived fungus Sarocladium kiliense, along with 20 known compounds. The structure of 1 was determined mainly by a detailed analysis of its experimental and calculated NMR spectroscopic data. It is worth noting that 1 was the first steroid bearing a 5,10:8,9-diseco moiety. All 21 compounds were tested for in vitro antitumor activities against five cancer cell lines. \u03b2-Sitostenone (7) and 4,6-dihydroxyeudesmane (20) showed significant effects on HeLa-S3 cells with the IC50 values of 9.2 \u03bcM and 9.3 \u03bcM, respectively.",
+      "journal": "Org Biomol Chem",
+      "author_list": "Fan, Shao-Qiang; Xie, Chun-Lan; Xia, Jin-Mei; Xing, Cui-Ping; Luo, Zhu-Hua; Shao, Zongze; Yan, Xiao-Jun; He, Shan; Yang, Xian-Wen",
+      "year": 2019,
+      "volume": "17",
+      "issue": "24",
+      "pages": "5925-5928",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA004977",
+      "NPA012709"
+    ],
+    "names": [
+      "Penicitol B",
+      "Penicitol C"
+    ],
+    "reference": {
+      "DOI": "10.1021/np500586r",
+      "PMID": 25611519,
+      "PII": null,
+      "title": "Penicitols A-C and penixanacid A from the mangrove-derived Penicillium chrysogenum HDN11-24.",
+      "abstract": "Three new citrinin analogues, penicitols A-C (1-3), and one new xanthone derivative, penixanacid A (4), together with four known biogenetically related compounds (5-8), were discovered from the extract of a mangrove-derived fungus, Penicillium chrysogenum HND11-24. The structures of penicitols A-C and penixanacid A were established through analysis of extensive spectroscopic data. Their cytotoxic activity against HeLa, BEL-7402, HEK-293, HCT-116, and A549 cell lines was evaluated.",
+      "journal": "J Nat Prod",
+      "author_list": "Guo, Wenqiang; Li, Dan; Peng, Jixing; Zhu, Tianjiao; Gu, Qianqun; Li, Dehai",
+      "year": 2015,
+      "volume": "78",
+      "issue": "2",
+      "pages": "306-10",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA001588",
+      "NPA005077",
+      "NPA009522",
+      "NPA010003",
+      "NPA015807"
+    ],
+    "names": [
+      "Versixanthone F",
+      "Versixanthone E",
+      "Versixanthone C",
+      "Versixanthone B",
+      "Versixanthone D"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.5b00636",
+      "PMID": 26506221,
+      "PII": null,
+      "title": "Versixanthones A-F, Cytotoxic Xanthone-Chromanone Dimers from the Marine-Derived Fungus Aspergillus versicolor HDN1009.",
+      "abstract": "Six unusual xanthone-chromanone dimers, versixanthones A-F (1-6), featuring different formal linkages of tetrahydroxanthone and 2,2-disubstituted chroman-4-one monomers, were isolated from a culture of the mangrove-derived fungus Aspergillus versicolor HDN1009. The absolute configurations of 1-6, representing the central and axial chirality elements or preferred helicities, were established by a combination of X-ray diffraction analysis, chemical conversions, and TDDFT-ECD calculations. The interconversion of different biaryl linkages between 1 and 4 and between 2 and 3 in DMSO by a retro-oxa-Michael mechanism provided insight into the formation of the xanthone-chromanone dimers and supported the assignments of their absolute configurations. Compounds 1-6 exhibited cytotoxicities against the seven tested cancer cell lines, with the best IC50 value of 0.7 \u03bcM. Compound 5 showed further inhibitory activity against topoisomerase I.",
+      "journal": "J Nat Prod",
+      "author_list": "Wu, Guangwei; Yu, Guihong; Kurt\u00e1n, Tibor; M\u00e1ndi, Attila; Peng, Jixing; Mo, Xiaomei; Liu, Ming; Li, Hui; Sun, Xinhua; Li, Jing; Zhu, Tianjiao; Gu, Qianqun; Li, Dehai",
+      "year": 2015,
+      "volume": "78",
+      "issue": "11",
+      "pages": "2691-8",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA000099",
+      "NPA019607"
+    ],
+    "names": [
+      "Preussidone",
+      "1\u2032,5-dimethoxy-3,5\u2032-dimethyl-2,3\u2032- oxybiphenyl-1,2\u2032-diol"
+    ],
+    "reference": {
+      "DOI": "10.1021/np300473h",
+      "PMID": 23046341,
+      "PII": null,
+      "title": "Diarylcyclopentendione metabolite obtained from a Preussia typharum isolate procured using an unconventional cultivation approach.",
+      "abstract": "An uncommon 2,5-diarylcyclopentenone compound, preussidone (1), and a new biphenyl compound, 1',5-dimethoxy-3,5'-dimethyl-2,3'-oxybiphenyl-1,2'-diol (4), together with two known biphenyl compounds, 5-methoxy-3,5'-dimethyl-2,3'-oxybiphenyl-1,1',2'-triol (2) and cyperin (3), were obtained from a Preussia typharum isolate that was procured using a panel of unconventional media formulations. The structures of the new compounds were established by NMR and mass spectrometry, while the absolute configuration of 1 was assigned by quantum chemical ECD and VCD calculations. The antimicrobial and DPPH radical scavenging activities of 1-4 were tested. Compounds 2 and 4 exhibited DPPH radical scavenging activities that were comparable to the positive control ascorbic acid.",
+      "journal": "J Nat Prod",
+      "author_list": "Du, Lin; King, Jarrod B; Morrow, Brian H; Shen, Jana K; Miller, Andrew N; Cichewicz, Robert H",
+      "year": 2012,
+      "volume": "75",
+      "issue": "10",
+      "pages": "1819-23",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA026141",
+      "NPA026142"
+    ],
+    "names": [
+      "13(a)-Acetoxy-anhydroisoheximide",
+      "13(b)-Acetoxy-anhydroisoheximide"
+    ],
+    "reference": {
+      "DOI": "10.1080/10286020.2019.1706499",
+      "PMID": 31885279,
+      "PII": null,
+      "title": "New antifungal cycloheximide epimers produced by Streptomyces sp. YG7.",
+      "abstract": "A couple of new cycloheximide epimers, 13(\u03b1)-acetoxy-anhydroisoheximide (1) and 13(\u03b2)-acetoxy-anhydroisoheximide (2), together with six known compounds (3-8), were obtained from the cultures of Streptomyces sp. YG7. The structures were elucidated based on a comprehensive spectroscopic data analysis including 1D and 2D NMR, as well as HRESIMS, and by comparison with the literature. The X-ray crystal analysis of 1 further confirmed the structure. All the compounds were tested for antifungal activity. Compounds 1, 2 and 5-8 showed moderate Canidia albicans inhibitory activity, while 5 and 6 presented moderate Pyricularia oryzae inhibitory activity. [Formula: see text].",
+      "journal": "J Asian Nat Prod Res",
+      "author_list": "Pan, Jie-Ming; Chen, Hui-Qin; Wang, Hao; Yang, Li; Cai, Cai-Hong; Mi, Cheng-Neng; Dai, Hao-Fu; Tan, Zhi-Qiong; Mei, Wen-Li",
+      "year": 2021,
+      "volume": "23",
+      "issue": "2",
+      "pages": "110-116",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA018326"
+    ],
+    "names": [
+      "N,N',N''-tris(2,3-dihydroxybenzoyl)-O-L-seryl-O-L-seryl L-serine"
+    ],
+    "reference": {
+      "DOI": "10.1038/ja.2011.137",
+      "PMID": 22252200,
+      "PII": null,
+      "title": "Catechoserine, a new catecholate-type inhibitor of tumor cell invasion from Streptomyces sp.",
+      "abstract": null,
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Igarashi, Yasuhiro; Iida, Takako; Fukuda, Takao; Miyanaga, Satoshi; Sakurai, Hiroaki; Saiki, Ikuo; Miyanouchi, Koji",
+      "year": 2012,
+      "volume": "65",
+      "issue": "4",
+      "pages": "207-9",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA027927",
+      "NPA027928"
+    ],
+    "names": [
+      "9-O-methylfusarubin",
+      "5\u2010O\u2010methylnectriafurone"
+    ],
+    "reference": {
+      "DOI": "10.3390/molecules23071734",
+      "PMID": 30012966,
+      "PII": null,
+      "title": "Phytotoxic Activity of Metabolites Isolated from Rutstroemia sp.n., the Causal Agent of Bleach Blonde Syndrome on Cheatgrass (Bromus tectorum).",
+      "abstract": "A fungal pathogen soon to be described as Rutstroemia capillus-albis (Rutstroemiaceae, Helotiales, Leotiomycetes) has been identified as the causal agent of 'bleach blonde syndrome' on the invasive annual grass weed Bromus tectorum (cheatgrass) in western North America. This apparently common but previously undescribed disease causes premature senescence and sterility, but does not affect seed germination or seedling emergence and growth. This study investigated whether the new species produces phytotoxins that could be implicated in pathogenesis. The compounds 9-O-methylfusarubin, 9-O-methylbostrycoidin, 5-O-methylnectriafurone, trans-methyl-p-coumarate and terpestacin were isolated from the solid culture of this fungus. The undescribed absolute stereochemistry at C-3 of 9-O-methylfusarubin and at C-1' of 5-O-methylnectriafurone were assigned by applying electronic and vibrational circular dichroism (ECD and VCD) combined with computational methods and the advanced Mosher's method, respectively. The first three listed compounds are naphtoquinone pigments, while terpestacin is a sesterterpene, and trans-methyl-p-coumarate could be the product of an unusual fungal phenylpropanoid biosynthesis pathway. In a juvenile plant immersion bioassay, both 9-O-methylfusarubin and terpestacin proved to be highly toxic at 10-4 M, causing wilting and plant death within 10 days. This finding suggests that these two compounds could play a role in pathogenesis on B. tectorum.",
+      "journal": "Molecules",
+      "author_list": "Masi, Marco; Meyer, Susan; G\u00f3recki, Marcin; Pescitelli, Gennaro; Clement, Suzette; Cimmino, Alessio; Evidente, Antonio",
+      "year": 2018,
+      "volume": "23",
+      "issue": "7",
+      "pages": null,
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA027828"
+    ],
+    "names": [
+      "Talaromycin A"
+    ],
+    "reference": {
+      "DOI": "10.1002/cbdv.201800371",
+      "PMID": 30198640,
+      "PII": null,
+      "title": "Active Metabolites from Endolichenic Fungus Talaromyces sp.",
+      "abstract": "The active metabolites investigation of Talaromyces sp. (strain No.\u2005MH551540) associated with Xanthoparmelia angustiphylla afforded one new \u03b4-lactone, talaromycin A (1), together with six known compounds, clearanol A (2), 6-methylbiphenyl-3,3',4,5'-tetraol (3), desmethylaltenusin (4), ergone (5), ergosterol (6), and palmitic acid (7). The structures of these compounds were elucidated by a combination of spectroscopic-data interpretation and single-crystal X-ray diffraction analysis. The cytotoxicities of 1-7 and the antioxidant activities of 3 and 4 were also evaluated.",
+      "journal": "Chem Biodivers",
+      "author_list": "Yuan, Wei-Hua; Teng, Meng-Ting; Sun, Shan-Shan; Ma, Lin; Yuan, Bo; Ren, Qiang; Zhang, Peng",
+      "year": 2018,
+      "volume": "15",
+      "issue": "11",
+      "pages": "e1800371",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA003000",
+      "NPA011639",
+      "NPA013656",
+      "NPA017483"
+    ],
+    "names": [
+      "Arthrinin A",
+      "Arthrinin C",
+      "Arthrinin B",
+      "Arthrinin D"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.bmc.2011.06.013",
+      "PMID": 21741249,
+      "PII": null,
+      "title": "Arthrinins A-D: novel diterpenoids and further constituents from the sponge derived fungus Arthrinium sp.",
+      "abstract": "Bioassay-guided fractionation of a methanolic extract of the fungus Arthrinium sp., isolated from the Mediterranean sponge Geodia cydonium, afforded 10 natural products including five new diterpenoids, arthrinins A-D (1-4) and myrocin D (5). In addition, five known compounds were obtained, which included myrocin A (6), norlichexanthone (7), anomalin A (8), decarboxycitrinone (9) and 2,5-dimethyl-7-hydroxychromone (10). The structures of all isolated compounds were unambiguously elucidated based on extensive 1D and 2D NMR and HR-MS analyzes. The absolute configuration of arthrinins A-D (1-4) was established by the convenient Mosher method performed in NMR tubes and by interpretation of the ROESY spectra. Antiproliferative activity of the isolated compounds was assessed in vitro against four different tumor cell lines, including mouse lymphoma (L5178Y), human chronic myelogenous leukemia (K562), human ovarian cancer (A2780) and cisplatin-resistant ovarian cancer cells (A2780CisR), using the MTT assay. Norlichexanthone (7) and anomalin A (8) exhibited the strongest activities with IC\u2085\u2080 values ranging from 0.40 to 74.0 \u03bcM depending on the cell line investigated. This was paralleled by the inhibitory activity of both compounds against 16 cancer related protein kinases including aurora-B, PIM1, and VEGF-R2. In vitro IC\u2085\u2080 values of 7 and 8 against these three protein kinases ranged from 0.3 to 11.7 \u03bcM. Further investigation of the potential antitumoral activity of compounds 5-8 was performed in an in vitro angiogenesis assay against human umbilical vascular endothelial cells (HUVEC) sprouting induced by vascular endothelial growth factor A (VEGF-A). Anomalin A (8), myrocin D (5) and myrocin A (6) inhibited VEGF-A dependent endothelial cell sprouting with IC\u2085\u2080 values of 1.8, 2.6 and 3.7 \u03bcM, respectively, whereas norlichexanthone (7) was inactive.",
+      "journal": "Bioorg Med Chem",
+      "author_list": "Ebada, Sherif S; Schulz, Barbara; Wray, Victor; Totzke, Frank; Kubbutat, Michael H G; M\u00fcller, Werner E G; Hamacher, Alexandra; Kassack, Matthias U; Lin, Wenhan; Proksch, Peter",
+      "year": 2011,
+      "volume": "19",
+      "issue": "15",
+      "pages": "4644-51",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024252",
+      "NPA024253",
+      "NPA024254",
+      "NPA024255"
+    ],
+    "names": [
+      "Pleurocin B",
+      "Eringiacetal B",
+      "3\u03b2,14\u03b2-dihydroxyergosta-5,8,22-trien-7-one",
+      "Pleurocin A"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.joc.7b01259",
+      "PMID": 28856887,
+      "PII": null,
+      "title": "Pleurocins A and B: Unusual 11(9 \u2192 7)-abeo-Ergostanes and Eringiacetal B: A 13,14-seco-13,14-Epoxyergostane from Fruiting Bodies of Pleurotus eryngii and Their Inhibitory Effects on Nitric Oxide Production.",
+      "abstract": "Two novel 11(9 \u2192 7)-abeo-ergostane-type steroids, named pleurocins A (1) and B (2), a 13,14-seco-13,14-epoxy ergostane, named eringiacetal B (3), and an ergostane steroid (4) were isolated from the fruiting bodies of Pleurotus eryngii (Pleurotaceae). Their structures were determined by spectroscopic data and X-ray crystallography. A possible biogenesis pathway for 1-3 was also described. Compounds 1-3 exhibited inhibitory activities against NO production with almost no cytotoxicity at concentrations lower than 30 \u03bcM.",
+      "journal": "J Org Chem",
+      "author_list": "Kikuchi, Takashi; Horii, Yui; Maekawa, Yukina; Masumoto, Yuki; In, Yasuko; Tomoo, Koji; Sato, Hiroyasu; Yamano, Akihito; Yamada, Takeshi; Tanaka, Reiko",
+      "year": 2017,
+      "volume": "82",
+      "issue": "19",
+      "pages": "10611-10616",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA023805",
+      "NPA023806",
+      "NPA023807",
+      "NPA023808",
+      "NPA023809"
+    ],
+    "names": [
+      "Biscogniacid A",
+      "(+)-dimericbiscognienyne A",
+      "Biscognienyne A",
+      "Biscognienyne B",
+      "Biscognienyne C"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.orglett.6b03264",
+      "PMID": 27933865,
+      "PII": null,
+      "title": "Dimericbiscognienyne A: A Meroterpenoid Dimer from Biscogniauxia sp. with New Skeleton and Its Activity.",
+      "abstract": "Dimericbiscognienyne A (1), an unusual diisoprenyl-cyclohexene-type meroterpenoid dimer, was isolated from Biscogniauxia sp. together with three new monomeric diisoprenyl-cyclohexene-type meroterpenoids (2-4) and one new isoprenyl-benzoic acid-type meroterpenoid (5). All structures were determined by extensive NMR spectroscopic methods, quantum chemical calculations, chemical derivatization, and X-ray crystallography. The formation of 1 is related to a unique intermolecular redox coupling Diels-Alder adduct reaction. Their cytotoxicities and short-term memory enhancement activities against Alzheimer's disease were assessed.",
+      "journal": "Org Lett",
+      "author_list": "Zhao, Huan; Chen, Guo-Dong; Zou, Jian; He, Rong-Rong; Qin, Sheng-Ying; Hu, Dan; Li, Guo-Qiang; Guo, Liang-Dong; Yao, Xin-Sheng; Gao, Hao",
+      "year": 2017,
+      "volume": "19",
+      "issue": "1",
+      "pages": "38-41",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA026148",
+      "NPA026149"
+    ],
+    "names": [
+      "Not named",
+      "Not named"
+    ],
+    "reference": {
+      "DOI": "10.3390/molecules24101955",
+      "PMID": 31117282,
+      "PII": null,
+      "title": "Technologies for the Selection, Culture and Metabolic Profiling of Unique Rhizosphere Microorganisms for Natural Product Discovery.",
+      "abstract": "Small molecule discovery has benefitted from the development of technologies that have aided in the culture and identification of soil microorganisms and the subsequent analysis of their respective metabolomes. We report herein on the use of both culture dependent and independent approaches for evaluation of soil microbial diversity in the rhizosphere of canola, a crop known to support a diverse microbiome, including plant growth promoting rhizobacteria. Initial screening of rhizosphere soils showed that microbial diversity, particularly bacterial, was greatest at crop maturity; therefore organismal recovery was attempted with soil collected at canola harvest. Two standard media (Mueller Hinton and gellan gum) were evaluated following inoculation with soil aqueous suspensions and compared with a novel \"rhizochip\" prototype buried in a living canola crop rhizosphere for microbial culture in situ. Following successful recovery and identification of 375 rhizosphere microbiota of interest from all culture methods, isolates were identified by Sanger sequencing and/or characterization using morphological and biochemical traits. Three bacterial isolates of interest were randomly selected as case studies for intensive metabolic profiling. After successful culture in liquid media and solvent extraction, individual extracts were subjected to evaluation by UHPLC-DAD-QToF-MS, resulting in the rapid characterization of metabolites of interest from cultures of two isolates. After evaluation of key molecular features, unique or unusual bacterial metabolites were annotated and are reported herein.",
+      "journal": "Molecules",
+      "author_list": "Gurusinghe, Saliya; Brooks, Tabin L; Barrow, Russell A; Zhu, Xiaocheng; Thotagamuwa, Agasthya; Dennis, Paul G; Gupta, Vadakattu V S R; Vanniasinkam, Thiru; Weston, Leslie A",
+      "year": 2019,
+      "volume": "24",
+      "issue": "10",
+      "pages": null,
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA004672"
+    ],
+    "names": [
+      "Xylopimarane"
+    ],
+    "reference": {
+      "DOI": "10.1021/np100873t",
+      "PMID": 21226484,
+      "PII": null,
+      "title": "Ring B aromatic norpimarane glucoside from a Xylaria sp.",
+      "abstract": "A novel 20-norpimarane glucoside, xylopimarane (1), together with the known sphaeropsidin C (2) and clonostachydiol (3), was isolated from the fungus Xylaria sp. BCC 4297. Compound 1 exhibited cytotoxicity to cancer cell lines KB, MCF-7, and NCI-H187 with respective IC(50) values of 1.0, 13, and 65 \u00ce\u00bcM.",
+      "journal": "J Nat Prod",
+      "author_list": "Isaka, Masahiko; Yangchum, Arunrat; Auncharoen, Patchanee; Srichomthong, Kitlada; Srikitikulchai, Prasert",
+      "year": 2011,
+      "volume": "74",
+      "issue": "2",
+      "pages": "300-2",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA000159",
+      "NPA007966"
+    ],
+    "names": [
+      "Cyclo(D-Tyr-D-Pro)",
+      "Phenethyl 5-oxo-L-prolinate"
+    ],
+    "reference": {
+      "DOI": "10.3390/md12084326",
+      "PMID": 25076061,
+      "PII": null,
+      "title": "Activation of dormant secondary metabolite production by introducing neomycin resistance into the deep-sea fungus, Aspergillus versicolor ZBY-3.",
+      "abstract": "A new ultrasound-mediated approach has been developed to introduce neomycin-resistance to activate silent pathways for secondary metabolite production in a bio-inactive, deep-sea fungus, Aspergillus versicolor ZBY-3. Upon treatment of the ZBY-3 spores with a high concentration of neomycin by proper ultrasound irradiation, a total of 30 mutants were obtained by single colony isolation. The acquired resistance of the mutants to neomycin was confirmed by a resistance test. In contrast to the ZBY-3 strain, the EtOAc extracts of 22 of the 30 mutants inhibited the human cancer K562 cells, indicating that these mutants acquired a capability to produce antitumor metabolites. HPLC-photodiode array detector (PDAD)-UV and HPLC-electron spray ionization (ESI)-MS analyses of the EtOAc extracts of seven bioactive mutants and the ZBY-3 strain indicated that diverse secondary metabolites have been newly produced in the mutant extracts in contrast to the ZBY-3 extract. The followed isolation and characterization demonstrated that six metabolites, cyclo(D-Pro-D-Phe) (1), cyclo(D-Tyr-D-Pro) (2), phenethyl 5-oxo-L-prolinate (3), cyclo(L-Ile-L-Pro) (4), cyclo(L-Leu-L-Pro) (5) and 3\u03b2,5\u03b1,9\u03b1-trihydroxy-(22E,24R)-ergosta-7,22-dien-6-one (6), were newly produced by the mutant u2n2h3-3 compared to the parent ZBY-3 strain. Compound 3 was a new compound; 2 was isolated from a natural source for the first time, and all of these compounds were also not yet found in the metabolites of other A. versicolor strains. Compounds 1-6 inhibited the K562 cells, with inhibition rates of 54.6% (1), 72.9% (2), 23.5% (3), 29.6% (4), 30.9% (5) and 51.1% (6) at 100 \u03bcg/mL, and inhibited also other human cancer HL-60, BGC-823 and HeLa cells, to some extent. The present study demonstrated the effectiveness of the ultrasound-mediated approach to activate silent metabolite production in fungi by introducing acquired resistance to aminoglycosides and its potential for discovering new compounds from silent fungal metabolic pathways. This approach could be applied to elicit the metabolic potentials of other fungal isolates to discover new compounds from cryptic secondary metabolites.",
+      "journal": "Mar Drugs",
+      "author_list": "Dong, Yuan; Cui, Cheng-Bin; Li, Chang-Wei; Hua, Wei; Wu, Chang-Jing; Zhu, Tian-Jiao; Gu, Qian-Qun",
+      "year": 2014,
+      "volume": "12",
+      "issue": "8",
+      "pages": "4326-52",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA002167",
+      "NPA005752",
+      "NPA009607",
+      "NPA010456",
+      "NPA011006",
+      "NPA012282",
+      "NPA014737",
+      "NPA015878",
+      "NPA018580"
+    ],
+    "names": [
+      "Guignardone J",
+      "Guignardone K",
+      "Guignardic acid",
+      "13-hydroxylated guignardone A",
+      "12-hydroxylated guignardone A",
+      "17-hydroxylated guignardone A",
+      "Guignardone O",
+      "Guignardone M",
+      "Guignardone N"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.5b00008",
+      "PMID": 26577190,
+      "PII": null,
+      "title": "Synergistic Antifungal Meroterpenes and Dioxolanone Derivatives from the Endophytic Fungus Guignardia sp.",
+      "abstract": "Nine new meroterpenes (1-9) and one new dioxolanone derivative (10), along with seven known compounds (11-17), were isolated from solid cultures of the endophytic fungus Guignardia sp., obtained from Euphorbia sieboldiana. Their structures were elucidated by analysis of UV, IR, 1D and 2D NMR, and HRESIMS data, and their absolute configurations were determined by a combination of single-crystal X-ray studies, modified Mosher methods, and Rh2(OCOCF3)4- and Mo2(OCOCH3)4-induced electronic circular dichroism experiments. All compounds were evaluated for their inhibitory effects alone and with fluconazole on the growth and biofilms of Candida albicans. At 6.3 \u03bcg/mL combined with 0.031 \u03bcg/mL of fluconazole, compounds 8 and 16 were found to have prominent inhibition on the growth of C. albicans with fractional inhibitory concentration index values of 0.23 and 0.19, respectively. Combined with fluconazole, both of them (40 \u03bcg/mL for 8 and 20 \u03bcg/mL for 16) could also inhibit C. albicans biofilms and reverse the tolerance of C. albicans biofilms to fluconazole.",
+      "journal": "J Nat Prod",
+      "author_list": "Li, Tian-Xiao; Yang, Ming-Hua; Wang, Xiao-Bing; Wang, Ying; Kong, Ling-Yi",
+      "year": 2015,
+      "volume": "78",
+      "issue": "11",
+      "pages": "2511-20",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA022161",
+      "NPA022162"
+    ],
+    "names": [
+      "8-chloroxylarinol A",
+      "Flavoroseoside"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.6b00977",
+      "PMID": 28060505,
+      "PII": null,
+      "title": "\u03b1-Glucosidase Inhibitors from Malbranchea flavorosea.",
+      "abstract": "From an extract prepared from the grain-based culture of Malbranchea flavorosea two new polyketides, namely, 8-chloroxylarinol A (1) and flavoroseoside (2), along with the known compounds xylarinol A (3), xylarinol B (4), massarigenins B and C (5 and 6), and clavatol (7), were isolated. The structures of 1 and 2 were elucidated using spectroscopic methods and corroborated by single-crystal X-ray diffraction analysis. In the case of compound 2 the absolute configuration at the stereogenic centers was established according to the method of Flack. In addition, the X-ray structure of compound 6 is reported for the first time. Compounds 3, 4, and 6 significantly inhibited yeast \u03b1-glucosidase. Compound 6 also inhibited the postprandial peak during an oral sucrose tolerance assay when tested in vivo, using normal and NA/STZ-induced hyperglycemic mice.",
+      "journal": "J Nat Prod",
+      "author_list": "Verastegui-Oma\u00f1a, Brisa; Rebollar-Ramos, Daniela; P\u00e9rez-V\u00e1squez, Araceli; Mart\u00ednez, Ana Laura; Madariaga-Maz\u00f3n, Abraham; Flores-Bocanegra, Laura; Mata, Rachel",
+      "year": 2017,
+      "volume": "80",
+      "issue": "1",
+      "pages": "190-195",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA021806",
+      "NPA021807"
+    ],
+    "names": [
+      "Quinomycin H1",
+      "Quinomycin H2"
+    ],
+    "reference": {
+      "DOI": "10.1038/s41429-018-0083-6",
+      "PMID": 30018424,
+      "PII": null,
+      "title": "Quinomycins H1 and H2, new cytotoxic antibiotics from Streptomyces sp. RAL404.",
+      "abstract": "Two new cytotoxic antibiotics designated quinomycins H1 (2) and H2 (3) were isolated from the culture broth of Streptomyces sp. RAL404. The molecular formula of both compounds was established as C52H65N11O13S2 by electrospray ionization mass spectrometry (ESI-MS). Their structures were determined as echinomycin (1) derivatives containing a 3-hydoxyquinaldic acid molecule in place of one of the two quinoxaline-2-carboxylic acid chromophores. Quinomycins H1 (2) and H2 (3) showed selective cytotoxicity against RG-E1-4 cells bearing the adenovirus oncogenes with IC50s of 11\u2009nM and 12\u2009nM, respectively.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Hayakawa, Yoichi; Sone, Risako; Aoki, Haruna; Kimata, Shoko",
+      "year": 2018,
+      "volume": "71",
+      "issue": "10",
+      "pages": "898-901",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA025274",
+      "NPA025275",
+      "NPA025276",
+      "NPA025277",
+      "NPA025278"
+    ],
+    "names": [
+      "Salinaphthoquinone A",
+      "Salinaphthoquinone B",
+      "Salinaphthoquinone C",
+      "Salinaphthoquinone D",
+      "Salinaphthoquinone E"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.9b00062",
+      "PMID": 31313922,
+      "PII": null,
+      "title": "Antibacterial Salinaphthoquinones from a Strain of the Bacterium Salinispora arenicola Recovered from the Marine Sediments of St. Peter and St. Paul Archipelago, Brazil.",
+      "abstract": "Salinaphthoquinones A-E (1-5) were isolated from a marine Salininispora arenicola strain, recovered from sediments of the St. Peter and St. Paul Archipelago, Brazil. The structures of the compounds were elucidated using a combination of spectroscopic (NMR, IR, HRESIMS) data, including single-crystal X-ray diffraction analysis. A plausible biosynthetic pathway for 1-5 is proposed. Compounds 1 to 4 displayed moderate activity against Staphylococcus aureus and Enterococcus faecalis with MIC values of 125 to 16 \u03bcg/mL.",
+      "journal": "J Nat Prod",
+      "author_list": "da Silva, Alison B; Silveira, Edilberto R; Wilke, Diego V; Ferreira, Elhton G; Costa-Lotufo, Leticia V; Torres, Maria Concei\u00e7\u00e3o M; Ayala, Alejandro Pedro; Costa, Wendell S; Canuto, Kirley M; de Ara\u00fajo-Nobre, Alyne R; Ara\u00fajo, Ana J\u00e9rsia; Filho, Jos\u00e9 Delano B Marinho; Pessoa, Otilia Deusdenia L",
+      "year": 2019,
+      "volume": "82",
+      "issue": "7",
+      "pages": "1831-1838",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA005949",
+      "NPA014836"
+    ],
+    "names": [
+      "Citreoviripyrone B",
+      "Citreoviripyrone A"
+    ],
+    "reference": {
+      "DOI": "10.1021/ol303506t",
+      "PMID": 23405967,
+      "PII": null,
+      "title": "Structures and biomimetic synthesis of novel \u03b1-pyrone polyketides of an endophytic Penicillium sp. in Catharanthus roseus.",
+      "abstract": "Novel polyketides, citreoviripyrone A (1) and B (2), known citreomontanin (3), and (-)-citreoviridin (4) were isolated from the mycelium of the endophytic fungus. The endophytic fungus, which belongs to the genus Penicillium, was separated from surface-sterilized healthy leaves of Catharanthus roseus. The structures of 1 and 2 were determined on the basis of NMR data, and 1 was characterized as an \u03b1-pyrone polyketide featuring bicyclo[4.2.0]octadiene. The biomimetic synthesis of 1 and 2 from 3 elucidated a plausible biosynthetic pathway. Both Zn(II)-type and NAD(+)-dependent histone deacetylase inhibitors significantly enhanced the production of 1 and 3.",
+      "journal": "Org Lett",
+      "author_list": "Asai, Teigo; Luo, Dan; Yamashita, Kouwa; Oshima, Yoshiteru",
+      "year": 2013,
+      "volume": "15",
+      "issue": "5",
+      "pages": "1020-3",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA019379"
+    ],
+    "names": [
+      "Hericenone K"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.bmcl.2015.10.016",
+      "PMID": 26481911,
+      "PII": null,
+      "title": "Chemical constituents from Hericium erinaceus and their ability to stimulate NGF-mediated neurite outgrowth on PC12 cells.",
+      "abstract": "One new meroterpenoid, named hericenone K (11), along with 10 known compounds (1-10), ergosterol peroxide (1), cerevisterol (2), 3\u03b2,5\u03b1,9\u03b1-trihydroxy-ergosta-7,22-dien-6-one (3), inoterpene A (4), astradoric acid C (5), betulin (6), oleanolic acid (7), ursolic acid (8), hemisceramide (9), and 3,4-dihydro-5-methoxy-2-methyl-2-(4'-methyl-2'-oxo-3'-pentenyl)-9(7H)-oxo-2H-furo[3,4-h]benzopyran (10), was isolated from the fruiting bodies of the mushroom Hericium erinaceus. Their structures were characterized on the basis of spectroscopic methods, as well as through comparison with previously reported data. Compounds 3-6, 8, and 9 were isolated from Hericium species for the first time. Compounds 10 and 11 was suggested to be racemic by the CD spectrum data and specific rotations, which ware resolved by chiral HPLC into respective enantiomers. Compounds 1-3, (\u00b1)-10, (-)-10 and (+)-10 in the presence of NGF (20 ng/mL) exerted a significant increase in neurite-bearing cells.",
+      "journal": "Bioorg Med Chem Lett",
+      "author_list": "Zhang, Cheng-Chen; Yin, Xia; Cao, Chen-Yu; Wei, Jing; Zhang, Qiang; Gao, Jin-Ming",
+      "year": 2015,
+      "volume": "25",
+      "issue": "22",
+      "pages": "5078-82",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA020021"
+    ],
+    "names": [
+      "Fontizine A"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.ymben.2018.03.010",
+      "PMID": 29548983,
+      "PII": null,
+      "title": "Direct Pathway Cloning (DiPaC) to unlock natural product biosynthetic potential.",
+      "abstract": "Specialized metabolites from bacteria are an important source of inspiration for drug development. The genes required for the biosynthesis of such metabolites in bacteria are usually organized in so-called biosynthetic gene clusters (BGCs). Using modern bioinformatic tools, the wealth of genomic data can be scanned for such BGCs and the expected products can often structurally be predicted in silico. This facilitates the directed discovery of putatively novel bacterial metabolites. However, the production of these molecules often requires genetic manipulation of the BGC for activation or the expression of the pathway in a heterologous host. The latter necessitates the transplantation of the BGC into a suitable expression system. To achieve this goal, powerful cloning strategies based on in vivo homologous recombination have recently been developed. This includes LCHR and LLHR in E. coli as well as TAR cloning in yeast. Here, we present Direct Pathway Cloning (DiPaC) as an efficient complementary BGC capturing strategy that relies on long-amplicon PCR and in vitro DNA assembly. This straightforward approach facilitates full pathway assembly, BGC refactoring and direct transfer into any vector backbone in vitro. The broad applicability and efficiency of DiPaC is demonstrated by the discovery of a new phenazine from Serratia fonticola, the first heterologous production of anabaenopeptins from Nostoc punctiforme and the transfer of the native erythromycin BGC from Saccharopolyspora erythraea into Streptomyces. Due to its simplicity, we envisage DiPaC to become an essential method for BGC cloning and metabolic pathways construction with significant applications in metabolic engineering, synthetic biology and biotechnology.",
+      "journal": "Metab Eng",
+      "author_list": "Greunke, Christian; Duell, Elke Regina; D'Agostino, Paul Michael; Gl\u00f6ckle, Anna; Lamm, Katharina; Gulder, Tobias Alexander Marius",
+      "year": 2018,
+      "volume": "47",
+      "issue": null,
+      "pages": "334-345",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA027007",
+      "NPA027008",
+      "NPA027009",
+      "NPA027010"
+    ],
+    "names": [
+      "Diaporthichalasin A",
+      "Diaporthichalasin B",
+      "Diaporthichalasin C",
+      "Biatriosporin N"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.fitote.2019.104187",
+      "PMID": 31153951,
+      "PII": null,
+      "title": "Cytochalasins and polyketides from the fungus Diaporthe sp. GZU-1021 and their anti-inflammatory activity.",
+      "abstract": "Four new compounds: diaporthichalasins A-C (1-3) and biatriosporin N (7), along with six known compounds (4-6 and 8-10) were separated from the culture of the fungus Diaporthe sp. GZU-1021. The absolute configurations of 1-3 were determined by quantum chemical calculations, X-ray diffraction, and spectroscopic analysis. The structure of 4 was analyzed by X-ray crystallography analysis for the first time. All of the isolates were evaluated on the production of nitric oxide in lipopolysaccharide-induced microglial cells (RAW 264.7 cells). Compounds 5-10 exhibited significant inhibitory effects against nitric oxide production with IC50 values from 1.94 to 16.5\u202f\u03bcM than positive control (indomethacin, IC50\u202f=\u202f29.7\u202f\u03bcM). This is the first time tetrahydroxanthone dimer (10), as a novel carbon skeleton possessing NO inhibitory activity, was reported.",
+      "journal": "Fitoterapia",
+      "author_list": "Liu, Yena; Ruan, Qingfeng; Jiang, Shiqin; Qu, Yong; Chen, Jiayan; Zhao, Min; Yang, Bao; Liu, Yingxiang; Zhao, Zhongxiang; Cui, Hui",
+      "year": 2019,
+      "volume": "137",
+      "issue": null,
+      "pages": "104187",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA006761",
+      "NPA011929"
+    ],
+    "names": [
+      "Cochlione A",
+      "Cochlione C"
+    ],
+    "reference": {
+      "DOI": "10.1080/10286020.2010.489819",
+      "PMID": 20552488,
+      "PII": null,
+      "title": "Cochliones A-D, four new tetrahydrochromanone derivatives from endophytic Cochliobolus sp.",
+      "abstract": "Four new tetrahydrochromanone derivatives, cochliones A-D (1-4), along with three known metabolites, 4-hydroxybenzaldehyde (5), 4-hydroxy-3-(3-methylbut-2-enyl) benzoic acid (6), and 2,2-dimethyl-2H-chromene-6-carboxylic acid (7), were characterized from the culture of Cochliobolus sp. IFB-E039, a fungus that resides inside the healthy root of Cynodon dactylon (Gramineae). The structures of 1-4 were accommodated by their spectral data (UV, IR, CD, HR-ESI-MS, (1)H and (13)C NMR, (1)H-(1)H COSY, HMQC, HMBC, and NOESY). The bioassay for the cytotoxic metabolite showed that cochlione C (3) inhibited human breast adenocarcinoma cell line (MCF-7) and human chronic myeloid leukemia cell line (K562) with IC(50) values of 21.99 and 4.59 microg/ml, respectively.",
+      "journal": "J Asian Nat Prod Res",
+      "author_list": "Wang, Qi-Zhi; Ge, Hui-Ming; Zhang, Jie; Wu, Jun-Hua; Song, Yong-Chun; Zhang, Yu-Fei; Tan, Ren-Xiang",
+      "year": 2010,
+      "volume": "12",
+      "issue": "6",
+      "pages": "485-91",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA013735"
+    ],
+    "names": [
+      "Elansolid A"
+    ],
+    "reference": {
+      "DOI": "10.1002/anie.201005226",
+      "PMID": 21154488,
+      "PII": null,
+      "title": "Elansolid\u2005A, a unique macrolide antibiotic from Chitinophaga sancti isolated as two stable atropisomers.",
+      "abstract": null,
+      "journal": "Angew Chem Int Ed Engl",
+      "author_list": "Steinmetz, Heinrich; Gerth, Klaus; Jansen, Rolf; Schl\u00e4ger, Nadin; Dehn, Richard; Reinecke, Silke; Kirschning, Andreas; M\u00fcller, Rolf",
+      "year": 2011,
+      "volume": "50",
+      "issue": "2",
+      "pages": "532-6",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA002067",
+      "NPA004583",
+      "NPA012004",
+      "NPA013237",
+      "NPA013964",
+      "NPA015395"
+    ],
+    "names": [
+      "Purpurquinone A",
+      "Purpurquinone C",
+      "Purpurester B",
+      "Purpurester A",
+      "2,6,7-trihydroxy-3-methylnaphthalene-1,4-dione",
+      "Purpurquinone B"
+    ],
+    "reference": {
+      "DOI": "10.1021/np2004769",
+      "PMID": 21879714,
+      "PII": null,
+      "title": "Anti-influenza virus polyketides from the acid-tolerant fungus Penicillium purpurogenum JS03-21.",
+      "abstract": "Fractionation of the ethyl acetate extract of an acid-tolerant fungus, Penicillium purpurogenum JS03-21, resulted in the isolation of six new compounds, purpurquinones A-C (1-3), purpuresters A and B (4 and 5), and 2,6,7-trihydroxy-3-methylnaphthalene-1,4-dione (6), together with three known compounds, TAN-931 (7), (-)-mitorubrin (8), and orsellinic acid. The structures of 1-6 were elucidated primarily by NMR experiments. The absolute configurations of 1-4 were assigned on the basis of CD and NOESY data. Compounds 2-4 and 7 exhibited significant antiviral activity against H1N1, with IC50 values of 61.3, 64.0, 85.3, and 58.6 \u00ce\u00bcM, respectively.",
+      "journal": "J Nat Prod",
+      "author_list": "Wang, Hui; Wang, Yi; Wang, Wei; Fu, Peng; Liu, Peipei; Zhu, Weiming",
+      "year": 2011,
+      "volume": "74",
+      "issue": "9",
+      "pages": "2014-8",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA028820",
+      "NPA028821",
+      "NPA028822"
+    ],
+    "names": [
+      "Oscillatoxin G",
+      "Oscillatoxin H",
+      "Oscillatoxin I"
+    ],
+    "reference": {
+      "DOI": "10.3390/toxins11060366",
+      "PMID": 31234410,
+      "PII": null,
+      "title": "Oscillatoxin I: A New Aplysiatoxin Derivative, from a Marine Cyanobacterium.",
+      "abstract": "Cyanobacteria have been shown to produce a number of bioactive compounds, including toxins. Some bioactive compounds obtained from a marine cyanobacterium Moorea producens (formerly Lyngbya majuscula) have been recognized as drug leads; one of these compounds is aplysiatoxin. We have isolated various aplysiatoxin derivatives from a M. producens sample obtained from the Okinawan coastal area. The frozen sample was extracted with organic solvents. The ethyl acetate layer was obtained from the crude extracts via liquid-liquid partitioning, then separated by HPLC using a reversed-phase column. Finally, 1.1 mg of the compound was isolated. The chemical structure of the isolated compound was elucidated with spectroscopic methods, using HR-MS and 1D and 2D NMR techniques, and was revealed to be oscillatoxin I, a new member of the aplysiatoxin family. Oscillatoxin I showed cytotoxicity against the L1210 mouse lymphoma cell line and diatom growth-inhibition activity against the marine diatom Nitzschia amabilis.",
+      "journal": "Toxins (Basel)",
+      "author_list": "Nagai, Hiroshi; Sato, Shingo; Iida, Kaori; Hayashi, Kazutaka; Kawaguchi, Mioko; Uchida, Hajime; Satake, Masayuki",
+      "year": 2019,
+      "volume": "11",
+      "issue": "6",
+      "pages": null,
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA000186",
+      "NPA001574",
+      "NPA006484",
+      "NPA008761",
+      "NPA009982",
+      "NPA016294",
+      "NPA017512",
+      "NPA018042"
+    ],
+    "names": [
+      "Calocerin C",
+      "Calocerin B",
+      "9-oxostrobulirin A",
+      "Calocerin D",
+      "Calocerin A",
+      "9-oxostrobilurin I",
+      "9-oxostrobilurin K",
+      "9-oxostrobilurin G"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.phytochem.2016.10.001",
+      "PMID": 27745908,
+      "PII": null,
+      "title": "Monochlorinated calocerins A-D and 9-oxostrobilurin derivatives from the basidiomycete Favolaschia calocera.",
+      "abstract": "Eight previously undescribed compounds were isolated and characterised from the supernatant and mycelium of a culture of the basidiomycete Favolaschia calocera originating from Kakamega equatorial rainforest in Kenya. These were: 9- oxostrobilurins A, G, K and I and the four monochlorinated calocerins A, B, C and D. The calocerins extend our knowledge of halogenated compounds obtained from natural sources. Four further known compounds were also identified: strobilurin G, favolon, pterulinic acid and 2,3 -dihydro-1-benzoxepin derivative. The four oxostrobilurins exhibited prominent antifungal and cytotoxic activities while the four calocerins only showed cytotoxic activity.",
+      "journal": "Phytochemistry",
+      "author_list": "Chepkirui, Clara; Richter, Christian; Matasyoh, Josphat Clement; Stadler, Marc",
+      "year": 2016,
+      "volume": "132",
+      "issue": null,
+      "pages": "95-101",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA013959"
+    ],
+    "names": [
+      "Hyaladione"
+    ],
+    "reference": {
+      "DOI": "10.1021/np200776v",
+      "PMID": 22497473,
+      "PII": null,
+      "title": "Hyaladione, an S-methyl cyclohexadiene-dione from Hyalangium minutum.",
+      "abstract": "A bioassay-guided fractionation of the crude methanol extract of the myxobacterium Hyalangium minutum, strain NOCB-2(T) (DSM 14724(T)), led to the isolation of hyaladione (1), a novel S-methyl cyclohexadiene-dione. The structure of 1 was established by HRESIMS, NMR, and IR spectroscopy as well as X-ray crystallography. Compound 1 was active against growing mammalian cell lines, with IC(50) values ranging from 1.23 to 3.93 \u03bcM, in addition to a broad spectrum of antibacterial and antifungal activities, including inhibition of pathogenic methicillin-resistant Staphylococcus aureus and Pseudomonas aeruginosa with an MIC of 0.83 and 8.5 \u03bcg mL(-1), respectively.",
+      "journal": "J Nat Prod",
+      "author_list": "Okanya, Patrick W; Mohr, Kathrin I; Gerth, Klaus; Steinmetz, Heinrich; Huch, Volker; Jansen, Rolf; M\u00fcller, Rolf",
+      "year": 2012,
+      "volume": "75",
+      "issue": "4",
+      "pages": "768-70",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024632",
+      "NPA024633"
+    ],
+    "names": [
+      "APE Ec",
+      "APE Vf"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.cell.2014.06.034",
+      "PMID": 25036635,
+      "PII": null,
+      "title": "Insights into secondary metabolism from a global analysis of prokaryotic biosynthetic gene clusters.",
+      "abstract": "Although biosynthetic gene clusters (BGCs) have been discovered for hundreds of bacterial metabolites, our knowledge of their diversity remains limited. Here, we used a novel algorithm to systematically identify BGCs in the extensive extant microbial sequencing data. Network analysis of the predicted BGCs revealed large gene cluster families, the vast majority uncharacterized. We experimentally characterized the most prominent family, consisting of two subfamilies of hundreds of BGCs distributed throughout the Proteobacteria; their products are aryl polyenes, lipids with an aryl head group conjugated to a polyene tail. We identified a distant relationship to a third subfamily of aryl polyene BGCs, and together the three subfamilies represent the largest known family of biosynthetic gene clusters, with more than 1,000 members. Although these clusters are widely divergent in sequence, their small molecule products are remarkably conserved, indicating for the first time the important roles these compounds play in Gram-negative cell biology.",
+      "journal": "Cell",
+      "author_list": "Cimermancic, Peter; Medema, Marnix H; Claesen, Jan; Kurita, Kenji; Wieland Brown, Laura C; Mavrommatis, Konstantinos; Pati, Amrita; Godfrey, Paul A; Koehrsen, Michael; Clardy, Jon; Birren, Bruce W; Takano, Eriko; Sali, Andrej; Linington, Roger G; Fischbach, Michael A",
+      "year": 2014,
+      "volume": "158",
+      "issue": "2",
+      "pages": "412-421",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA003076",
+      "NPA012809"
+    ],
+    "names": [
+      "Steperoxide C",
+      "Steperoxide D"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.fitote.2010.08.004",
+      "PMID": 20723585,
+      "PII": null,
+      "title": "Two new chamigrane metabolites from fermentation broth of Steccherinum ochraceum.",
+      "abstract": "Two new chamigrane-type metabolites named steperoxides C (1) and D (2) were isolated from the basidiomycetes Steccherinum ochraceum. The structures of 1 and 2 were established on the basis of spectral methods (MS, IR, ID and 2D NMR experiments). Compounds 2 showed significant antimicrobial activity against Staphylococcus aureus at 10 and 5 \u03bcg/disk.",
+      "journal": "Fitoterapia",
+      "author_list": "Liu, Dong-Ze; Luo, Ming-He",
+      "year": 2010,
+      "volume": "81",
+      "issue": "8",
+      "pages": "1205-7",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA023050"
+    ],
+    "names": [
+      "Tanzawaic acid Q"
+    ],
+    "reference": {
+      "DOI": "10.3390/md14010014",
+      "PMID": 26761016,
+      "PII": null,
+      "title": "Anti-Inflammatory Activity of Tanzawaic Acid Derivatives from a Marine-Derived Fungus Penicillium steckii 108YD142.",
+      "abstract": "Chemical investigation of a marine-derived fungus, Penicillium steckii 108YD142, resulted in the discovery of a new tanzawaic acid derivative, tanzawaic acid Q (1), together with four known analogues, tanzawaic acids A (2), C (3), D (4), and K (5). The structures of tanzawaic acid derivatives 1-5 were determined by the detailed analysis of 1D, 2D NMR and LC-MS data, along with chemical methods and literature data analysis. These compounds significantly inhibited nitric oxide (NO) production and the new tanzawaic acid Q (1) inhibited the lipopolysaccharide (LPS)-induced inducible nitric oxide synthase (iNOS) and cyclooxygenase-2 (COX-2) proteins and mRNA expressions in RAW 264.7 macrophages. Additionally, compound 1 reduced the mRNA levels of inflammatory cytokines. Taken together, the results of this study demonstrated that the new tanzawaic acid derivative inhibits LPS-induced inflammation. This is the first report on the anti-inflammatory activity of tanzawaic acid Q (1).",
+      "journal": "Mar Drugs",
+      "author_list": "Shin, Hee Jae; Pil, Gam Bang; Heo, Soo-Jin; Lee, Hyi-Seung; Lee, Jong Seok; Lee, Yeon-Ju; Lee, Jihoon; Won, Ho Shik",
+      "year": 2016,
+      "volume": "14",
+      "issue": "1",
+      "pages": "14",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA020043",
+      "NPA020044",
+      "NPA020045",
+      "NPA020046",
+      "NPA020047",
+      "NPA020048",
+      "NPA020049",
+      "NPA020050",
+      "NPA020051",
+      "NPA028513"
+    ],
+    "names": [
+      "trans-Dihydro-8-hydroxyblennolide H",
+      "5-Hydroxyphomopsinone A ",
+      "Pyrenocine R",
+      "(\u00b1)-7-Hyrdoxypyrenocine M ",
+      "5-Deoxy-7-hyrdoxypyrenocine M ",
+      "Pyrenocine P",
+      "cis-Dihydro-8-hydroxyblennolide H ",
+      "8-Hydroxyblennolide H ",
+      "(\u00b1)-Pyrenocine Q ",
+      "6-hydroxy-7-epi-phomopsinone A"
+    ],
+    "reference": {
+      "DOI": "10.1016/j.bmc.2016.11.059",
+      "PMID": 27964996,
+      "PII": null,
+      "title": "\u03b1-Pyrone derivatives, tetra/hexahydroxanthones, and cyclodepsipeptides from two freshwater fungi.",
+      "abstract": "Eighteen (1-18) and seven (1, 4, 6-8, 17 and 18) compounds were isolated from organic extracts of axenic cultures of two freshwater fungi Clohesyomyces sp. and Clohesyomyces aquaticus (Dothideomycetes, Ascomycota), respectively. Compounds 1-12 belong to the \u03b1-pyrone class of natural products, compounds 13 and 14 were tetrahydroxanthones, compounds 15 and 16 were hexahydroxanthones, while compounds 17 and 18 were cyclodepsipeptides. The structures were elucidated using a set of spectroscopic and spectrometric techniques. The absolute configurations of compounds 2, 3, 6, and 7 were assigned via a modified Mosher's ester method using 1H NMR data. The relative configurations of compounds 14-16 were determined through NOE data. Compounds 1, 2, 6, 8, 13, 14, and 15 were found to inhibit the essential enzyme bacterial peptidyl-tRNA hydrolase (Pth1), with (13; secalonic acid A) being the most potent. Compounds 1 and 4-18 were also evaluated for antimicrobial activity against an array of bacteria and fungi but were found to be inactive.",
+      "journal": "Bioorg Med Chem",
+      "author_list": "El-Elimat, Tamam; Raja, Huzefa A; Day, Cynthia S; McFeeters, Hana; McFeeters, Robert L; Oberlies, Nicholas H",
+      "year": 2017,
+      "volume": "25",
+      "issue": "2",
+      "pages": "795-804",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA021739",
+      "NPA021740",
+      "NPA021741"
+    ],
+    "names": [
+      "Aspertenol A",
+      "Aspertenol B",
+      "Aspertenol C"
+    ],
+    "reference": {
+      "DOI": "10.1038/s41429-018-0025-3",
+      "PMID": 29416122,
+      "PII": null,
+      "title": "New phenolic bisabolane sesquiterpenoid derivatives with cytotoxicity from Aspergillus tennesseensis.",
+      "abstract": "Three new bisabolane sesquiterpenoid esters, aspertenols A-B (1-3), and six known compounds (4-9) were isolated from the fungus Aspergillus tennesseensis. The structures of new compounds were elucidated by extensive spectroscopic analysis. The cytotoxicities of 1-9 against A549, K562, and ASPC cell lines were tested by using the CCK8 method. Compounds 1, 3, 4, 6, 7, and 9 showed inhibition on K562 cell line with IC50 values in the range from 16.6 to 72.7\u2009\u03bcM. Compounds 1, 4, and 9 showed moderate inhibitory activity against A549 with IC50 of 43.5, 70.2, and 61.1\u2009\u03bcM, respectively.",
+      "journal": "J Antibiot (Tokyo)",
+      "author_list": "Liu, Li; Liu, Ruixing; Basnet, Buddha Bahadur; Bao, Li; Han, Junjie; Wang, Long; Liu, Hongwei",
+      "year": 2018,
+      "volume": "71",
+      "issue": "5",
+      "pages": "538-542",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA000800",
+      "NPA006581",
+      "NPA008022"
+    ],
+    "names": [
+      "Halymecin G",
+      "Halymecin F",
+      "(3R,5R)-3-O-\u03b2-D-mannosyl-3,5-dihydrodecanoic acid"
+    ],
+    "reference": {
+      "DOI": "10.1021/jf500361e",
+      "PMID": 24660753,
+      "PII": null,
+      "title": "Antimicrobial activities of novel mannosyl lipids isolated from the biocontrol fungus Simplicillium lamellicola BCP against phytopathogenic bacteria.",
+      "abstract": "The antagonistic fungus Simplicillium lamellicola BCP has been developed as a microbial biopesticide that effectively controls the development of various plant diseases caused by both pathogenic bacteria and pathogenic fungi. Antibacterial bioassay-directed fractionation was used to isolate mannosyl lipids from S. lamellicola BCP, and the structures of these compounds were elucidated using spectral analysis and chemical degradation. Three novel mannosyl lipids were characterized and identified as halymecins F and G and (3R,5R)-3-O-\u03b2-D-mannosyl-3,5-dihydrodecanoic acid. Massoia lactone and (3R, 5R)-3-hydroxydecan-5-olide were also isolated from S. lamellicola BCP. The three novel compounds inhibited the growth of the majority of phytopathogenic bacteria that were tested, and halymecin F displayed the strongest antibacterial activity. Agrobacterium tumefaciens was the most sensitive to the three novel compounds, with IC\u2085\u2080 values ranging from 1.58 to 24.8 \u03bcg/mL. The ethyl acetate extract of the fermentation broth from the antagonistic fungus effectively reduced the bacterial wilt caused by Ralstonia solanacearum on tomato seedlings. These results indicate that S. lamellicola BCP suppresses the development of plant bacterial diseases through the production of antibacterial metabolites.",
+      "journal": "J Agric Food Chem",
+      "author_list": "Le Dang, Quang; Shin, Teak Soo; Park, Myung Soo; Choi, Yong Ho; Choi, Gyung Ja; Jang, Kyoung Soo; Kim, In Seon; Kim, Jin-Cheol",
+      "year": 2014,
+      "volume": "62",
+      "issue": "15",
+      "pages": "3363-70",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA024453"
+    ],
+    "names": [
+      "Alterbrasone"
+    ],
+    "reference": {
+      "DOI": "10.1080/14786419.2016.1166498",
+      "PMID": 27050742,
+      "PII": null,
+      "title": "A new Secondary metabolites of the crinoid (Comanthina schlegeli) associated fungus Alternaria brassicae 93.",
+      "abstract": "Fungus Alternaria brassicae 93 isolated from crinoid (Comanthina schlegeli), which was collected from the South China Sea. Six compounds were isolated from A. brassicae 93, including one new compound (1), along with five known compounds, ochratoxin A methyl ester (2), cis-4-hydroxym-ellein (3), (R)-7-hydroxymellein (4), trans-2-anhydromevalonic (5) and protocatechuic acid (6). Their structures were determined by spectroscopic methods and comparison with reported data. Cytotoxicity against two human cancer cell lines and antibacterial activity against twelve aquatic bacteria of compound 1 were also tested.",
+      "journal": "Nat Prod Res",
+      "author_list": "Zhang, Liu-Hong; Wang, Hong-Wei; Xu, Jia-Yi; Li, Jing; Liu, Lan",
+      "year": 2016,
+      "volume": "30",
+      "issue": "20",
+      "pages": "2305-10",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA010699",
+      "NPA016389"
+    ],
+    "names": [
+      "NK13650B",
+      "NK13650A"
+    ],
+    "reference": {
+      "DOI": "10.1021/jo301534b",
+      "PMID": 22984806,
+      "PII": null,
+      "title": "Discovery and characterization of NK13650s, naturally occurring p300-selective histone acetyltransferase inhibitors.",
+      "abstract": "The histone acetyltransferase (HAT) activity of p300 is essential for androgen receptor (AR) function. Androgen-independent prostate cancer cells require AR-mediated transcriptional activation for their growth. These observations indicate that p300 HAT is a promising target to overcome such hormone-resistant cancer cells. We sought p300 HAT inhibitors among microbial metabolites. By culturing a production strain belonging to Penicillium, we identified two new compounds, NK13650A and NK13650B, which were obtained as specific p300 HAT inhibitors. Structural analyses of these compounds elucidated that NK13650s have novel chemical structures comprising several amino acids and citrate. We applied a newly developed biosynthesis-based method to reveal the absolute configuration at the citrate quaternary carbon. This was accomplished by feeding a (13)C-labeled biosynthetic precursor of citrate. NK13650s selectively inhibited the activity of p300 HAT but not that of Tip60 HAT. NK13650s showed inhibitory activity against agonist-induced AR transcriptional activation, and NK13650A treatment inhibited hormone-dependent and -independent growth of prostate cancer cells.",
+      "journal": "J Org Chem",
+      "author_list": "Tohyama, Shigehiro; Tomura, Arihiro; Ikeda, Noriko; Hatano, Masaki; Odanaka, Junko; Kubota, Yumiko; Umekita, Maya; Igarashi, Masayuki; Sawa, Ryuichi; Morino, Tomio",
+      "year": 2012,
+      "volume": "77",
+      "issue": "20",
+      "pages": "9044-52",
+      "resource": "pubmed"
+    }
+  },
+  {
+    "npaids": [
+      "NPA025540",
+      "NPA025541",
+      "NPA025542",
+      "NPA025543"
+    ],
+    "names": [
+      "Eutypellacytosporin B",
+      "Eutypellacytosporin A",
+      "Eutypellacytosporin C",
+      "Eutypellacytosporin D"
+    ],
+    "reference": {
+      "DOI": "10.1021/acs.jnatprod.9b00700",
+      "PMID": 31702148,
+      "PII": null,
+      "title": "Eutypellacytosporins A-D, Meroterpenoids from the Arctic Fungus Eutypella sp. D-1.",
+      "abstract": "The Arctic fungus Eutypella sp. D-1, previously found to produce a variety of cytotoxic cyclopropyl-fused and cyclobutyl-fused pimarane diterpenoids when grown in the defined medium, was induced to produce unusual metabolites by growing on solid rice medium. A chemical investigation on the rice medium extract led to the isolation of four new meroterpenoids, eutypellacytosporins A-D (1-4), along with the known biogenetically related compound cytosporin D (5). The structures of the new compounds were elucidated by their detailed spectroscopic analysis and modified Mosher's method. Compounds 1-4 may be formed by the 12,32-ester linkage of two moieties, cytosporin D (5) and decipienolide A or B. All isolated compounds, except 5, showed weak cytotoxicity against DU145, SW1990, Huh7, and PANC-1 cell lines with IC50 values ranging from 4.9 to 17.1 \u00ce\u00bcM.",
+      "journal": "J Nat Prod",
+      "author_list": "Zhang, Yi-Xin; Yu, Hao-Bing; Xu, Wei-Heng; Hu, Bo; Guild, Aurora; Zhang, Jian-Peng; Lu, Xiao-Ling; Liu, Xiao-Yu; Jiao, Bing-Hua",
+      "year": 2019,
+      "volume": "82",
+      "issue": "11",
+      "pages": "3089-3095",
+      "resource": "pubmed"
+    }
+  }
+]
