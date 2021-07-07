@@ -30,7 +30,7 @@ EXCLUDED_NAMES = ["COMPOUND", "ALKALOID", "TERPENE", "POLYKETIDE", "MOIETY", "DE
                   "AGAINST", "ALBICANS", "AERUGINOSA", "AUREUS", "COLI", "COMPONENT", "SYNTHASE", "COMPLEX",
                   "FACTOR", "WHEREA", "STIMULATION", "SYSTEM", "CYANOBACTERIA", "CANDIDUS", "ANALOG",
                   "FRACTION", "HEPATITIS", "HEPATITI", "EIGHTEEN", "CONGENER", "INHIBIT", "METHYL ESTER"]
-                    # put diseases here
+# put diseases here
 COMPOUND_CLASS = ['ABEOLUPANE TRITERPENOID', 'ABEOTAXANE DITERPENOID', 'ABIETANE DITERPENOID', 'ACETOGENIN',
                   'ACRIDONE ALKALOID', 'ACYCLIC MONOTERPENOID', 'ACYCLIC TRITERPENOID', 'ACYL PHLOROGLUCINOL',
                   'AGAROFURAN SESQUITERPENOID', 'ALKALOID', 'AMARYLIDACEAE ALKALOID', 'AMIDE ALKALOID',
@@ -120,9 +120,9 @@ OPEN_BRACES = ["(", "[", "{", "<"]
 CLOSE_BRACES = [")", "]", "}", ">"]
 
 
-def bracket_matched(str):
+def bracket_matched(string):
     count = 0
-    for i in str:
+    for i in string:
         if i in OPEN_BRACES:
             count += 1
         elif i in CLOSE_BRACES:
@@ -321,9 +321,14 @@ def name_search(text):
     return sorted(compound_names)
 
 
-def clean_detected_items(list_of_compounds_in_abstract):
+def clean_detected_items(abstract_text):
+    """ Cleans out Compound classes from the chemical compound entities
+            :param abstract_text: raw string of abstract text
+            :return: list of names of cleaned detected chemical compounds
+            """
+    detected_chemical_names = name_search(abstract_text)
     clean_detected_names = []
-    for x in list_of_compounds_in_abstract:
+    for x in detected_chemical_names:
         upper_item = x.upper()
         if upper_item in COMPOUND_CLASS:
             continue
@@ -335,12 +340,94 @@ def clean_detected_items(list_of_compounds_in_abstract):
 def article_compound_number(abstract_text):
     """ Detect the number of compound in the article
         :param abstract_text: raw string of abstract text
-        :return: number of detected chemical compounds
+        :return: number of detected chemical compounds and list of names of detected chemical compounds
         """
     detected_chemical_names = name_search(abstract_text)
     clean_detected_chem_names = clean_detected_items(detected_chemical_names)
     list_length = len(clean_detected_chem_names)
     return clean_detected_chem_names, list_length
+
+
+# Python3 program to remove invalid parenthesis; https://www.geeksforgeeks.org/remove-invalid-parentheses/
+def is_parentheses(c):
+    """ Method checks if character is parenthesis(open or closed)
+            :param c: character
+            :return: if it is open/closed parentheses
+            """
+    return (c == '(') or (c == ')')
+
+
+def is_valid_string(string):
+    """ Method returns true if contains valid parentheses
+                :param string: string
+                :return: False if open bracket otherwise 0 when valid parentheses
+                """
+    cnt = 0
+    for i in range(len(string)):
+        if string[i] == '(':
+            cnt += 1
+        elif string[i] == ')':
+            cnt -= 1
+        if cnt < 0:
+            return False
+    return cnt == 0
+
+
+def remove_invalid_parentheses(string):
+    """ Method to remove invalid parenthesis
+                    :param string: string
+                    :return: False if open bracket otherwise 0 when valid parentheses
+                    """
+    if len(string) == 0:
+        return
+
+    # visit set to ignore already visited
+    visit = set()
+
+    # queue to maintain BFS
+    q = []
+    temp = 0
+    level = 0
+
+    # pushing given as starting node into queue
+    q.append(string)
+    visit.add(string)
+    while len(q):
+        string = q[0]
+        q.pop()
+
+        if is_valid_string(string):
+            level = True  # If answer is found, make level true; so that valid of only that level are processes
+            return string
+
+        if level:
+            continue
+        for i in range(len(string)):
+            if not is_parentheses(string[i]):
+                continue
+
+            # Removing parenthesis from str and pushing into queue,if not visited already
+            temp = string[0:i] + string[i + 1:]
+            if temp not in visit:
+                q.append(temp)
+                visit.add(temp)
+
+
+def improper_parentheses_capture(chem_list):
+    """ Method to remove invalid parentheses, putting above 3 function together
+                        :param chem_list: list of chemicals(strings)
+                        :return: False if open bracket otherwise 0 when valid parentheses
+                        """
+    chemical_detection_list_no_invalid_parentheses = []
+    for chemical in chem_list:
+        if bracket_matched(chemical) is False:
+            no_invalid_parentheses = remove_invalid_parentheses(chemical)
+            chemical_detection_list_no_invalid_parentheses.append(
+                no_invalid_parentheses[:1].upper() + no_invalid_parentheses[1:])
+        else:
+            chemical_detection_list_no_invalid_parentheses.append(chemical)
+    unique_chemical_detection_list = list(set(chemical_detection_list_no_invalid_parentheses))
+    return unique_chemical_detection_list
 
 
 def main():
@@ -363,10 +450,12 @@ def main():
             abstract = item["reference"]["abstract"]
             # actual_chemical_names = item["names"]
             if abstract:
-                chemical_detection = article_compound_number(abstract)
-                print(chemical_detection)
+                chemical_detection_list = clean_detected_items(abstract)
+                chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
+                print(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))
 
-#TODO:
+
+# TODO:
 # 1. Class name removal -  Complete
 # 2. Methyl ester finder(or other derivative type) - Complete
 #       search for comp name with methyl ester, replace with combo
