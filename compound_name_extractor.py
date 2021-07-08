@@ -7,6 +7,7 @@ ISSUES
 import re
 import json
 
+
 # regex for the main part of the name (e.g. (+)-4-oxo-3-chloro-compamaide)
 NAME_BASE = "(\'|′|\"|,|\+|\(|\)|\d|-|α|β|γ|δ|[A-Z]|[a-z]){4,200}"
 
@@ -133,14 +134,13 @@ def bracket_matched(string):
 
 
 def name_search(text):
-    def names_letter_range_add(compound_names, root_name, suffix_start, suffix_end):
-
+    def names_letter_range_add(compound_names, root_name, suffix_start, suffix_end, match_index):
         for c in range(ord(suffix_start), ord(suffix_end) + 1):
             name = root_name.capitalize() + " " + chr(c)
             if name not in compound_names:
-                compound_names.append(name)
+                compound_names.append((name, match_index))
 
-    def names_roman_numeral_range_add(compound_names, root_name, suffix_start, suffix_end):
+    def names_roman_numeral_range_add(compound_names, root_name, suffix_start, suffix_end, match_index):
 
         numeral_to_int = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10,
                           "XI": 11, "XII": 12, "XIII": 13, "XIV": 14, "XV": 15, "XVI": 16, "XVII": 17, "XVIII": 18,
@@ -152,171 +152,194 @@ def name_search(text):
         for c in range(numeral_to_int[suffix_start], numeral_to_int[suffix_end] + 1):
             name = root_name.capitalize() + " " + int_to_numeral[c]
             if name not in compound_names:
-                compound_names.append(name)
+                compound_names.append((name, match_index))
 
-    def name_add(compound_names, name):
+    def name_add(compound_names, name, match_index):
 
         # Check name has sensible brackets
         if bracket_matched(name):
             # Check name isn't already in the list
-            if name.lower() not in [n.lower() for n in compound_names]:
-                compound_names.append(name)
+            if name.lower() not in [n[0].lower() for n in compound_names]:
+                compound_names.append((name, match_index))
 
     compound_names = []
 
     # look for compound names listed in groups (e.g. Examplamides A - C)
-    a = re.findall(
+    a = re.finditer(
         '((' + NAME_BASE + ')\s)?(' + NAME_BASE + ')[\s-]([A-Z])\s?' + SEPARATORS + '\s?([A-Z])(' + TERMINATORS + ')',
         text)
     if a:
-        for entry in a:
-            root_name = entry[3].rstrip('s')
-            if root_name in TWO_WORD_NAME_TERMINI:
-                root_name = entry[1].rstrip() + " " + root_name
+        for match in a:
+            findall_list = tuple(match.groups())
+            #print(findall_list)
+            for entry in findall_list:
+                root_name = findall_list[3].rstrip('s')
+                if root_name in TWO_WORD_NAME_TERMINI:
+                    root_name = findall_list[1].rstrip() + " " + root_name
             # Removes matches with very short words such as "among them, III and IV" that are not real compounds.
-            elif len(root_name) < 7:
-                continue
-            elif root_name in EXCLUDED_NAMES:
-                continue
-            else:
-                suffix_start = entry[5]
-                suffix_end = entry[6]
-                names_letter_range_add(compound_names, root_name, suffix_start, suffix_end)
+                elif len(root_name) < 7:
+                    continue
+                elif root_name in EXCLUDED_NAMES:
+                    continue
+                else:
+                    suffix_start = findall_list[5]
+                    suffix_end = findall_list[6]
+                    names_letter_range_add(compound_names, root_name, suffix_start, suffix_end, match.span())
 
     # look for compounds where suffixes are listed explicitly (e.g. Examplamides A, B and C)
     # this search accounts for situations where compound numbers are also included (e.g. Examplamides A (1), B (2) and C (3))
     # it also handles both single letters, letters followed by one or two digits, and Roman numerals.
     for suffix_type in SUFFIX_TYPE_LIST:
-        b = re.findall(
+        b = re.finditer(
             '((' + NAME_BASE + ')\s)?(' + NAME_BASE + ')[\s|-](' + suffix_type + ')(\s\(\d{1,2}\))?(([,][\s]' + suffix_type +
             '(\s\(\d{1,2}\))?){0,20}),?\s(and)\s(' + suffix_type + ')', text)
         if b:
-            for entry in b:
-                root_name = entry[3].rstrip('s')
+            for match in b:
+                findall_list = tuple(match.groups())
+                for entry in findall_list:
+                    root_name = findall_list[3].rstrip('s')
+                    if root_name in TWO_WORD_NAME_TERMINI:
+                        # print(root_name)
+                        root_name = findall_list[1].rstrip().rstrip('s') + " " + root_name
+                    # Removes matches with very short words such as "among them, III and IV" that are not real compounds.
+                    if len(root_name) < 7:
+                        continue
+                    elif root_name.upper() in EXCLUDED_NAMES:
+                        continue
+                    else:
+                        suffix_list = (findall_list[7]).split(", ")[1:]
+                        suffix_list.append(findall_list[5])
+                        suffix_list.append(findall_list[11])
+                        for suffix in suffix_list:
+                            # This is required to remove the bracketed numbers if these are
+                            # in the original text (e.g. Wawawa A (1), B (2), C (3) and D (4))
+                            if re.search("[\(]", suffix):
+                                suffix = suffix.split("(")[0].rstrip()
+                            name = root_name.capitalize() + " " + suffix
+                            name_add(compound_names, name, match.span())
+
+    # methyl ester finder
+
+    #TODO: Make list that could be added to easily at the top of code for "dimethyl ester|methyl ester|methyl ether"
+    # Add good list description
+
+    # Capture two blocks of text that doesn't include whitespace characters (a word) prior to "methyl ester" or ether
+    # 1. Like Helvolic acid methyl ester (1) or Ochratoxin A methyl ester (2)
+    ce = re.finditer('(\S+)\s(acid|[A-Z])\s(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))', text)
+    if ce:
+        for match in ce:
+            findall_list = tuple(match.groups())
+            for entry in findall_list:
+                comp_name = '{0} {1} {2}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip(), findall_list[2].rstrip())
+                name_add(compound_names, comp_name, match.span())
+
+    # 2. Or 3 words Like 6′,6‴-cryptoporic acid G dimethyl ester (1)
+    ce_double = re.finditer('(\S+)\s(acid|[A-Z])\s(acid|[A-Z])\s(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))',
+                           text)
+    if ce_double:
+        for match in ce_double:
+            findall_list = tuple(match.groups()) # Convert iterable object into 
+            for entry in findall_list:
+                comp_name = '{0} {1} {2} {3}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip(), findall_list[2].rstrip(),
+                                                     findall_list[3].rstrip())
+                name_add(compound_names, comp_name, match.span())
+
+    # 3. Or just 1 word like Secoxyloganin methyl ester (1)
+    ce_single = re.finditer('(\S+[^A-Z]^acid)\s(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))',
+                           text)
+    if ce_single:
+        for match in ce_single:
+            findall_list = tuple(match.groups())
+            for entry in findall_list:
+                comp_name = '{0} {1}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip())
+                name_add(compound_names, comp_name, match.span())
+
+    # Captures a word prior to "methyl ester" or ether and any text that doesn't include whitespace characters with it
+    # Like alternariol 1'-hydroxy-9-methyl ether (1)
+    se = re.finditer('(\S+[^A-Z])\s(\S+)(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))', text)
+    if se:
+        for match in se:
+            findall_list = tuple(match.groups())
+            for entry in findall_list:
+                comp_name = '{0} {1}{2}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip(), findall_list[2].rstrip())
+                name_add(compound_names, comp_name, match.span())
+
+    # look for compounds that are followed by a compound number (e.g. (1)) or range of numbers (e.g. (1 - 3))
+    for suffix_type in SUFFIX_TYPE_LIST:
+        c = re.finditer(
+            '(' + NAME_BASE + '\s)?(' + NAME_BASE + ')\s((' + suffix_type + ')\s)?(\(\d{1,2}(\s?' + SEPARATORS + '\s?\d{1,2})?\))',
+            text)
+        if c:
+            for match in c:
+                findall_list = tuple(match.groups())
+                for entry in findall_list:
+                    if findall_list[2] in TWO_WORD_NAME_TERMINI:
+                        root_name = findall_list[0].rstrip().rstrip('s').capitalize() + " " + findall_list[2].rstrip().rstrip('s')
+                    # this requirement removes short 'words' like (1)H, and (4), that otherwise get selected as hits.
+                    elif len(findall_list[2]) < 8 and re.search("[\'′\",+\(\)]", findall_list[2]):
+                        continue
+                    else:
+                        root_name = findall_list[2].rstrip().rstrip('s').capitalize()
+                    if root_name.upper() in EXCLUDED_NAMES:
+                        continue
+                    if len(root_name) < 7:
+                        continue
+                    if findall_list[5]:
+                        name = root_name + " " + findall_list[5]
+                    else:
+                        name = root_name
+                    name_add(compound_names, name, match.span())
+
+    # look for compounds that have Roman numeral suffixes listed in groups (e.g. Examplamides III - IX)
+    d = re.finditer(
+        '(' + NAME_BASE + '\s)?(' + NAME_BASE + ')[\s-]([IVX]{1,5})\s?' + SEPARATORS + '\s?([IVX]{1,5})(' + TERMINATORS + ')',
+        text)
+    if d:
+        for match in d:
+            findall_list = tuple(match.groups())
+            for entry in findall_list:
+                root_name = findall_list[2].rstrip('s')
                 if root_name in TWO_WORD_NAME_TERMINI:
-                    # print(root_name)
-                    root_name = entry[1].rstrip().rstrip('s') + " " + root_name
+                    root_name = findall_list[0].rstrip() + " " + root_name
                 # Removes matches with very short words such as "among them, III and IV" that are not real compounds.
                 if len(root_name) < 7:
                     continue
                 elif root_name.upper() in EXCLUDED_NAMES:
                     continue
                 else:
-                    suffix_list = (entry[7]).split(", ")[1:]
-                    suffix_list.append(entry[5])
-                    suffix_list.append(entry[11])
-                    for suffix in suffix_list:
-                        # This is required to remove the bracketed numbers if these are
-                        # in the original text (e.g. Wawawa A (1), B (2), C (3) and D (4))
-                        if re.search("[\(]", suffix):
-                            suffix = suffix.split("(")[0].rstrip()
-                        name = root_name.capitalize() + " " + suffix
-                        name_add(compound_names, name)
-
-    # methyl ester finder
-    # Capture two blocks of text that doesn't include whitespace characters (a word) prior to "methyl ester" or ether
-    # 1. Like Helvolic acid methyl ester (1) or Ochratoxin A methyl ester (2)
-    ce = re.findall('(\S+)\s(acid|[A-Z])\s(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))', text)
-    if ce:
-        for entry in ce:
-            comp_name = '{0} {1} {2}'.format(entry[0].rstrip().capitalize(), entry[1].rstrip(), entry[2].rstrip())
-            name_add(compound_names, comp_name)
-
-    # 2. Or 3 words Like 6′,6‴-cryptoporic acid G dimethyl ester (1)
-    ce_double = re.findall('(\S+)\s(acid|[A-Z])\s(acid|[A-Z])\s(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))',
-                           text)
-    if ce_double:
-        for entry in ce_double:
-            comp_name = '{0} {1} {2} {3}'.format(entry[0].rstrip().capitalize(), entry[1].rstrip(), entry[2].rstrip(),
-                                                 entry[3].rstrip())
-            name_add(compound_names, comp_name)
-
-    # 3. Or just 1 word like Secoxyloganin methyl ester (1)
-    ce_single = re.findall('(\S+[^A-Z])\s(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))',
-                           text)
-    if ce_single:
-        for entry in ce_single:
-            comp_name = '{0} {1}'.format(entry[0].rstrip().capitalize(), entry[1].rstrip())
-            name_add(compound_names, comp_name)
-
-    # Captures a word prior to "methyl ester" or ether and any text that doesn't include whitespace characters with it
-    # Like alternariol 1'-hydroxy-9-methyl ether (1)
-    se = re.findall('(\S+[^A-Z])\s(\S+)(dimethyl ester|methyl ester|methyl ether)\s+(\(\d\))', text)
-    if se:
-        for entry in se:
-            comp_name = '{0} {1}{2}'.format(entry[0].rstrip().capitalize(), entry[1].rstrip(), entry[2].rstrip())
-            name_add(compound_names, comp_name)
-
-    # look for compounds that are followed by a compound number (e.g. (1)) or range of numbers (e.g. (1 - 3))
-    for suffix_type in SUFFIX_TYPE_LIST:
-        c = re.findall(
-            '(' + NAME_BASE + '\s)?(' + NAME_BASE + ')\s((' + suffix_type + ')\s)?(\(\d{1,2}(\s?' + SEPARATORS + '\s?\d{1,2})?\))',
-            text)
-        if c:
-            for entry in c:
-                if entry[2] in TWO_WORD_NAME_TERMINI:
-                    root_name = entry[0].rstrip().rstrip('s').capitalize() + " " + entry[2].rstrip().rstrip('s')
-                # this requirement removes short 'words' like (1)H, and (4), that otherwise get selected as hits.
-                elif len(entry[2]) < 8 and re.search("[\'′\",+\(\)]", entry[2]):
-                    continue
-                else:
-                    root_name = entry[2].rstrip().rstrip('s').capitalize()
-                if root_name.upper() in EXCLUDED_NAMES:
-                    continue
-                if len(root_name) < 7:
-                    continue
-                if entry[5]:
-                    name = root_name + " " + entry[5]
-                else:
-                    name = root_name
-                name_add(compound_names, name)
-
-    # look for compounds that have Roman numeral suffixes listed in groups (e.g. Examplamides III - IX)
-    d = re.findall(
-        '(' + NAME_BASE + '\s)?(' + NAME_BASE + ')[\s-]([IVX]{1,5})\s?' + SEPARATORS + '\s?([IVX]{1,5})(' + TERMINATORS + ')',
-        text)
-    if d:
-        for entry in d:
-            root_name = entry[2].rstrip('s')
-            if root_name in TWO_WORD_NAME_TERMINI:
-                root_name = entry[0].rstrip() + " " + root_name
-            # Removes matches with very short words such as "among them, III and IV" that are not real compounds.
-            if len(root_name) < 7:
-                continue
-            elif root_name.upper() in EXCLUDED_NAMES:
-                continue
-            else:
-                suffix_start = entry[4]
-                suffix_end = entry[5]
-                names_roman_numeral_range_add(compound_names, root_name, suffix_start, suffix_end)
+                    suffix_start = findall_list[4]
+                    suffix_end = findall_list[5]
+                    names_roman_numeral_range_add(compound_names, root_name, suffix_start, suffix_end, match.span())
 
     # look for instances of single compounds (single letters, letters followed by one or two digits, and Roman numerals)
 
     for suffix_type in SUFFIX_TYPE_LIST:
-        e = re.findall('(' + NAME_BASE + '\s)?(' + NAME_BASE + ')\s(' + suffix_type + ')(' + TERMINATORS + ')', text)
+        e = re.finditer('(' + NAME_BASE + '\s)?(' + NAME_BASE + ')\s(' + suffix_type + ')(' + TERMINATORS + ')', text)
 
         if e:
-            for entry in e:
-                if entry[2] in TWO_WORD_NAME_TERMINI:
-                    name = entry[0].rstrip().rstrip('s').capitalize() + " " + entry[2] + " " + entry[4]
-                # Removes matches with very short words such as "among them, III and IV" that are not real compounds.
-                elif len(entry[2]) < 7:
-                    continue
-                elif entry[2].rstrip().rstrip('s').upper() in EXCLUDED_NAMES:
-                    continue
-                else:
-                    name = entry[2].rstrip().rstrip('s').capitalize() + " " + entry[4]
-
-                name_add(compound_names, name)
-
-                # Add just the word closest to the bracket (e.g. lodophilone from "alkaloid lodophilone (1)"
-                # Only do this if the second word is longer than 5 characters and isn't both short and containing special characters
-                if len(entry[1]) > 4 and not (len(entry[1]) < 8 and re.search("[\'′\",+\(\)]", entry[1])):
-                    if entry[1].rstrip().rstrip('s').upper() in EXCLUDED_NAMES:
+            for match in d:
+                findall_list = tuple(match.groups())
+                for entry in findall_list:
+                    if findall_list[2] in TWO_WORD_NAME_TERMINI:
+                        name = findall_list[0].rstrip().rstrip('s').capitalize() + " " + findall_list[2] + " " + findall_list[4]
+                    # Removes matches with very short words such as "among them, III and IV" that are not real compounds.
+                    elif len(findall_list[2]) < 7:
+                        continue
+                    elif findall_list[2].rstrip().rstrip('s').upper() in EXCLUDED_NAMES:
                         continue
                     else:
-                        name = entry[1].rstrip().rstrip('s').capitalize() + " " + entry[2]
-                        name_add(compound_names, name)
+                        name = findall_list[2].rstrip().rstrip('s').capitalize() + " " + findall_list[4]
+
+                    name_add(compound_names, name, match.span())
+
+                    # Add just the word closest to the bracket (e.g. lodophilone from "alkaloid lodophilone (1)"
+                    # Only do this if the second word is longer than 5 characters and isn't both short and containing special characters
+                    if len(findall_list[1]) > 4 and not (len(findall_list[1]) < 8 and re.search("[\'′\",+\(\)]", findall_list[1])):
+                        if findall_list[1].rstrip().rstrip('s').upper() in EXCLUDED_NAMES:
+                            continue
+                        else:
+                            name = findall_list[1].rstrip().rstrip('s').capitalize() + " " + findall_list[2]
+                            name_add(compound_names, name, match.span())
 
     return sorted(compound_names)
 
@@ -329,7 +352,7 @@ def clean_detected_items(abstract_text):
     detected_chemical_names = name_search(abstract_text)
     clean_detected_names = []
     for x in detected_chemical_names:
-        upper_item = x.upper()
+        upper_item = x[0].upper()
         if upper_item in COMPOUND_CLASS:
             continue
         else:
@@ -415,17 +438,17 @@ def remove_invalid_parentheses(string):
 
 def improper_parentheses_capture(chem_list):
     """ Method to remove invalid parentheses, putting above 3 function together
-                        :param chem_list: list of chemicals(strings)
+                        :param chem_list: list of chemicals(strings) as tuples with match index
                         :return: False if open bracket otherwise 0 when valid parentheses
                         """
     chemical_detection_list_no_invalid_parentheses = []
     for chemical in chem_list:
-        if bracket_matched(chemical) is False:
-            no_invalid_parentheses = remove_invalid_parentheses(chemical)
+        if bracket_matched(chemical[0]) is False:
+            no_invalid_parentheses = remove_invalid_parentheses(chemical[0])
             chemical_detection_list_no_invalid_parentheses.append(
                 no_invalid_parentheses[:1].upper() + no_invalid_parentheses[1:])
         else:
-            chemical_detection_list_no_invalid_parentheses.append(chemical)
+            chemical_detection_list_no_invalid_parentheses.append(chemical[0])
     unique_chemical_detection_list = list(set(chemical_detection_list_no_invalid_parentheses))
     return unique_chemical_detection_list
 
@@ -443,16 +466,32 @@ def main():
     print(COMPOUND_CLASS)
     print(counter)
     """
+    '''abstract = "Two new sesterterpenoids, aspterpenacids A (1) and B (2), with an unusual carbon skeleton of a 5/3/7/6/5 ring system were isolated from the mangrove endophytic fungus Aspergillus terreus H010. Their structures were elucidated on the basis of spectroscopic methods, single-crystal X-ray diffraction analysis, and electronic circular dichroism calculations. A biogenetic pathway for 1 and 2 is proposed. Both 1 and 2 showed no significant antibacterial activity or cytotoxicity at 50 Î¼M."
+    chemical_detection_list = clean_detected_items(abstract)
+    chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
+    print(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))'''
 
     with open("npatlas_origin_articles_for_NER_training.json", "r") as file:
+
         data = json.load(file)
+
         for item in data:
+
             abstract = item["reference"]["abstract"]
-            # actual_chemical_names = item["names"]
+            npatlas_chemical_names = item["names"]
+            number_of_actual_chemical_names = len(npatlas_chemical_names)
+            doi = item["reference"]["DOI"]
+            title = item["reference"]["title"]
+
             if abstract:
                 chemical_detection_list = clean_detected_items(abstract)
                 chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
-                print(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))
+                number_of_detected_chemical_names = len(chemical_detection_list_no_open_parentheses)
+                #print(number_of_detected_chemical_names)
+                print(chemical_detection_list_no_open_parentheses)
+
+
+
 
 
 # TODO:
