@@ -134,11 +134,11 @@ def bracket_matched(string):
 
 
 def name_search(text):
-    def names_letter_range_add(compound_names, root_name, suffix_start, suffix_end, match_index):
+    def names_letter_range_add(compound_names, root_name, suffix_start, suffix_end, match_index, text):
         for c in range(ord(suffix_start), ord(suffix_end) + 1):
             name = root_name.capitalize() + " " + chr(c)
             if name not in compound_names:
-                compound_names.append((name, match_index))
+                compound_names.append((name, match_index, text))
 
     def names_roman_numeral_range_add(compound_names, root_name, suffix_start, suffix_end, match_index):
 
@@ -184,8 +184,9 @@ def name_search(text):
                 else:
                     suffix_start = findall_list[5]
                     suffix_end = findall_list[6]
-                    names_letter_range_add(compound_names, root_name, suffix_start, suffix_end, match.span())
+                    names_letter_range_add(compound_names, root_name, suffix_start, suffix_end, match.span(), text)
 
+    '''
     # look for compounds where suffixes are listed explicitly (e.g. Examplamides A, B and C)
     # this search accounts for situations where compound numbers are also included (e.g. Examplamides A (1), B (2) and C (3))
     # it also handles both single letters, letters followed by one or two digits, and Roman numerals.
@@ -249,6 +250,15 @@ def name_search(text):
                            text)
     if ce_single:
         for match in ce_single:
+            findall_list = tuple(match.groups())
+            for entry in findall_list:
+                comp_name = '{0} {1}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip())
+                name_add(compound_names, comp_name, match.span())
+
+    ce_single2 = re.finditer('(\S+)\s(benzoic acid)\s+(\(\d\))',
+                            text)
+    if ce_single2:
+        for match in ce_single2:
             findall_list = tuple(match.groups())
             for entry in findall_list:
                 comp_name = '{0} {1}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip())
@@ -340,7 +350,7 @@ def name_search(text):
                         else:
                             name = findall_list[1].rstrip().rstrip('s').capitalize() + " " + findall_list[2]
                             name_add(compound_names, name, match.span())
-
+'''
     return sorted(compound_names)
 
 
@@ -445,32 +455,40 @@ def improper_parentheses_capture(chem_list):
     for chemical in chem_list:
         if bracket_matched(chemical[0]) is False:
             no_invalid_parentheses = remove_invalid_parentheses(chemical[0])
-            chemical_detection_list_no_invalid_parentheses.append(
-                no_invalid_parentheses[:1].upper() + no_invalid_parentheses[1:])
+            chemical_detection_list_no_invalid_parentheses.append((no_invalid_parentheses[:1].upper() + no_invalid_parentheses[1:], chemical[1]))
         else:
-            chemical_detection_list_no_invalid_parentheses.append(chemical[0])
+            chemical_detection_list_no_invalid_parentheses.append(chemical)
     unique_chemical_detection_list = list(set(chemical_detection_list_no_invalid_parentheses))
-    return unique_chemical_detection_list
+    return sorted(unique_chemical_detection_list)
+
+
+def chem_ner_prototype(abstract_text):
+    """ Detect the compounds in the article ONLY!!! works for abstracts with compound names listed in groups
+    (e.g. Examplamides A - C)
+            :param abstract_text: raw string of abstract text
+            :return: tuple contains with: compound name, match object index and abstract text with compound placeholders
+            """
+    chemical_detection_list = clean_detected_items(abstract_text)
+    chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
+    number_of_detected_chemical_names = len(chemical_detection_list_no_open_parentheses)
+    #print(number_of_detected_chemical_names)
+    new_text_chem_list = []
+
+    for idx, chem in enumerate(chemical_detection_list_no_open_parentheses):
+        match_index = chem[1]
+        comp_number = str(idx + 1)
+
+        try:
+            new_text = chem[2][:match_index[0]] + "comp_{0} ".format(comp_number) + chem[2][match_index[1]:]
+            new_text_chem_list.append((chem[0], chem[1], new_text))
+
+        except IndexError as error:
+            print(error)
+
+    return new_text_chem_list
 
 
 def main():
-    """
-    # add list of new classes to put into COMPOUND_CLASS
-    classes_list = ['Peptides','Carbohydrates','Fatty acids','Polyketides','Phenylpropanoids','Shikimates','Terpenoids','Alkylresorsinols','Amino acid glycosides','Aminosugars and aminoglycosides','Anthranilic acid alkaloids','Apocarotenoids','Carotenoids (C40)','Carotenoids (C45)','Carotenoids (C50)','Chromanes','Coumarins','Cyclic polyketides','Diarylheptanoids','Diazotetronic acids','Diphenyl ethers','Diterpenoids','Docosanoids','Eicosanoids','Fatty acyl glycosides','Fatty acyls','Fatty amides','Fatty esters','Flavonoids','Fluorenes','Glycerolipids','Glycerophospholipids','Guanidine alkaloids','Histidine alkaloids','Isoflavonoids','Lignans','Linear polyketides','Lysine alkaloids','Macrolides','Meroterpenoids','Mitomycin derivatives','Monoterpenoids','Mycosporine derivatives','Naphthalenes','Nicotinic acid alkaloids','Nucleosides','Octadecanoids','Oligopeptides','Ornithine alkaloids','Peptide alkaloids','Phenanthrenoids','Phenolic acids','Phenylethanoids','Phenylpropanoids','Phloroglucinols','Polycyclic aromatic polyketides','Polyethers','Polyols','Polyprenols','Proline alkaloids','Pseudoalkaloids','Saccharides','Serine alkaloids','Sesquiterpenoids','Sesterterpenoids','Small peptides','Spingolipids','Steroids','Stilbenoids','Styrylpyrones','Terphenyls','Tetramate alkaloids','Triterpenoids','Tropolones','Tryptophan alkaloids','Tyrosine alkaloids','Xanthones','β-lactams','γ-lactam-β-lactones']
-    counter=0
-    for item in classes_list:
-        new_item = item[:-1].upper()
-        if new_item not in COMPOUND_CLASS:
-            counter += 1
-            COMPOUND_CLASS.append(item[:-1].upper())
-    print(COMPOUND_CLASS)
-    print(counter)
-    """
-    '''abstract = "Two new sesterterpenoids, aspterpenacids A (1) and B (2), with an unusual carbon skeleton of a 5/3/7/6/5 ring system were isolated from the mangrove endophytic fungus Aspergillus terreus H010. Their structures were elucidated on the basis of spectroscopic methods, single-crystal X-ray diffraction analysis, and electronic circular dichroism calculations. A biogenetic pathway for 1 and 2 is proposed. Both 1 and 2 showed no significant antibacterial activity or cytotoxicity at 50 Î¼M."
-    chemical_detection_list = clean_detected_items(abstract)
-    chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
-    print(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))'''
-
     with open("npatlas_origin_articles_for_NER_training.json", "r") as file:
 
         data = json.load(file)
@@ -484,25 +502,25 @@ def main():
             title = item["reference"]["title"]
 
             if abstract:
-                chemical_detection_list = clean_detected_items(abstract)
-                chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
-                number_of_detected_chemical_names = len(chemical_detection_list_no_open_parentheses)
-                #print(number_of_detected_chemical_names)
-                print(chemical_detection_list_no_open_parentheses)
+                new_text_chem_list = chem_ner_prototype(abstract)
+                print(new_text_chem_list)
+                # for i in new_text_chem_list:
+                    # print(i[0])
 
 
 
 
 
-# TODO:
+#TODO:
 # 1. Class name removal -  Complete
 # 2. Methyl ester finder(or other derivative type) - Complete
 #       search for comp name with methyl ester, replace with combo
 #       is comp and derivative contained in abstract too?
-# 3. Strip hanging brackets function - IN PROGRESS
+# 3. Strip hanging brackets function - Works, but adds duplicates!
 #       does name begin/ending bracket?
 #       strip leading bracket if brackets don't match or trailing
-# 4. Get entity location in abstract text
+# 4. Get entity location in abstract text - Working but needs more testing as it seems that some compounds were lost
+# 5. Replace name with placeholders within abstract text
 
 
 if __name__ == "__main__":
