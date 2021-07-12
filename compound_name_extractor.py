@@ -6,6 +6,7 @@ ISSUES
 """
 import re
 import json
+import csv
 
 # regex for the main part of the name (e.g. (+)-4-oxo-3-chloro-compamaide)
 NAME_BASE = "(\'|′|\"|,|\+|\(|\)|\d|-|α|β|γ|δ|[A-Z]|[a-z]){4,200}"
@@ -444,16 +445,37 @@ def main():
     print(counter)
     """
 
-    with open("npatlas_origin_articles_for_NER_training.json", "r") as file:
+    with open("npatlas_origin_articles_for_Pegah.json", "r") as file:
         data = json.load(file)
-        for item in data:
-            abstract = item["reference"]["abstract"]
-            # actual_chemical_names = item["names"]
+        with open("outputs.csv", "w", encoding="utf-8") as filer:
+            headers = ['doi', 'abstract', 'detected_compounds', 'detection_number']
+            writer = csv.DictWriter(filer, fieldnames=headers)
+            writer.writeheader()
+            for item in data:
+                abstract = item["reference"]["abstract"]
+                doi = item["reference"]["doi"]
+                if abstract and type(abstract) == str:
+                    chemical_detection_list = clean_detected_items(abstract)
+                    chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
+                    length_chems = len(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))
+
+                    abs_dict = {"doi": doi, "abstract": abstract,
+                                "detected_compounds": chemical_detection_list_no_open_parentheses,
+                                "detection_number": length_chems}
+                    writer.writerow(abs_dict)
+                    #json.dump(abs_dict, filer, indent=2)
+                else:
+                    continue
+            #actual_chemical_names = item["names"]
+
+            '''
             if abstract:
                 chemical_detection_list = clean_detected_items(abstract)
                 chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
+                length_chems = len(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))
                 print(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))
-
+            else:
+                print("none")'''
 
 # TODO:
 # 1. Class name removal -  Complete
