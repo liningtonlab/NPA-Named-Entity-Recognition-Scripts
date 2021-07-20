@@ -448,7 +448,8 @@ def main():
     with open("npatlas_origin_articles_for_Pegah.json", "r") as file:
         data = json.load(file)
         with open("outputs.csv", "w", encoding="utf-8") as filer:
-            headers = ['doi', 'abstract', 'actual_compounds', 'detected_compounds', 'detection_number', 'actual_compound']
+            headers = ['doi', 'abstract', 'detected_compounds', 'detection_number',
+                       'actual_compound', 'actual_compnum']
             writer = csv.DictWriter(filer, fieldnames=headers)
             writer.writeheader()
             for item in data:
@@ -458,9 +459,10 @@ def main():
                 if abstract and type(abstract) == str:
                     chemical_detection_list = clean_detected_items(abstract)
                     chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
-                    length_chems = len(improper_parentheses_capture(chemical_detection_list_no_open_parentheses))
+                    length_chems = len(chemical_detection_list_no_open_parentheses)
 
-                    abs_dict = {"doi": doi, "abstract": abstract, "actual_compound": len(actual_chemical_names),
+                    abs_dict = {"doi": doi, "abstract": abstract, "actual_compound": actual_chemical_names,
+                                "actual_compnum": len(actual_chemical_names),
                                 "detected_compounds": chemical_detection_list_no_open_parentheses,
                                 "detection_number": length_chems}
                     writer.writerow(abs_dict)
