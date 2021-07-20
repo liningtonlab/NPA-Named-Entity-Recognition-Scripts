@@ -1,5 +1,5 @@
 import sqlite3
-
+import json
 
 def main():
     db_connection = sqlite3.connect("ITIS.sqlite")
@@ -35,6 +35,15 @@ def main():
     for microbe in microbe_rows:
         microbe_genera.append(microbe[2])
     unique_microbe_genera = list(set(microbe_genera))
+    #toDO
+    with open("known_microbial_genera_2019-06-21.json", "r") as gen_file:
+        data = json.load(gen_file)
+        for genera in data:
+            known_genera = genera["genus"]
+            if known_genera not in unique_microbe_genera:
+                print(known_genera)
+                unique_microbe_genera.append(known_genera)
+
     with open("microbe_genera.txt", "w", encoding="utf-8") as f_third:
         f_third.write(str(sorted(unique_microbe_genera)))
 
