@@ -6,7 +6,7 @@ ISSUES
 """
 import re
 import json
-
+import csv
 
 # regex for the main part of the name (e.g. (+)-4-oxo-3-chloro-compamaide)
 NAME_BASE = "(\'|′|\"|,|\+|\(|\)|\d|-|α|β|γ|δ|[A-Z]|[a-z]){4,200}"
@@ -252,6 +252,7 @@ def name_search(text):
                 comp_name = '{0} {1}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip())
                 name_add(compound_names, comp_name, match.span(), text)
 
+    # Benzoic acid finder
     ce_single2 = re.finditer('(\S+)\s(benzoic acid)\s+(\(\d\))',
                             text)
     if ce_single2:
@@ -259,6 +260,17 @@ def name_search(text):
             findall_list = tuple(match.groups())
             for entry in findall_list:
                 comp_name = '{0} {1}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip())
+                name_add(compound_names, comp_name, match.span(), text)
+
+    # Captures a word prior to "methyl ester" or ether attached to methyl part
+    # Like alternariol-1'-hydroxy-9-methyl ether (1)
+    se = re.finditer('(\S+)(' + METHYL_ESTER_FINDER_LIST + ')\s+(\(\d\))', text)
+    if se:
+        for match in se:
+            findall_list = tuple(match.groups())
+            for entry in findall_list:
+                comp_name = '{0} {1}{2}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip(),
+                                                findall_list[2].rstrip())
                 name_add(compound_names, comp_name, match.span(), text)
 
     # Captures a word prior to "methyl ester" or ether and any text that doesn't include whitespace characters with it
@@ -281,7 +293,10 @@ def name_search(text):
                 findall_list = tuple(match.groups())
                 for entry in findall_list:
                     if findall_list[2] in TWO_WORD_NAME_TERMINI:
-                        root_name = findall_list[0].rstrip().rstrip('s').capitalize() + " " + findall_list[2].rstrip().rstrip('s')
+                        try:
+                            root_name = findall_list[0].rstrip().rstrip('s').capitalize() + " " + findall_list[2].rstrip().rstrip('s')
+                        except AttributeError as error:
+                            print(error)
                     # this requirement removes short 'words' like (1)H, and (4), that otherwise get selected as hits.
                     elif len(findall_list[2]) < 8 and re.search("[\'′\",+\(\)]", findall_list[2]):
                         continue
@@ -452,9 +467,9 @@ def improper_parentheses_capture(chem_list):
     for chemical in chem_list:
         if bracket_matched(chemical[0]) is False:
             no_invalid_parentheses = remove_invalid_parentheses(chemical[0])
-            chemical_detection_list_no_invalid_parentheses.append((no_invalid_parentheses[:1].upper() + no_invalid_parentheses[1:], chemical[1]))
+            chemical_detection_list_no_invalid_parentheses.append((no_invalid_parentheses[:1].upper() + no_invalid_parentheses[1:]))#, chemical[1]))
         else:
-            chemical_detection_list_no_invalid_parentheses.append(chemical)
+            chemical_detection_list_no_invalid_parentheses.append(chemical[0])
     unique_chemical_detection_list = list(set(chemical_detection_list_no_invalid_parentheses))
     return sorted(unique_chemical_detection_list)
 
@@ -486,8 +501,32 @@ def chem_ner_prototype(abstract_text):
 
 
 def main():
-    with open("npatlas_origin_articles_for_NER_training.json", "r") as file:
+    with open("npatlas_origin_articles_for_Pegah.json", "r") as file:
+        data = json.load(file)
+        with open("outputs_7212021.csv", "w", encoding="utf-8") as filer:
+            headers = ['doi', 'abstract', 'detected_compounds', 'detection_number',
+                       'actual_compound', 'actual_compnum']
+            writer = csv.DictWriter(filer, fieldnames=headers)
+            writer.writeheader()
+            for item in data:
+                abstract = item["reference"]["abstract"]
+                doi = item["reference"]["doi"]
+                actual_chemical_names = item["names"]
+                if abstract and type(abstract) == str:
+                    abstract_clone = abstract
+                    chemical_detection_list = clean_detected_items(abstract)
+                    chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
+                    length_chems = len(chemical_detection_list_no_open_parentheses)
 
+                    abs_dict = {"doi": doi, "abstract": abstract_clone, "actual_compound": actual_chemical_names,
+                                "actual_compnum": len(actual_chemical_names),
+                                "detected_compounds": chemical_detection_list_no_open_parentheses,
+                                "detection_number": length_chems}
+                    writer.writerow(abs_dict)
+
+                else:
+                    continue
+    '''with open("npatlas_origin_articles_for_NER_training.json", "r") as file:
         data = json.load(file)
 
         for item in data:
@@ -505,6 +544,6 @@ def main():
                    # print(i[0])
             else:
                 print("no abstract")
-
+    '''
 if __name__ == "__main__":
     main()
