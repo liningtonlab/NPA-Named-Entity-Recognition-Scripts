@@ -37,7 +37,7 @@ EXCLUDED_NAMES = ["COMPOUND", "ALKALOID", "TERPENE", "POLYKETIDE", "MOIETY", "DE
                   "DERIVATIVE", "METABOLITE", "COENZYME", "TOPOISOMERASE", "COMPLEX", "DERIVATIVE", "REPORTED",
                   "AGAINST", "ALBICANS", "AERUGINOSA", "AUREUS", "COLI", "COMPONENT", "SYNTHASE", "COMPLEX",
                   "FACTOR", "WHEREA", "STIMULATION", "SYSTEM", "CYANOBACTERIA", "CANDIDUS", "ANALOG", "FRACTION",
-                  "HEPATITIS", "HEPATITI", "EIGHTEEN", "CONGENER", "INHIBIT", "METHYL ESTER", "BENZOIC ACID"]
+                  "HEPATITIS", "HEPATITI", "EIGHTEEN", "CONGENER", "INHIBIT", "METHYL ESTER", "BENZOIC ACID", 'CONSTITUENT']
 
 # List of natural product compound classes
 COMPOUND_CLASS = ['ABEOLUPANE TRITERPENOID', 'ABEOTAXANE DITERPENOID', 'ABIETANE DITERPENOID', 'ACETOGENIN',
@@ -616,7 +616,7 @@ def main():
                 print(sorted(chem_only))
 
             else:
-                print("no abstract")
+                continue
 
 
 if __name__ == "__main__":
