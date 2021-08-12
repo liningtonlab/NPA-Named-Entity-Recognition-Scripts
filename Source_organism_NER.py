@@ -6,7 +6,8 @@ SOURCE_ORGANISM_REGEX = "[A-Z]{1}[a-z]+ {1}[a-z]+\.? ?[A-Z0-9-]+ ?[A-Z]?[a-zA-Z0
 # https://regexr.com/60t8c
 
 ner = TaxoNERD(model="en_ner_eco_biobert", prefer_gpu=False,
-                   with_abbrev=False)
+               with_abbrev=False)
+
 
 '''def taxonerd_ner(abstract_text):
     """ Detect source organism entities within abstract text via TaxoNERD, results cleaned via Regex pattern
@@ -50,6 +51,7 @@ def main():
                     if re.search(SOURCE_ORGANISM_REGEX, string_dict_to_dictionary["text"]):
                         proper_entity_list.append(ent)
                 print(proper_entity_list)
+
 
 # TODO:
 # Regex to check if Genus/species. - COMPLETE
