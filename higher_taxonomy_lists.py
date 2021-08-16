@@ -37,7 +37,7 @@ def main():
         microbe_genera.append(microbe[2])
     unique_microbe_genera = list(set(microbe_genera))
 
-    with open("known_microbial_genera_2019-06-21.json", "r") as gen_file:
+    with open("json_files/known_microbial_genera_2019-06-21.json", "r") as gen_file:
         data = json.load(gen_file)
         for genera in data:
             known_genera = genera["genus"]
@@ -49,7 +49,7 @@ def main():
         if item not in plant_genera and animal_genera:
             final_microbe_genera.append(item)
 
-    with open("microbe_genera.txt", "w", encoding="utf-8") as f_third:
+    with open("higher_taxonomy_genera_lists/microbe_genera.txt", "w", encoding="utf-8") as f_third:
         f_third.write(str(sorted(final_microbe_genera)))
 
 

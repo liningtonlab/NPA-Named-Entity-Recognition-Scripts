@@ -9,7 +9,7 @@ ner = TaxoNERD(model="en_ner_eco_biobert", prefer_gpu=False,
                with_abbrev=False)
 
 
-'''def taxonerd_ner(abstract_text):
+def taxonerd_ner(abstract_text):
     """ Detect source organism entities within abstract text via TaxoNERD, results cleaned via Regex pattern
                 :param abstract_text: raw string of abstract text
                 :return: list of dictionaries, where each dict contains the match location and the source organism entity
@@ -28,11 +28,11 @@ ner = TaxoNERD(model="en_ner_eco_biobert", prefer_gpu=False,
         if re.search(SOURCE_ORGANISM_REGEX, string_dict_to_dictionary["text"]):
             proper_entity_list.append(ent)
 
-    return proper_entity_list'''
+    return proper_entity_list
 
 
 def main():
-    with open("npatlas_origin_articles_for_NER_training.json", "r") as file:
+    with open("json_files/npatlas_origin_articles_for_NER_training.json", "r") as file:
         data = json.load(file)
 
         for item in data:
@@ -40,7 +40,7 @@ def main():
             actual_chemical_names = item["names"]
 
             if abstract:
-
+                # taxon = taxonerd_ner(abstract) # Much slower than code below.
                 taxon = ner.find_entities(abstract)
                 entity = taxon.to_json(orient='records', lines=True)
                 entities = entity.splitlines()

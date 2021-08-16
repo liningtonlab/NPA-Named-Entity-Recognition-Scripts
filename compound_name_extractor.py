@@ -568,7 +568,7 @@ def chem_ner_prototype(abstract_text):
 def main():
     '''with open("npatlas_origin_articles_for_Pegah.json", "r") as file:
         data = json.load(file)
-        with open("outputs_7212021.csv", "w", encoding="utf-8") as filer:
+        with open("chem_ner_outputs_7212021.csv", "w", encoding="utf-8") as filer:
             headers = ['doi', 'abstract', 'detected_compounds', 'detection_number',
                        'actual_compound', 'actual_compnum']
             writer = csv.DictWriter(filer, fieldnames=headers)
@@ -592,7 +592,7 @@ def main():
                 else:
                     continue'''
 
-    with open("npatlas_origin_articles_for_NER_training.json", "r") as file:
+    with open("json_files/npatlas_origin_articles_for_NER_training.json", "r") as file:
         data = json.load(file)
 
         for item in data:
