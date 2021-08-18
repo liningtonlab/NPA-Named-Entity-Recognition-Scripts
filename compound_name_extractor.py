@@ -132,7 +132,6 @@ COMPOUND_CLASS = ['ABEOLUPANE TRITERPENOID', 'ABEOTAXANE DITERPENOID', 'ABIETANE
                   'Β-LACTAM', 'Γ-LACTAM-Β-LACTONE', 'INDOLOCARBAZOLE', 'HYDROXYANTHRAQUINONE', 'HEPTAPEPTIDE',
                   'FURANONE', 'DIPHENYLETHER', 'DIKETOPIPERAZINE', 'DIHYDROXANTHONE', 'DIHYDROBENZOFURAN', 'XANTHENE',
                   'DIHYDROCHROMONE DIMER', 'YANUTHONE', 'MACROLACTAM', 'GIBBERELLINS', 'MYCOTOXIN', 'POLYKETIDE']
-SORTED_COMPOUND_CLASS = miscellaneous_functions.sort_list(COMPOUND_CLASS)
 
 
 def name_search(text):
@@ -459,8 +458,8 @@ def name_search(text):
     methyl_ester_finder(text, compound_names, METHYL_ESTER_VARIATIONS)
     post_comps_numbers(text, compound_names, NAME_BASE, SUFFIX_TYPE_LIST, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES,
                        SEPARATORS)
-    #roman_numeral_suffix_comps(text, compound_names, NAME_BASE, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES, SEPARATORS,
-                              # TERMINATORS)
+    roman_numeral_suffix_comps(text, compound_names, NAME_BASE, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES, SEPARATORS,
+                              TERMINATORS)
     # single_comps(text, compound_names, NAME_BASE, SUFFIX_TYPE_LIST, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES, TERMINATORS)
     # Very inaccurate, introduces many error entries. This is because it can match without a (1)
     return sorted(compound_names)

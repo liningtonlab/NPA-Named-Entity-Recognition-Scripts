@@ -19,17 +19,18 @@ def class_NER(abstract_text):
     for compound_class in compound_name_extractor.COMPOUND_CLASS:
 
         # Using regex to find iterable of matches using the list of compound classes from chemical name NER
-        class_matches = re.finditer('((' + compound_class.lower() + ')[s]?|(' + compound_class.capitalize() + ')[s]?)',
-                                    abstract_text)
+        class_matches = re.finditer('\w*' + compound_class.lower() + '[s]?', abstract_text)
+            #re.finditer('((' + compound_class.lower() + ')[s]?|(' + compound_class.capitalize() + ')[s]?)', abstract_text)
 
         # If a match is found, convert each match in the iterable into a tuple with the match object
         if class_matches:
             for match in class_matches:
-                found_matches.append((match.group(), match.span()))
+                match_result = match.group()
+                found_matches.append((match_result.capitalize(), match.span()))
 
     if found_matches:
         # TODO: Remove duplicate matches, only get first unique match - ALSO needs to be done for other NER scripts
-        return found_matches
+        return list(set(found_matches))
 
 
 def main():
