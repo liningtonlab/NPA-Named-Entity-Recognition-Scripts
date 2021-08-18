@@ -17,7 +17,7 @@ regex to match and identify classes.
 genera and species filters out improper matches.
 
 
-# Misc. Scripts
+# Misc. Scripts used in tasks related to NER
 - Generation of Higher taxonomy lists of genera: higher_taxonomy_lists.py
     - Generation of lists of genera for higher taxonomy to distinguish plant, animal and microbe. Mostly from ITIS,
     but some from NPAtlas
@@ -25,11 +25,10 @@ genera and species filters out improper matches.
 - Unit Testing: unit_test.py
     - Unit tests for testing and development of NPA Named entity recognition 
   
-- Functions used in Chemical compound NER to clean up improper parentheses:improper_parentheses_functions.py
-    - Scripts used in Chemical entity extraction to remove improper parentheses from match results.
+- Functions used in Chemical compound NER that are basic in nature and placed here for organization: miscellaneous_functions.py
+    - Scripts used in Chemical entity extraction to: sort lists by string length, check if brackets are matched and
+  remove improper parentheses
 
-- Archived Functions: archived_functions.py
-    - Archived functions like one to add terms to list of class compounds
 
 
 

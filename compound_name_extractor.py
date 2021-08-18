@@ -6,33 +6,28 @@ ISSUES
 """
 import re
 import json
-import improper_parentheses_functions
-import csv
+import miscellaneous_functions
 
-# regex for the main part of the name (e.g. (+)-4-oxo-3-chloro-compamaide)
+# Regex for the main part of the name (e.g. (+)-4-oxo-3-chloro-compamaide)
 NAME_BASE = "(\'|′|\"|,|\+|\(|\)|\[|\]|\d|-|α|β|γ|δ|[A-Z]|[a-z]){4,200}"
-# todo: add "[" and "]" to account for square brackets in comp name, that causes partial matches. May fix will see
 
-# regex for the characters that separate ranges (e.g. A - H)
+# Regex for the characters that separate ranges (e.g. A - H)
 SEPARATORS = "[-~–−]"
 
-# regex for the terminus if the search.
-# Helps to find compounds with suffixes that are at the end of sentences or next to punctuation
+# Regex for the terminus at the end of sentences or next to punctuation helps to find compounds with terminator suffixes
 TERMINATORS = "[\s.,:;$\)]|$"
 
-# regex to describe compound suffixes (e.g. compoundine B12)
+# Regex to describe compound suffixes (e.g. compoundine B12)
 SUFFIX_TYPE_LIST = ["[A-Z]\d{0,2}", "[IVX]{1,5}"]
 
-# list of allowed termini for compound names that are more than one word (e.g. allegic acid C)
+# List of allowed termini for compound names that are more than one word (e.g. allegic acid C)
 TWO_WORD_NAME_TERMINI = ['acid', 'ester', 'acetate', 'butyrate', 'anhydride',
                          'dimer', 'methyl', 'ethyl', 'aglycon', 'aglycone', 'peroxide']
 
-# regex of possible variations on methyl ester
-METHYL_ESTER_FINDER_LIST = 'dimethyl ester|methyl ester|methyl ether'
+# Regex of possible variations on methyl ester
+METHYL_ESTER_VARIATIONS = 'dimethyl ester|methyl ester|methyl ether'
 
-# list of excluded names
-# WHEREA = WHEREAS after s is stripped
-# Put diseases and other Excluded terms that are commonly matched
+# List of excluded names; Put diseases and other Excluded terms that are commonly matched in here:
 EXCLUDED_NAMES = ["COMPOUND", "ALKALOID", "TERPENE", "POLYKETIDE", "MOIETY", "DEGREE", "STRUCTURE", "ANALOGUE",
                   "DERIVATIVE", "METABOLITE", "COENZYME", "TOPOISOMERASE", "COMPLEX", "DERIVATIVE", "REPORTED",
                   "AGAINST", "ALBICANS", "AERUGINOSA", "AUREUS", "COLI", "COMPONENT", "SYNTHASE", "COMPLEX",
@@ -58,7 +53,7 @@ COMPOUND_CLASS = ['ABEOLUPANE TRITERPENOID', 'ABEOTAXANE DITERPENOID', 'ABIETANE
                   'CARABRANE SESQUITERPENOID',
                   'CARBAZOLE ALKALOID', 'CARBOCYCLIC FATTY ACID', 'CARBOHYDRATE', 'CARBOLINE ALKALOID', 'CARDENOLIDE',
                   'CAROTENOID', 'CATECHOLAMINE', 'CATECHOL', 'CEMBRANE DITERPENOID', 'CEREBROSIDE', 'CERAMIDE',
-                  'CHALCONE','CHEILANTHANE SESTERTERPENOID', 'CHOLANE STEROID', 'CHOLESTANE STEROID', 'CHROMANE',
+                  'CHALCONE', 'CHEILANTHANE SESTERTERPENOID', 'CHOLANE STEROID', 'CHOLESTANE STEROID', 'CHROMANE',
                   'CHROMONE',
                   'CINNAMIC ACID AMIDE', 'CINNAMOYL PHENOL', 'CLERODANE DITERPENOID', 'COLENSANE DITERPENOID',
                   'COPACAMPHANE SESQUITERPENOID', 'COUMARINOLIGNAN', 'COUMARIN', 'COUMARONOCHROMONE', 'COUMESTAN',
@@ -114,13 +109,13 @@ COMPOUND_CLASS = ['ABEOLUPANE TRITERPENOID', 'ABEOTAXANE DITERPENOID', 'ABIETANE
                   'PRENYL QUINONE MEROTERPENOID', 'PROANTHOCYANIN', 'PROSTAGLANDIN', 'PROTOBERBERINE ALKALOID',
                   'PROTOPINE ALKALOID', 'PSEUDOALKALOID', 'PSEUDOGUAIANE SESQUITERPENOID', 'PSEUDOPTERANE DITERPENOID',
                   'PTEROCARPAN', 'PULVINONE', 'PURINE ALKALOID', 'PYRANOCOUMARIN', 'PYRANONAPHTHOQUINONE',
-                  'PYRIDINE ALKALOID', 'PYRONE',
+                  'PYRIDINE ALKALOID', 'NAPHTHOPYRONE', 'PYRONE',
                   'PYRROLIDINE ALKALOID', 'QUASSINOID', 'QUINOLINE ALKALOID', 'QUINONE', 'ROTENOID', 'SACCHARIDE',
                   'SCALARANE SESTERTERPENOID', 'SECOABIETANE DITERPENOID', 'SECOIRIDOID MONOTERPENOID',
                   'SECOKAURANE DITERPENOID', 'SERRATANE TRITERPENOID', 'SESQUITERPENE', 'SESQUITERPENOID',
                   'SESTERTERPENOID',
-                  'SHIKIMATE', 'SHIKIMIC ACIDS', 'SIDEROPHORE', 'SMALL PEPTIDE', 'SOLANAPYRONE', 'SPHINGOID BASE',
-                  'SPINGOLIPID',
+                  'SHIKIMATE', 'SIDEROPHORE', 'SMALL PEPTIDE', 'SOLANAPYRONE', 'SPHINGOID BASE',
+                  'SPHINGOLIPID',
                   'SPIROSTANE STEROID', 'SPONGIANE DITERPENOID', 'SPRIROMEROTERPENOID', 'STEROIDAL ALKALOID',
                   'STEROID', 'STIGMASTANE STEROID', 'STILBENOID', 'STILBENOLIGNAN', 'STYRYLPYRONE',
                   'TARAXASTANE TRITERPENOID', 'TARAXERANE TRITERPENOID', 'TAXANE DITERPENOID', 'TERPENE ALKALOID',
@@ -135,22 +130,9 @@ COMPOUND_CLASS = ['ABEOLUPANE TRITERPENOID', 'ABEOTAXANE DITERPENOID', 'ABIETANE
                   'ALKYLRESORSINOL', 'FLUORENE', 'GUANIDINE ALKALOID', 'LINEAR POLYKETIDE', 'MITOMYCIN DERIVATIVE',
                   'MYCOSPORINE DERIVATIVE', 'POLYETHER', 'PROLINE ALKALOID', 'SERINE ALKALOID', 'TETRAMATE ALKALOID',
                   'Β-LACTAM', 'Γ-LACTAM-Β-LACTONE', 'INDOLOCARBAZOLE', 'HYDROXYANTHRAQUINONE', 'HEPTAPEPTIDE',
-                  'FURANONE', 'DIPHENYLETHER', 'DIKETOPIPERAZINE', 'DIHYDROXANTHONE', 'DIHYDROBENZOFURAN', 'XANTHENE']
-
-OPEN_BRACES = ["(", "[", "{", "<"]
-CLOSE_BRACES = [")", "]", "}", ">"]
-
-
-def bracket_matched(string):
-    count = 0
-    for i in string:
-        if i in OPEN_BRACES:
-            count += 1
-        elif i in CLOSE_BRACES:
-            count -= 1
-        if count < 0:
-            return False
-    return count == 0
+                  'FURANONE', 'DIPHENYLETHER', 'DIKETOPIPERAZINE', 'DIHYDROXANTHONE', 'DIHYDROBENZOFURAN', 'XANTHENE',
+                  'DIHYDROCHROMONE DIMER', 'YANUTHONE', 'MACROLACTAM', 'GIBBERELLINS', 'MYCOTOXIN', 'POLYKETIDE']
+SORTED_COMPOUND_CLASS = miscellaneous_functions.sort_list(COMPOUND_CLASS)
 
 
 def name_search(text):
@@ -199,7 +181,7 @@ def name_search(text):
                         :param texts: abstract text
                         :return: none"""
         # Check name has sensible brackets
-        if bracket_matched(chem_name):
+        if miscellaneous_functions.bracket_matched(chem_name):
             # Check name isn't already in the list
             if chem_name.lower() not in [n[0].lower() for n in compound_names_list]:
                 compound_names_list.append((chem_name, match_index, texts))
@@ -330,17 +312,6 @@ def name_search(text):
                 for entry in findall_list:
                     comp_name = '{0} {1}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip())
                     name_add(comp_name_list, comp_name, match.span(), abstract_text)
-
-        '''# Captures a word prior to "methyl ester" or ether attached to methyl part
-        # Like alternariol-1'-hydroxy-9-methyl ether (1)
-        se = re.finditer('(\S+)(' + methyl_ester_finder_list + ')\s+(\(\d\))', abstract_text)
-        if se:
-            for match in se:
-                findall_list = tuple(match.groups())
-                for entry in findall_list:
-                    comp_name = '{0} {1}{2}'.format(findall_list[0].rstrip().capitalize(), findall_list[1].rstrip(),
-                                                    findall_list[2].rstrip())
-                    name_add(comp_name_list, comp_name, match.span(), abstract_text)'''
 
         # Captures a word prior to "methyl ester" that could have any text that doesn't include whitespace characters with it
         # Like alternariol 1'-hydroxy-9-methyl ether (1)
@@ -485,13 +456,13 @@ def name_search(text):
     group_listed_comps(text, compound_names, NAME_BASE, SEPARATORS, TERMINATORS, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES)
     explict_suffix_listed_comps(text, compound_names, NAME_BASE, SUFFIX_TYPE_LIST, TWO_WORD_NAME_TERMINI,
                                 EXCLUDED_NAMES)
-    methyl_ester_finder(text, compound_names, METHYL_ESTER_FINDER_LIST)
+    methyl_ester_finder(text, compound_names, METHYL_ESTER_VARIATIONS)
     post_comps_numbers(text, compound_names, NAME_BASE, SUFFIX_TYPE_LIST, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES,
                        SEPARATORS)
-    roman_numeral_suffix_comps(text, compound_names, NAME_BASE, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES, SEPARATORS,
-                               TERMINATORS)
+    #roman_numeral_suffix_comps(text, compound_names, NAME_BASE, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES, SEPARATORS,
+                              # TERMINATORS)
     # single_comps(text, compound_names, NAME_BASE, SUFFIX_TYPE_LIST, TWO_WORD_NAME_TERMINI, EXCLUDED_NAMES, TERMINATORS)
-    # Very innaccurate, introduces many error entries. This is becasuse it can match without a (1)
+    # Very inaccurate, introduces many error entries. This is because it can match without a (1)
     return sorted(compound_names)
 
 
@@ -529,8 +500,8 @@ def improper_parentheses_capture(chem_list):
                         """
     chemical_detection_list_no_invalid_parentheses = []
     for chemical in chem_list:
-        if bracket_matched(chemical[0]) is False:
-            no_invalid_parentheses = improper_parentheses_functions.remove_invalid_parentheses(chemical[0])
+        if miscellaneous_functions.bracket_matched(chemical[0]) is False:
+            no_invalid_parentheses = miscellaneous_functions.remove_invalid_parentheses(chemical[0])
             chemical_detection_list_no_invalid_parentheses.append((
                 (no_invalid_parentheses[:1].upper() + no_invalid_parentheses[1:]), chemical[1]))
         else:
@@ -566,32 +537,6 @@ def chem_ner_prototype(abstract_text):
 
 
 def main():
-    '''with open("npatlas_origin_articles_for_Pegah.json", "r") as file:
-        data = json.load(file)
-        with open("chem_ner_outputs_7212021.csv", "w", encoding="utf-8") as filer:
-            headers = ['doi', 'abstract', 'detected_compounds', 'detection_number',
-                       'actual_compound', 'actual_compnum']
-            writer = csv.DictWriter(filer, fieldnames=headers)
-            writer.writeheader()
-            for item in data:
-                abstract = item["reference"]["abstract"]
-                doi = item["reference"]["doi"]
-                actual_chemical_names = item["names"]
-                if abstract and type(abstract) == str:
-                    abstract_clone = abstract
-                    chemical_detection_list = clean_detected_items(abstract)
-                    chemical_detection_list_no_open_parentheses = improper_parentheses_capture(chemical_detection_list)
-                    length_chems = len(chemical_detection_list_no_open_parentheses)
-
-                    abs_dict = {"doi": doi, "abstract": abstract_clone, "actual_compound": actual_chemical_names,
-                                "actual_compnum": len(actual_chemical_names),
-                                "detected_compounds": chemical_detection_list_no_open_parentheses,
-                                "detection_number": length_chems}
-                    writer.writerow(abs_dict)
-
-                else:
-                    continue'''
-
     with open("json_files/npatlas_origin_articles_for_NER_training.json", "r") as file:
         data = json.load(file)
 

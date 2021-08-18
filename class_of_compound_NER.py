@@ -13,24 +13,23 @@ def class_NER(abstract_text):
         :return: List of tuples containing matches and their match object location
         """
 
+    # New list of found matches
+    found_matches = []
     # List of class compounds imported from compound_name_extractor.py
-    #
     for compound_class in compound_name_extractor.COMPOUND_CLASS:
 
         # Using regex to find iterable of matches using the list of compound classes from chemical name NER
         class_matches = re.finditer('((' + compound_class.lower() + ')[s]?|(' + compound_class.capitalize() + ')[s]?)',
                                     abstract_text)
 
-        # New list of found matches
-        found_matches = []
-
         # If a match is found, convert each match in the iterable into a tuple with the match object
         if class_matches:
             for match in class_matches:
                 found_matches.append((match.group(), match.span()))
 
-        if found_matches:
-            return found_matches
+    if found_matches:
+        # TODO: Remove duplicate matches, only get first unique match - ALSO needs to be done for other NER scripts
+        return found_matches
 
 
 def main():
