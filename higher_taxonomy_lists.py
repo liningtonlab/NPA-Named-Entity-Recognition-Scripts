@@ -14,8 +14,8 @@ def main():
     for animal in animal_rows:
         animal_genera.append(animal[2])
     unique_animal_genera = list(set(animal_genera))
-   # with open("animal_genera.txt", "w", encoding="utf-8") as f_one:
-     #   f_one.write(str(sorted(unique_animal_genera)))
+    with open("animal_genera.txt", "w", encoding="utf-8") as f_one:
+        f_one.write(str(sorted(unique_animal_genera)))
 
     # Plant Genera List Generation
     plant_rows = curse.execute(
@@ -25,8 +25,8 @@ def main():
     for plant in plant_rows:
         plant_genera.append(plant[2])
     unique_plant_genera = list(set(plant_genera))
-    #with open("plant_genera.txt", "w", encoding="utf-8") as f_two:
-        #f_two.write(str(sorted(unique_plant_genera)))
+    with open("plant_genera.txt", "w", encoding="utf-8") as f_two:
+        f_two.write(str(sorted(unique_plant_genera)))
 
     # Microbe Genera List Generation
     microbe_rows = curse.execute(
